@@ -1,0 +1,6 @@
+build/
+.vscode/
+*.out
+.cache/
+bin/
+optimized_c/

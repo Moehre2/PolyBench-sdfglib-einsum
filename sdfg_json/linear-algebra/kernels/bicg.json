@@ -1,0 +1,2039 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3",
+    "_4",
+    "_5",
+    "_6"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_14": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_17": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_19": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_24": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_29": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "390",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_52": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_57": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_6": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_65": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_71": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_9": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_bicg18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_9 < 390)",
+        "debug_info": {
+          "end_column": 26,
+          "end_line": 34,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 33
+        },
+        "element_id": 769,
+        "indvar": "_9",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [],
+                "nodes": [],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 705,
+              "type": "block"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 34,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 34
+                    },
+                    "dst": 52,
+                    "dst_conn": "_in1",
+                    "element_id": 54,
+                    "src": 51,
+                    "src_conn": "void",
+                    "subset": []
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 34,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 34
+                    },
+                    "dst": 50,
+                    "dst_conn": "void",
+                    "element_id": 53,
+                    "src": 52,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_9"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_71",
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 34,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 34
+                    },
+                    "element_id": 51,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 5,
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 34,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 34
+                    },
+                    "element_id": 52,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "390.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_4",
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 34,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 34
+                    },
+                    "element_id": 50,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 34,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 34
+              },
+              "element_id": 48,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 26,
+            "end_line": 34,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 33
+          },
+          "element_id": 770,
+          "transitions": [
+            {
+              "assignments": [
+                {
+                  "expression": "imod(_9, 390)",
+                  "symbol": "_71"
+                }
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 706,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 34,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 34
+              },
+              "element_id": 49,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _9"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 115,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 115
+              },
+              "dst": 113,
+              "dst_conn": "refs",
+              "element_id": 114,
+              "src": 112,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_12",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 115,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 115
+              },
+              "element_id": 113,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 115,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 115
+              },
+              "element_id": 112,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 115,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 115
+        },
+        "element_id": 110,
+        "type": "block"
+      },
+      {
+        "condition": "(_14 < 410)",
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 35
+        },
+        "element_id": 771,
+        "indvar": "_14",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [],
+                "nodes": [],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 715,
+              "type": "block"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 36
+                    },
+                    "dst": 164,
+                    "dst_conn": "_in1",
+                    "element_id": 166,
+                    "src": 163,
+                    "src_conn": "void",
+                    "subset": []
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 36
+                    },
+                    "dst": 162,
+                    "dst_conn": "void",
+                    "element_id": 165,
+                    "src": 164,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_14"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_52",
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 36
+                    },
+                    "element_id": 163,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 5,
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 36
+                    },
+                    "element_id": 164,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "410.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_12",
+                    "debug_info": {
+                      "end_column": 31,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 31,
+                      "start_line": 36
+                    },
+                    "element_id": 162,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 36
+              },
+              "element_id": 160,
+              "type": "block"
+            },
+            {
+              "condition": "(_57 < 390)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 773,
+              "indvar": "_57",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 745,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 38
+                          },
+                          "dst": 246,
+                          "dst_conn": "_in1",
+                          "element_id": 248,
+                          "src": 245,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 38
+                          },
+                          "dst": 244,
+                          "dst_conn": "void",
+                          "element_id": 247,
+                          "src": 246,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_14",
+                            "_57"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 38
+                          },
+                          "element_id": 246,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "410.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_65",
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 38
+                          },
+                          "element_id": 245,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 38
+                          },
+                          "element_id": 244,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 42,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 42,
+                      "start_line": 38
+                    },
+                    "element_id": 242,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 38,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 37
+                },
+                "element_id": 774,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_14*(1 + _57), 410)",
+                        "symbol": "_65"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 746,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 42,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 42,
+                      "start_line": 38
+                    },
+                    "element_id": 243,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _57"
+            }
+          ],
+          "debug_info": {
+            "end_column": 42,
+            "end_line": 38,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 35
+          },
+          "element_id": 772,
+          "transitions": [
+            {
+              "assignments": [
+                {
+                  "expression": "imod(_14, 410)",
+                  "symbol": "_52"
+                }
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 716,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 36
+              },
+              "element_id": 161,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 202,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _14"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 124,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 124
+              },
+              "dst": 343,
+              "dst_conn": "refs",
+              "element_id": 344,
+              "src": 342,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_17",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 124,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 124
+              },
+              "element_id": 343,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 124,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 124
+              },
+              "element_id": 342,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 124,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 124
+        },
+        "element_id": 340,
+        "type": "block"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 348,
+              "dst_conn": "void",
+              "element_id": 349,
+              "src": 347,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_5",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 348,
+              "type": "access_node"
+            },
+            {
+              "data": "_17",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 347,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 345,
+        "type": "block"
+      },
+      {
+        "condition": "(_19 < 390)",
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 84,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 83
+        },
+        "element_id": 775,
+        "indvar": "_19",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 84,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 84
+                    },
+                    "dst": 394,
+                    "dst_conn": "void",
+                    "element_id": 395,
+                    "src": 393,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_19"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_17",
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 84,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 84
+                    },
+                    "element_id": 394,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 84,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 84
+                    },
+                    "element_id": 393,
+                    "inputs": [
+                      {
+                        "name": "0.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 84,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 10,
+                "start_line": 84
+              },
+              "element_id": 391,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 5,
+            "end_line": 84,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+            "has": true,
+            "start_column": 27,
+            "start_line": 83
+          },
+          "element_id": 776,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 84,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 10,
+                "start_line": 84
+              },
+              "element_id": 392,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _19"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 125,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 125
+              },
+              "dst": 442,
+              "dst_conn": "refs",
+              "element_id": 443,
+              "src": 441,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_22",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 125,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 125
+              },
+              "element_id": 442,
+              "type": "access_node"
+            },
+            {
+              "data": "_2",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 125,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 125
+              },
+              "element_id": 441,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 125,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 125
+        },
+        "element_id": 439,
+        "type": "block"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 447,
+              "dst_conn": "void",
+              "element_id": 448,
+              "src": 446,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_6",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 447,
+              "type": "access_node"
+            },
+            {
+              "data": "_22",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 446,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 444,
+        "type": "block"
+      },
+      {
+        "condition": "(_24 < 410)",
+        "debug_info": {
+          "end_column": 28,
+          "end_line": 91,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 85
+        },
+        "element_id": 763,
+        "indvar": "_24",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 87,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 87
+                    },
+                    "dst": 481,
+                    "dst_conn": "void",
+                    "element_id": 482,
+                    "src": 480,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_24"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_22",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 87,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 87
+                    },
+                    "element_id": 481,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 87,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 87
+                    },
+                    "element_id": 480,
+                    "inputs": [
+                      {
+                        "name": "0.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 87,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 87
+              },
+              "element_id": 478,
+              "type": "block"
+            },
+            {
+              "condition": "(_29 < 390)",
+              "debug_info": {
+                "end_column": 28,
+                "end_line": 91,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 88
+              },
+              "element_id": 767,
+              "indvar": "_29",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "dst": 550,
+                          "dst_conn": "_in0",
+                          "element_id": 555,
+                          "src": 549,
+                          "src_conn": "void",
+                          "subset": [
+                            "_24"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "dst": 550,
+                          "dst_conn": "_in1",
+                          "element_id": 554,
+                          "src": 548,
+                          "src_conn": "void",
+                          "subset": [
+                            "_24",
+                            "_29"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "dst": 550,
+                          "dst_conn": "_in2",
+                          "element_id": 553,
+                          "src": 547,
+                          "src_conn": "void",
+                          "subset": [
+                            "_29"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "dst": 551,
+                          "dst_conn": "void",
+                          "element_id": 552,
+                          "src": 550,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_29"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_17",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "element_id": 551,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "element_id": 550,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_12",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "element_id": 549,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "element_id": 548,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_17",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 90
+                          },
+                          "element_id": 547,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 90
+                    },
+                    "element_id": 545,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "dst": 594,
+                          "dst_conn": "_in0",
+                          "element_id": 599,
+                          "src": 593,
+                          "src_conn": "void",
+                          "subset": [
+                            "_24",
+                            "_29"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "dst": 594,
+                          "dst_conn": "_in1",
+                          "element_id": 598,
+                          "src": 592,
+                          "src_conn": "void",
+                          "subset": [
+                            "_29"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "dst": 594,
+                          "dst_conn": "_in2",
+                          "element_id": 597,
+                          "src": 591,
+                          "src_conn": "void",
+                          "subset": [
+                            "_24"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "dst": 595,
+                          "dst_conn": "void",
+                          "element_id": 596,
+                          "src": 594,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_24"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_22",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "element_id": 595,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "element_id": 594,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "element_id": 593,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_4",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "element_id": 592,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_22",
+                          "debug_info": {
+                            "end_column": 16,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                            "has": true,
+                            "start_column": 16,
+                            "start_line": 91
+                          },
+                          "element_id": 591,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 91
+                    },
+                    "element_id": 589,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 28,
+                  "end_line": 91,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 88
+                },
+                "element_id": 768,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 90
+                    },
+                    "element_id": 546,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 91
+                    },
+                    "element_id": 590,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _29"
+            }
+          ],
+          "debug_info": {
+            "end_column": 28,
+            "end_line": 91,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 85
+          },
+          "element_id": 764,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 87,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 87
+              },
+              "element_id": 479,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 28,
+                "end_line": 91,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 88
+              },
+              "element_id": 506,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _24"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 26,
+          "end_line": 34,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 33
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 115,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 115
+        },
+        "element_id": 111,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 35
+        },
+        "element_id": 136,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 124,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 124
+        },
+        "element_id": 341,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 346,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 84,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 83
+        },
+        "element_id": 383,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 125,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 125
+        },
+        "element_id": 440,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 445,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 28,
+          "end_line": 91,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/bicg/bicg.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 85
+        },
+        "element_id": 470,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}
