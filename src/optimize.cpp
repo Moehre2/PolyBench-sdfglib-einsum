@@ -1,4 +1,6 @@
+#include <sdfg/analysis/analysis.h>
 #include <sdfg/blas/blas_dispatcher.h>
+#include <sdfg/builder/structured_sdfg_builder.h>
 #include <sdfg/codegen/code_generators/c_code_generator.h>
 #include <sdfg/codegen/dispatchers/node_dispatcher_registry.h>
 #include <sdfg/codegen/utils.h>
@@ -12,10 +14,13 @@
 #include <string>
 
 #include "benchmarks.h"
+#include "polybench_node.h"
+#include "timer.h"
 
 void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
                    const std::string sdfg_name) {
     stream << "#include <stdio.h>" << std::endl
+           << "#include <string.h>" << std::endl
            << std::endl
            << "/* Include polybench common header. */" << std::endl
            << "#include <polybench.h>" << std::endl
@@ -178,6 +183,8 @@ int main(int argc, char* argv[]) {
     sdfg::einsum::register_einsum_dispatcher();
     sdfg::blas::register_blas_dispatchers();
 
+    sdfg::polybench::register_polybench_dispatcher();
+
     const std::string jsonFile(benchmark->json_path());
     std::ifstream stream(jsonFile);
     if (!stream.good()) {
@@ -189,7 +196,15 @@ int main(int argc, char* argv[]) {
     sdfg::serializer::JSONSerializer serializer;
     auto sdfg = serializer.deserialize(json);
 
-    sdfg::codegen::CCodeGenerator generator(*sdfg);
+    sdfg::builder::StructuredSDFGBuilder builder(sdfg);
+    sdfg::analysis::AnalysisManager analysis_manager(builder.subject());
+    sdfg::passes::PolyBenchTimerInstrumentation pass(benchmark->code_region());
+    if (!pass.run(builder, analysis_manager)) {
+        std::cerr << "Error: Could not add polybench instrumentation to SDFG" << std::endl;
+        return 1;
+    }
+
+    sdfg::codegen::CCodeGenerator generator(builder.subject());
     if (!generator.generate()) {
         std::cerr << "Error: Could not generate C sources" << std::endl;
         return 1;
@@ -206,12 +221,13 @@ int main(int argc, char* argv[]) {
     std::ofstream out_header;
     out_header.open(benchmark->out_header_path(), std::ios_base::app);
     out_header << std::endl
+               << "#include <polybench.h>" << std::endl
                << "#include <cblas.h>" << std::endl
                << generator.function_definition() << ";" << std::endl;
     out_header.close();
 
     sdfg::codegen::PrettyPrinter main_stream;
-    generate_main(main_stream, benchmark, sdfg->name());
+    generate_main(main_stream, benchmark, builder.subject().name());
     std::ofstream out_main;
     out_main.open(benchmark->out_main_path());
     if (!out_main.good()) {

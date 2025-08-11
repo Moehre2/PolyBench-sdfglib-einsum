@@ -16,6 +16,8 @@ find_package(sdfglibEinsum CONFIG REQUIRED)
 set(SOURCE_FILES
     src/benchmarks.cpp
     src/optimize.cpp
+    src/polybench_node.cpp
+    src/timer.cpp
 )
 
 add_executable(optimize ${SOURCE_FILES})

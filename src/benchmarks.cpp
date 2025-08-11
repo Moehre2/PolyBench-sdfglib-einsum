@@ -7,6 +7,7 @@
 #include <stdexcept>
 #include <string>
 #include <unordered_set>
+#include <utility>
 #include <vector>
 
 Variable::Variable(const std::string name) : type_(Scalar), name_(name), dimensions_() {}
@@ -51,18 +52,46 @@ const std::string& Variable::name() const { return this->name_; }
 
 const std::vector<size_t>& Variable::dimensions() const { return this->dimensions_; }
 
+CodeRegion::CodeRegion(const size_t scop, const size_t endscop,
+                       const std::vector<std::pair<size_t, size_t>> regions)
+    : scop_(scop), endscop_(endscop), regions_(regions) {
+    if (endscop <= scop) {
+        throw std::runtime_error("scop must occur before endscop");
+    }
+
+    for (auto& region : regions) {
+        if (region.first > region.second) {
+            throw std::runtime_error("Regions cannot end before starting");
+        }
+    }
+}
+
+size_t CodeRegion::scop() const { return this->scop_; }
+
+size_t CodeRegion::endscop() const { return this->endscop_; }
+
+const std::vector<std::pair<size_t, size_t>>& CodeRegion::regions() const { return this->regions_; }
+
+bool CodeRegion::in_regions(size_t line) const {
+    for (auto& region : this->regions_) {
+        if (line >= region.first && line <= region.second) return true;
+    }
+    return false;
+}
+
 Benchmark::Benchmark(const std::string name, const std::string json_path,
                      const std::string out_path, const std::vector<DatasetSize> dataset_sizes,
                      const std::vector<Variable> variables,
                      const std::vector<size_t> call_variables,
-                     const std::vector<size_t> print_variables)
+                     const std::vector<size_t> print_variables, const CodeRegion code_region)
     : name_(name),
       json_path_(json_path),
       out_path_(out_path),
       dataset_sizes_(dataset_sizes),
       variables_(variables),
       call_variables_(call_variables),
-      print_variables_(print_variables) {
+      print_variables_(print_variables),
+      code_region_(code_region) {
     for (auto& variable : variables) {
         for (size_t dim : variable.dimensions()) {
             if (dim >= dataset_sizes.size()) {
@@ -126,6 +155,8 @@ std::unordered_set<size_t> Benchmark::print_variables_dataset_sizes() const {
     return result;
 }
 
+const CodeRegion& Benchmark::code_region() const { return this->code_region_; }
+
 BenchmarkRegistry::~BenchmarkRegistry() {
     for (auto benchmark : this->benchmarks_) {
         delete benchmark.second;
@@ -137,13 +168,14 @@ void BenchmarkRegistry::register_benchmark(const std::string name, const std::st
                                            const std::vector<DatasetSize> dataset_sizes,
                                            const std::vector<Variable> variables,
                                            const std::vector<size_t> call_variables,
-                                           const std::vector<size_t> print_variables) {
+                                           const std::vector<size_t> print_variables,
+                                           const CodeRegion code_region) {
     std::lock_guard<std::mutex> lock(this->mutex_);
     if (this->benchmarks_.contains(name)) {
         throw std::runtime_error("Benchmark already registered with name: " + name);
     }
     this->benchmarks_[name] = new Benchmark(name, json_path, out_path, dataset_sizes, variables,
-                                            call_variables, print_variables);
+                                            call_variables, print_variables, code_region);
 }
 
 Benchmark* BenchmarkRegistry::get_benchmark(const std::string name) {
