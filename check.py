@@ -52,6 +52,8 @@ def check(benchmark: str) -> bool:
 if __name__ == "__main__":
     ### BENCHMARKS ###
     BENCHMARKS = [
+        "datamining/correlation",
+        "datamining/covariance",
         "linear-algebra/blas/gemm",
         "linear-algebra/blas/gemver",
         "linear-algebra/kernels/bicg",

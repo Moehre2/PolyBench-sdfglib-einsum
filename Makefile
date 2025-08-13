@@ -3,21 +3,17 @@
 VERSIONS=ref optimized_c
 
 BENCHMARKS= \
+	datamining/correlation \
+	datamining/covariance \
 	linear-algebra/kernels/bicg \
 	linear-algebra/blas/gemm \
 	linear-algebra/blas/gemver \
 	stencils/heat-3d
-#BENCHMARKS= \
-#	datamining/correlation \
-#	datamining/covariance \
 #	linear-algebra/kernels/2mm \
 #	linear-algebra/kernels/3mm \
 #	linear-algebra/kernels/atax \
-#	linear-algebra/kernels/bicg \
 #	linear-algebra/kernels/doitgen \
 #	linear-algebra/kernels/mvt \
-#	linear-algebra/blas/gemm \
-#	linear-algebra/blas/gemver \
 #	linear-algebra/blas/gesummv \
 #	linear-algebra/blas/symm \
 #	linear-algebra/blas/syr2k \
@@ -34,7 +30,6 @@ BENCHMARKS= \
 #	medley/nussinov \
 #	stencils/adi \
 #	stencils/fdtd-2d \
-#	stencils/heat-3d \
 #	stencils/jacobi-1d \
 #	stencils/jacobi-2d \
 #	stencils/seidel-2d
@@ -87,14 +82,14 @@ $(foreach v,$(VERSIONS),$(foreach bindirs,check/$(v) run/$(v),$(eval $(call BIND
 
 define CHECK_RULE
 bin/check/$(1)/$(2): bin/check/$(1)/$(dir $(2)) ref/utilities/polybench.c $(1)/$(2)/$(notdir $(2)).c
-	clang -O0 -I ref/utilities -I $(1)/$(2) ref/utilities/polybench.c $(1)/$(2)/*.c -DPOLYBENCH_DUMP_ARRAYS -DMEDIUM_DATASET -DDATA_TYPE_IS_DOUBLE -o $$@ -lm -lblas
+	clang -Wno-incompatible-pointer-types -O0 -I ref/utilities -I $(1)/$(2) ref/utilities/polybench.c $(1)/$(2)/*.c -DPOLYBENCH_DUMP_ARRAYS -DMEDIUM_DATASET -DDATA_TYPE_IS_DOUBLE -o $$@ -lm -lblas
 endef
 
 $(foreach v,$(VERSIONS),$(foreach bench,$(BENCHMARKS),$(eval $(call CHECK_RULE,$(v),$(bench)))))
 
 define RUN_RULE
 bin/run/$(1)/$(2): bin/run/$(1)/$(dir $(2)) ref/utilities/polybench.c $(1)/$(2)/$(notdir $(2)).c
-	clang -O3 -I ref/utilities -I $(1)/$(2) ref/utilities/polybench.c $(1)/$(2)/*.c -DPOLYBENCH_TIME -DMEDIUM_DATASET -DDATA_TYPE_IS_DOUBLE -o $$@ -lm -lblas
+	clang -Wno-incompatible-pointer-types -O3 -I ref/utilities -I $(1)/$(2) ref/utilities/polybench.c $(1)/$(2)/*.c -DPOLYBENCH_TIME -DMEDIUM_DATASET -DDATA_TYPE_IS_DOUBLE -o $$@ -lm -lblas
 endef
 
 $(foreach v,$(VERSIONS),$(foreach bench,$(BENCHMARKS),$(eval $(call RUN_RULE,$(v),$(bench)))))

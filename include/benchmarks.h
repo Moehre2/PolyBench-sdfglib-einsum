@@ -118,6 +118,16 @@ class BenchmarkRegistry {
 
 inline void register_benchmarks() {
     BenchmarkRegistry::instance().register_benchmark(
+        "correlation", "sdfg_json/datamining/correlation.json",
+        "optimized_c/datamining/correlation", {{"n", "N", 260}, {"m", "M", 240}},
+        {{"float_n"}, {"data", 0, 1}, {"corr", 1, 1}, {"mean", 1}, {"stddev", 1}}, {3, 4, 2, 1, 2},
+        {2}, {78, 122, {{31, 38}, {73, 123}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "covariance", "sdfg_json/datamining/covariance.json", "optimized_c/datamining/covariance",
+        {{"n", "N", 260}, {"m", "M", 240}},
+        {{"float_n"}, {"data", 0, 1}, {"cov", 1, 1}, {"mean", 1}}, {3, 2, 1, 2}, {2},
+        {72, 94, {{30, 36}, {70, 95}}});
+    BenchmarkRegistry::instance().register_benchmark(
         "gemm", "sdfg_json/linear-algebra/blas/gemm.json", "optimized_c/linear-algebra/blas/gemm",
         {{"ni", "NI", 200}, {"nj", "NJ", 220}, {"nk", "NK", 240}},
         {{"alpha"}, {"beta"}, {"C", 0, 1}, {"A", 0, 2}, {"B", 2, 1}}, {4, 3, 2}, {2},

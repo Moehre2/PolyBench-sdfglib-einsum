@@ -14,6 +14,7 @@
 #include <string>
 
 #include "benchmarks.h"
+#include "einsum_pipeline.h"
 #include "polybench_node.h"
 #include "timer.h"
 
@@ -198,11 +199,15 @@ int main(int argc, char* argv[]) {
 
     sdfg::builder::StructuredSDFGBuilder builder(sdfg);
     sdfg::analysis::AnalysisManager analysis_manager(builder.subject());
+
     sdfg::passes::PolyBenchTimerInstrumentation pass(benchmark->code_region());
     if (!pass.run(builder, analysis_manager)) {
         std::cerr << "Error: Could not add polybench instrumentation to SDFG" << std::endl;
         return 1;
     }
+
+    sdfg::passes::EinsumPipeline einsum_pipeline;
+    einsum_pipeline.run(builder, analysis_manager);
 
     sdfg::codegen::CCodeGenerator generator(builder.subject());
     if (!generator.generate()) {

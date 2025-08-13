@@ -22,17 +22,27 @@ def run(benchmark: str, reps: int) -> None:
         opt_time += get_benchmark_output(opt_exec)
     ref_time /= reps
     opt_time /= reps
-    print(f"{ref_time:.7f} vs. {opt_time:.7f}")
+    diff = 0.0
+    diff_mode = ""
+    if ref_time >= opt_time:
+        diff = ref_time / opt_time
+        diff_mode = "faster"
+    else:
+        diff = opt_time / ref_time
+        diff_mode = "slower"
+    print(f"{ref_time:.7f} vs. {opt_time:.7f} => x{diff:.2f} {diff_mode}")
 
 if __name__ == "__main__":
     ### BENCHMARKS ###
     BENCHMARKS = [
+        "datamining/correlation",
+        "datamining/covariance",
         "linear-algebra/blas/gemm",
         "linear-algebra/blas/gemver",
         "linear-algebra/kernels/bicg",
         "stencils/heat-3d"
     ]
-    REPS = 10
+    REPS = 40
     ### BENCHMARKS ###
     from sys import argv
     if len(argv) < 2:
