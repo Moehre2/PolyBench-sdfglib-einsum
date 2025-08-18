@@ -28,6 +28,8 @@
 #include <utility>
 #include <vector>
 
+#include "my_loop_distribute.h"
+
 namespace sdfg {
 
 void dump_sdfg(codegen::PrettyPrinter& stream, structured_control_flow::ControlFlowNode* node) {
@@ -274,7 +276,7 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
     if (loop_normalization.run(builder, analysis_manager))
         std::cout << "Applied LoopNormalization" << std::endl;
 
-    // LoopDistribute
+    // LoopDistribute & MyLoopDistribute
     do {
         applied = false;
         auto& loop_analysis = analysis_manager.get<analysis::LoopAnalysis>();
@@ -284,6 +286,13 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
                 if (transformation.can_be_applied(builder, analysis_manager)) {
                     transformation.apply(builder, analysis_manager);
                     std::cout << "Applied LoopDistribute" << std::endl;
+                    applied = true;
+                    break;
+                }
+                transformations::MyLoopDistribute my_transformation(*loop);
+                if (my_transformation.can_be_applied(builder, analysis_manager)) {
+                    my_transformation.apply(builder, analysis_manager);
+                    std::cout << "Applied MyLoopDistribute" << std::endl;
                     applied = true;
                     break;
                 }

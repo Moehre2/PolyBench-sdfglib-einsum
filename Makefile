@@ -5,18 +5,18 @@ VERSIONS=ref optimized_c
 BENCHMARKS= \
 	datamining/correlation \
 	datamining/covariance \
-	linear-algebra/kernels/bicg \
 	linear-algebra/blas/gemm \
 	linear-algebra/blas/gemver \
+	linear-algebra/blas/gesummv \
+	linear-algebra/blas/symm \
+	linear-algebra/blas/syr2k \
+	linear-algebra/kernels/bicg \
 	stencils/heat-3d
 #	linear-algebra/kernels/2mm \
 #	linear-algebra/kernels/3mm \
 #	linear-algebra/kernels/atax \
 #	linear-algebra/kernels/doitgen \
 #	linear-algebra/kernels/mvt \
-#	linear-algebra/blas/gesummv \
-#	linear-algebra/blas/symm \
-#	linear-algebra/blas/syr2k \
 #	linear-algebra/blas/syrk \
 #	linear-algebra/blas/trmm \
 #	linear-algebra/solvers/cholesky \

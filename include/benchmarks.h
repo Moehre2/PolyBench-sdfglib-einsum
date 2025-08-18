@@ -148,6 +148,21 @@ inline void register_benchmarks() {
          {"z", 0}},
         {7, 2, 8, 10, 9, 3, 4, 5, 6}, {7}, {99, 116, {{39, 58}, {97, 116}}});
     BenchmarkRegistry::instance().register_benchmark(
+        "gesummv", "sdfg_json/linear-algebra/blas/gesummv.json",
+        "optimized_c/linear-algebra/blas/gesummv", {{"n", "N", 250}},
+        {{"alpha"}, {"beta"}, {"A", 0, 0}, {"B", 0, 0}, {"tmp", 0}, {"x", 0}, {"y", 0}},
+        {4, 6, 2, 5, 3, 6}, {6}, {82, 94, {{33, 44}, {80, 95}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "symm", "sdfg_json/linear-algebra/blas/symm.json", "optimized_c/linear-algebra/blas/symm",
+        {{"m", "M", 200}, {"n", "N", 240}},
+        {{"alpha"}, {"beta"}, {"C", 0, 1}, {"A", 0, 0}, {"B", 0, 1}}, {3, 2, 4}, {2},
+        {92, 103, {{33, 47}, {81, 104}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "syr2k", "sdfg_json/linear-algebra/blas/syr2k.json",
+        "optimized_c/linear-algebra/blas/syr2k", {{"n", "N", 240}, {"m", "M", 200}},
+        {{"alpha"}, {"beta"}, {"C", 0, 0}, {"A", 0, 1}, {"B", 0, 1}}, {2, 3, 4, 2}, {2},
+        {87, 97, {{33, 45}, {79, 98}}});
+    BenchmarkRegistry::instance().register_benchmark(
         "bicg", "sdfg_json/linear-algebra/kernels/bicg.json",
         "optimized_c/linear-algebra/kernels/bicg", {{"n", "N", 410}, {"m", "M", 390}},
         {{"A", 0, 1}, {"s", 1}, {"q", 0}, {"p", 1}, {"r", 0}}, {4, 1, 2, 0, 3, 1, 2}, {1, 2},

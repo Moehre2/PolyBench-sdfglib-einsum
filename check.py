@@ -56,6 +56,9 @@ if __name__ == "__main__":
         "datamining/covariance",
         "linear-algebra/blas/gemm",
         "linear-algebra/blas/gemver",
+        "linear-algebra/blas/gesummv",
+        "linear-algebra/blas/symm",
+        "linear-algebra/blas/syr2k",
         "linear-algebra/kernels/bicg",
         "stencils/heat-3d"
     ]
