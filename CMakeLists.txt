@@ -16,6 +16,7 @@ find_package(sdfglibEinsum CONFIG REQUIRED)
 set(SOURCE_FILES
     src/benchmarks.cpp
     src/einsum_pipeline.cpp
+    src/loop_consume_assignments.cpp
     src/my_loop_distribute.cpp
     src/optimize.cpp
     src/polybench_node.cpp

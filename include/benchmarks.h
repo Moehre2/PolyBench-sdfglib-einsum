@@ -163,10 +163,44 @@ inline void register_benchmarks() {
         {{"alpha"}, {"beta"}, {"C", 0, 0}, {"A", 0, 1}, {"B", 0, 1}}, {2, 3, 4, 2}, {2},
         {87, 97, {{33, 45}, {79, 98}}});
     BenchmarkRegistry::instance().register_benchmark(
+        "syrk", "sdfg_json/linear-algebra/blas/syrk.json", "optimized_c/linear-algebra/blas/syrk",
+        {{"n", "N", 240}, {"m", "M", 200}}, {{"alpha"}, {"beta"}, {"C", 0, 0}, {"A", 0, 1}},
+        {2, 3, 2}, {2}, {82, 91, {{32, 41}, {74, 92}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "trmm", "sdfg_json/linear-algebra/blas/trmm.json", "optimized_c/linear-algebra/blas/trmm",
+        {{"m", "M", 200}, {"n", "N", 240}}, {{"alpha"}, {"A", 0, 0}, {"B", 0, 1}}, {2, 1}, {2},
+        {85, 92, {{31, 43}, {75, 93}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "2mm", "sdfg_json/linear-algebra/kernels/2mm.json",
+        "optimized_c/linear-algebra/kernels/2mm",
+        {{"ni", "NI", 180}, {"nj", "NJ", 190}, {"nk", "NK", 210}, {"nl", "NL", 220}},
+        {{"alpha"}, {"beta"}, {"tmp", 0, 1}, {"A", 0, 2}, {"B", 2, 1}, {"C", 1, 3}, {"D", 0, 3}},
+        {4, 6, 2, 5, 3, 6}, {6}, {87, 103, {{34, 49}, {85, 104}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "3mm", "sdfg_json/linear-algebra/kernels/3mm.json",
+        "optimized_c/linear-algebra/kernels/3mm",
+        {{"ni", "NI", 180},
+         {"nj", "NJ", 190},
+         {"nk", "NK", 200},
+         {"nl", "NL", 210},
+         {"nm", "NM", 220}},
+        {{"E", 0, 1}, {"A", 0, 2}, {"B", 2, 1}, {"F", 1, 3}, {"C", 1, 4}, {"D", 4, 3}, {"G", 0, 3}},
+        {2, 5, 0, 3, 6, 4, 1, 6}, {6}, {83, 108, {{32, 45}, {81, 109}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "atax", "sdfg_json/linear-algebra/kernels/atax.json",
+        "optimized_c/linear-algebra/kernels/atax", {{"m", "M", 390}, {"n", "N", 410}},
+        {{"A", 0, 1}, {"x", 1}, {"y", 1}, {"tmp", 0}}, {0, 2, 3, 1, 2}, {2},
+        {73, 84, {{30, 38}, {71, 85}}});
+    BenchmarkRegistry::instance().register_benchmark(
         "bicg", "sdfg_json/linear-algebra/kernels/bicg.json",
         "optimized_c/linear-algebra/kernels/bicg", {{"n", "N", 410}, {"m", "M", 390}},
         {{"A", 0, 1}, {"s", 1}, {"q", 0}, {"p", 1}, {"r", 0}}, {4, 1, 2, 0, 3, 1, 2}, {1, 2},
         {82, 94, {{31, 39}, {80, 95}}});
+    BenchmarkRegistry::instance().register_benchmark(
+        "doitgen", "sdfg_json/linear-algebra/kernels/doitgen.json",
+        "optimized_c/linear-algebra/kernels/doitgen",
+        {{"nr", "NR", 50}, {"nq", "NQ", 40}, {"np", "NP", 60}},
+        {{"A", 0, 1, 2}, {"sum", 2}, {"C4", 2, 2}}, {2, 1, 0}, {0}, {72, 83, {{30, 38}, {70, 84}}});
     BenchmarkRegistry::instance().register_benchmark(
         "heat-3d", "sdfg_json/stencils/heat-3d.json", "optimized_c/stencils/heat-3d",
         {{"n", "N", 40}, {"tsteps", "TSTEPS", 100}}, {{"A", 0, 0, 0}, {"B", 0, 0, 0}}, {1, 0}, {0},

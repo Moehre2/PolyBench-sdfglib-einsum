@@ -28,48 +28,10 @@
 #include <utility>
 #include <vector>
 
+#include "loop_consume_assignments.h"
 #include "my_loop_distribute.h"
 
 namespace sdfg {
-
-void dump_sdfg(codegen::PrettyPrinter& stream, structured_control_flow::ControlFlowNode* node) {
-    if (auto* loop = dynamic_cast<structured_control_flow::StructuredLoop*>(node)) {
-        stream << "StructuredLoop:" << std::endl;
-        stream.setIndent(stream.indent() + 2);
-        dump_sdfg(stream, &loop->root());
-        stream.setIndent(stream.indent() - 2);
-    } else if (dynamic_cast<structured_control_flow::Block*>(node)) {
-        stream << "Block" << std::endl;
-    } else if (auto* sequence = dynamic_cast<structured_control_flow::Sequence*>(node)) {
-        stream << "Sequence:" << std::endl;
-        stream.setIndent(stream.indent() + 2);
-        for (size_t i = 0; i < sequence->size(); ++i) {
-            dump_sdfg(stream, &sequence->at(i).first);
-        }
-        stream.setIndent(stream.indent() - 2);
-    } else if (auto* if_else = dynamic_cast<structured_control_flow::IfElse*>(node)) {
-        stream << "IfElse:" << std::endl;
-        stream.setIndent(stream.indent() + 2);
-        for (size_t i = 0; i < if_else->size(); ++i) {
-            dump_sdfg(stream, &if_else->at(i).first);
-        }
-        stream.setIndent(stream.indent() - 2);
-    } else if (auto* while_loop = dynamic_cast<structured_control_flow::While*>(node)) {
-        stream << "While:" << std::endl;
-        stream.setIndent(stream.indent() + 2);
-        dump_sdfg(stream, &while_loop->root());
-        stream.setIndent(stream.indent() - 2);
-    } else if (dynamic_cast<structured_control_flow::Break*>(node)) {
-        stream << "Break" << std::endl;
-    } else if (dynamic_cast<structured_control_flow::Continue*>(node)) {
-        stream << "Continue" << std::endl;
-    } else if (dynamic_cast<structured_control_flow::Return*>(node)) {
-        stream << "Return" << std::endl;
-    } else {
-        throw std::runtime_error("Unsupported control flow node type");
-    }
-}
-
 namespace passes {
 
 std::vector<std::pair<std::vector<std::reference_wrapper<structured_control_flow::StructuredLoop>>,
@@ -304,6 +266,23 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
     this->block_fusion(builder, analysis_manager, builder.subject().root(),
                        builder.subject().root());
 
+    // LoopConsumeAssignments
+    do {
+        applied = false;
+        auto& loop_analysis = analysis_manager.get<analysis::LoopAnalysis>();
+        for (auto* node : loop_analysis.loops()) {
+            if (auto* loop = dynamic_cast<structured_control_flow::StructuredLoop*>(node)) {
+                transformations::LoopConsumeAssignments transformation(*loop);
+                if (transformation.can_be_applied(builder, analysis_manager)) {
+                    transformation.apply(builder, analysis_manager);
+                    std::cout << "Applied LoopConsumeAssignment" << std::endl;
+                    applied = true;
+                    break;
+                }
+            }
+        }
+    } while (applied);
+
     // EinsumLift
     do {
         applied = false;
@@ -350,9 +329,7 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
         }
     } while (applied);
 
-    // codegen::PrettyPrinter stream;
-    // dump_sdfg(stream, &builder.subject().root());
-    // std::cout << stream.str() << std::endl;
+    // std::cout << dump_sdfg(builder.subject().root());
 
     return true;
 }

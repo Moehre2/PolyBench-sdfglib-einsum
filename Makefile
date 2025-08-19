@@ -10,15 +10,15 @@ BENCHMARKS= \
 	linear-algebra/blas/gesummv \
 	linear-algebra/blas/symm \
 	linear-algebra/blas/syr2k \
+	linear-algebra/blas/syrk \
+	linear-algebra/blas/trmm \
+	linear-algebra/kernels/2mm \
+	linear-algebra/kernels/3mm \
+	linear-algebra/kernels/atax \
 	linear-algebra/kernels/bicg \
+	linear-algebra/kernels/doitgen \
 	stencils/heat-3d
-#	linear-algebra/kernels/2mm \
-#	linear-algebra/kernels/3mm \
-#	linear-algebra/kernels/atax \
-#	linear-algebra/kernels/doitgen \
 #	linear-algebra/kernels/mvt \
-#	linear-algebra/blas/syrk \
-#	linear-algebra/blas/trmm \
 #	linear-algebra/solvers/cholesky \
 #	linear-algebra/solvers/durbin \
 #	linear-algebra/solvers/gramschmidt \

@@ -22,15 +22,8 @@ def run(benchmark: str, reps: int) -> None:
         opt_time += get_benchmark_output(opt_exec)
     ref_time /= reps
     opt_time /= reps
-    diff = 0.0
-    diff_mode = ""
-    if ref_time >= opt_time:
-        diff = ref_time / opt_time
-        diff_mode = "faster"
-    else:
-        diff = opt_time / ref_time
-        diff_mode = "slower"
-    print(f"{ref_time:.7f} vs. {opt_time:.7f} => x{diff:.2f} {diff_mode}")
+    diff = ref_time / opt_time
+    print(f"{ref_time:.7f} vs. {opt_time:.7f} => x{diff:.2f}")
 
 if __name__ == "__main__":
     ### BENCHMARKS ###
@@ -42,7 +35,13 @@ if __name__ == "__main__":
         "linear-algebra/blas/gesummv",
         "linear-algebra/blas/symm",
         "linear-algebra/blas/syr2k",
+        "linear-algebra/blas/syrk",
+        "linear-algebra/blas/trmm",
+        "linear-algebra/kernels/2mm",
+        "linear-algebra/kernels/3mm",
+        "linear-algebra/kernels/atax",
         "linear-algebra/kernels/bicg",
+        "linear-algebra/kernels/doitgen",
         "stencils/heat-3d"
     ]
     REPS = 40

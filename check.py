@@ -59,7 +59,13 @@ if __name__ == "__main__":
         "linear-algebra/blas/gesummv",
         "linear-algebra/blas/symm",
         "linear-algebra/blas/syr2k",
+        "linear-algebra/blas/syrk",
+        "linear-algebra/blas/trmm",
+        "linear-algebra/kernels/2mm",
+        "linear-algebra/kernels/3mm",
+        "linear-algebra/kernels/atax",
         "linear-algebra/kernels/bicg",
+        "linear-algebra/kernels/doitgen",
         "stencils/heat-3d"
     ]
     ### BENCHMARKS ###
