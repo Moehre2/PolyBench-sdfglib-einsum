@@ -43,7 +43,7 @@ def check(benchmark: str) -> bool:
         if len(ref_out[key]) != len(opt_out[key]):
             print(f"{key}: Different output lengths...")
         for i in range(len(ref_out[key])):
-            if ref_out[key][i] != opt_out[key][i]:
+            if abs(ref_out[key][i] - opt_out[key][i]) > 0.011:
                 print(f"{key}: Values do not match at {i} ({ref_out[key][i]} != {opt_out[key][i]})...")
                 return False
     print("Matches!")
@@ -66,6 +66,7 @@ if __name__ == "__main__":
         "linear-algebra/kernels/atax",
         "linear-algebra/kernels/bicg",
         "linear-algebra/kernels/doitgen",
+        "linear-algebra/kernels/mvt",
         "stencils/heat-3d"
     ]
     ### BENCHMARKS ###

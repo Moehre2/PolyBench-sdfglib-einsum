@@ -202,6 +202,11 @@ inline void register_benchmarks() {
         {{"nr", "NR", 50}, {"nq", "NQ", 40}, {"np", "NP", 60}},
         {{"A", 0, 1, 2}, {"sum", 2}, {"C4", 2, 2}}, {2, 1, 0}, {0}, {72, 83, {{30, 38}, {70, 84}}});
     BenchmarkRegistry::instance().register_benchmark(
+        "mvt", "sdfg_json/linear-algebra/kernels/mvt.json",
+        "optimized_c/linear-algebra/kernels/mvt", {{"n", "N", 400}},
+        {{"A", 0, 0}, {"x1", 0}, {"x2", 0}, {"y_1", 0}, {"y_2", 0}}, {2, 0, 4, 1, 3}, {1, 2},
+        {87, 94, {{33, 43}, {85, 95}}});
+    BenchmarkRegistry::instance().register_benchmark(
         "heat-3d", "sdfg_json/stencils/heat-3d.json", "optimized_c/stencils/heat-3d",
         {{"n", "N", 40}, {"tsteps", "TSTEPS", 100}}, {{"A", 0, 0, 0}, {"B", 0, 0, 0}}, {1, 0}, {0},
         {71, 94, {{30, 35}, {69, 95}}});

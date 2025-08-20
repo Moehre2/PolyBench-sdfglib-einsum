@@ -17,8 +17,8 @@ BENCHMARKS= \
 	linear-algebra/kernels/atax \
 	linear-algebra/kernels/bicg \
 	linear-algebra/kernels/doitgen \
+	linear-algebra/kernels/mvt \
 	stencils/heat-3d
-#	linear-algebra/kernels/mvt \
 #	linear-algebra/solvers/cholesky \
 #	linear-algebra/solvers/durbin \
 #	linear-algebra/solvers/gramschmidt \

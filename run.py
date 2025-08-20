@@ -42,6 +42,7 @@ if __name__ == "__main__":
         "linear-algebra/kernels/atax",
         "linear-algebra/kernels/bicg",
         "linear-algebra/kernels/doitgen",
+        "linear-algebra/kernels/mvt",
         "stencils/heat-3d"
     ]
     REPS = 40
