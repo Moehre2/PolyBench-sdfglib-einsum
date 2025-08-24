@@ -1,0 +1,2969 @@
+{
+  "arguments": [
+    "_0",
+    "_1"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "250",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "250",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_16": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_32": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_36": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_40": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_44": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_49": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_59": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_63": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_67": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_71": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_76": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_8": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_82": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_84": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_86": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_90": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_92": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_jacobi_2d18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_4 < 250)",
+        "debug_info": {
+          "end_column": 27,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 32
+        },
+        "element_id": 950,
+        "indvar": "_4",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_76 < 250)",
+              "debug_info": {
+                "end_column": 38,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 33
+              },
+              "element_id": 952,
+              "indvar": "_76",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 35
+                          },
+                          "dst": 62,
+                          "dst_conn": "void",
+                          "element_id": 64,
+                          "src": 61,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 35
+                          },
+                          "dst": 61,
+                          "dst_conn": "_in",
+                          "element_id": 63,
+                          "src": 60,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 35
+                          },
+                          "element_id": 62,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 35
+                          },
+                          "element_id": 61,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_4",
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 35
+                          },
+                          "element_id": 60,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 13,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 13,
+                      "start_line": 35
+                    },
+                    "element_id": 58,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 884,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "dst": 89,
+                          "dst_conn": "_in0",
+                          "element_id": 94,
+                          "src": 90,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "dst": 89,
+                          "dst_conn": "_in1",
+                          "element_id": 93,
+                          "src": 88,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "dst": 91,
+                          "dst_conn": "void",
+                          "element_id": 92,
+                          "src": 89,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_86",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "element_id": 90,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "element_id": 89,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_84",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 35
+                          },
+                          "element_id": 88,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 35
+                    },
+                    "element_id": 86,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 35
+                          },
+                          "dst": 99,
+                          "dst_conn": "_in1",
+                          "element_id": 101,
+                          "src": 98,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 35
+                          },
+                          "dst": 97,
+                          "dst_conn": "void",
+                          "element_id": 100,
+                          "src": 99,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_4",
+                            "_76"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_86",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 35
+                          },
+                          "element_id": 98,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 35
+                          },
+                          "element_id": 99,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "250.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 35
+                          },
+                          "element_id": 97,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 35
+                    },
+                    "element_id": 95,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 888,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "dst": 139,
+                          "dst_conn": "_in0",
+                          "element_id": 143,
+                          "src": 138,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "dst": 139,
+                          "dst_conn": "_in1",
+                          "element_id": 142,
+                          "src": 137,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "dst": 140,
+                          "dst_conn": "void",
+                          "element_id": 141,
+                          "src": 139,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_92",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "element_id": 140,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "element_id": 139,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "3.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "element_id": 138,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_90",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 36
+                          },
+                          "element_id": 137,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 36
+                    },
+                    "element_id": 135,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "dst": 148,
+                          "dst_conn": "_in1",
+                          "element_id": 150,
+                          "src": 147,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "dst": 146,
+                          "dst_conn": "void",
+                          "element_id": 149,
+                          "src": 148,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_4",
+                            "_76"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 148,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "250.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_92",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 147,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_0",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 146,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 36
+                    },
+                    "element_id": 144,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 38,
+                  "end_line": 36,
+                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 33
+                },
+                "element_id": 953,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 13,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 13,
+                      "start_line": 35
+                    },
+                    "element_id": 59,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "2 + _76",
+                        "symbol": "_84"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 885,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 35
+                    },
+                    "element_id": 87,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 35
+                    },
+                    "element_id": 96,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "3 + _76",
+                        "symbol": "_90"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 889,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 36
+                    },
+                    "element_id": 136,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 36
+                    },
+                    "element_id": 145,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _76"
+            }
+          ],
+          "debug_info": {
+            "end_column": 27,
+            "end_line": 36,
+            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 32
+          },
+          "element_id": 951,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 38,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 33
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _4"
+      },
+      {
+        "condition": "(_8 < 100)",
+        "debug_info": {
+          "end_column": 4,
+          "end_line": 80,
+          "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+          "has": true,
+          "start_column": 32,
+          "start_line": 73
+        },
+        "element_id": 938,
+        "indvar": "_8",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_12 < 249)",
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 77,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 75
+              },
+              "element_id": 954,
+              "indvar": "_12",
+              "init": "1",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_49 < 249)",
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 77,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 76
+                    },
+                    "element_id": 956,
+                    "indvar": "_49",
+                    "init": "1",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "dst": 357,
+                                "dst_conn": "_in1",
+                                "element_id": 360,
+                                "src": 356,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_12",
+                                  "_49"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "dst": 357,
+                                "dst_conn": "_in2",
+                                "element_id": 359,
+                                "src": 355,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_12",
+                                  "-1 + _49"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "dst": 354,
+                                "dst_conn": "void",
+                                "element_id": 358,
+                                "src": 357,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "element_id": 357,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "element_id": 356,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "element_id": 355,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_59",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 77
+                                },
+                                "element_id": 354,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 77
+                          },
+                          "element_id": 352,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "dst": 385,
+                                "dst_conn": "_in1",
+                                "element_id": 388,
+                                "src": 384,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "dst": 385,
+                                "dst_conn": "_in2",
+                                "element_id": 387,
+                                "src": 383,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_12",
+                                  "1 + _49"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "dst": 382,
+                                "dst_conn": "void",
+                                "element_id": 386,
+                                "src": 385,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "element_id": 385,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_59",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "element_id": 384,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "element_id": 383,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_63",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 77
+                                },
+                                "element_id": 382,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 53,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 53,
+                            "start_line": 77
+                          },
+                          "element_id": 380,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "dst": 413,
+                                "dst_conn": "_in1",
+                                "element_id": 416,
+                                "src": 412,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "dst": 413,
+                                "dst_conn": "_in2",
+                                "element_id": 415,
+                                "src": 411,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _12",
+                                  "_49"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "dst": 410,
+                                "dst_conn": "void",
+                                "element_id": 414,
+                                "src": 413,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "element_id": 413,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_63",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "element_id": 412,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "element_id": 411,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_67",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 77
+                                },
+                                "element_id": 410,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 65,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 65,
+                            "start_line": 77
+                          },
+                          "element_id": 408,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "dst": 441,
+                                "dst_conn": "_in1",
+                                "element_id": 444,
+                                "src": 440,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "dst": 441,
+                                "dst_conn": "_in2",
+                                "element_id": 443,
+                                "src": 439,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _12",
+                                  "_49"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "dst": 438,
+                                "dst_conn": "void",
+                                "element_id": 442,
+                                "src": 441,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "element_id": 441,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_67",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "element_id": 440,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "element_id": 439,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_71",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 77
+                                },
+                                "element_id": 438,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 77,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 77,
+                            "start_line": 77
+                          },
+                          "element_id": 436,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 77
+                                },
+                                "dst": 449,
+                                "dst_conn": "_in1",
+                                "element_id": 451,
+                                "src": 448,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 77
+                                },
+                                "dst": 447,
+                                "dst_conn": "void",
+                                "element_id": 450,
+                                "src": 449,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_12",
+                                  "_49"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 77
+                                },
+                                "element_id": 449,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "0.20000000000000001",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_71",
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 77
+                                },
+                                "element_id": 448,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 77,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 77
+                                },
+                                "element_id": 447,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 30,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 30,
+                            "start_line": 77
+                          },
+                          "element_id": 445,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 33,
+                        "end_line": 77,
+                        "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 76
+                      },
+                      "element_id": 957,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 77
+                          },
+                          "element_id": 353,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 53,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 53,
+                            "start_line": 77
+                          },
+                          "element_id": 381,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 65,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 65,
+                            "start_line": 77
+                          },
+                          "element_id": 409,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 77,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 77,
+                            "start_line": 77
+                          },
+                          "element_id": 437,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 30,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 30,
+                            "start_line": 77
+                          },
+                          "element_id": 446,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _49"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 12,
+                  "end_line": 77,
+                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 75
+                },
+                "element_id": 955,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 77,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 76
+                    },
+                    "element_id": 318,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _12"
+            },
+            {
+              "condition": "(_16 < 249)",
+              "debug_info": {
+                "end_column": 53,
+                "end_line": 80,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 78
+              },
+              "element_id": 958,
+              "indvar": "_16",
+              "init": "1",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_22 < 249)",
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 80,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 79
+                    },
+                    "element_id": 960,
+                    "indvar": "_22",
+                    "init": "1",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "dst": 627,
+                                "dst_conn": "_in1",
+                                "element_id": 630,
+                                "src": 626,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_16",
+                                  "_22"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "dst": 627,
+                                "dst_conn": "_in2",
+                                "element_id": 629,
+                                "src": 625,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_16",
+                                  "-1 + _22"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "dst": 624,
+                                "dst_conn": "void",
+                                "element_id": 628,
+                                "src": 627,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "element_id": 627,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "element_id": 626,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "element_id": 625,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_32",
+                                "debug_info": {
+                                  "end_column": 41,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 41,
+                                  "start_line": 80
+                                },
+                                "element_id": 624,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 80
+                          },
+                          "element_id": 622,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "dst": 655,
+                                "dst_conn": "_in1",
+                                "element_id": 658,
+                                "src": 654,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "dst": 655,
+                                "dst_conn": "_in2",
+                                "element_id": 657,
+                                "src": 653,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_16",
+                                  "1 + _22"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "dst": 652,
+                                "dst_conn": "void",
+                                "element_id": 656,
+                                "src": 655,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "element_id": 655,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_32",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "element_id": 654,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "element_id": 653,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_36",
+                                "debug_info": {
+                                  "end_column": 53,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 53,
+                                  "start_line": 80
+                                },
+                                "element_id": 652,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 53,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 53,
+                            "start_line": 80
+                          },
+                          "element_id": 650,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "dst": 683,
+                                "dst_conn": "_in1",
+                                "element_id": 686,
+                                "src": 682,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "dst": 683,
+                                "dst_conn": "_in2",
+                                "element_id": 685,
+                                "src": 681,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _16",
+                                  "_22"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "dst": 680,
+                                "dst_conn": "void",
+                                "element_id": 684,
+                                "src": 683,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "element_id": 683,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_36",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "element_id": 682,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "element_id": 681,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_40",
+                                "debug_info": {
+                                  "end_column": 65,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 65,
+                                  "start_line": 80
+                                },
+                                "element_id": 680,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 65,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 65,
+                            "start_line": 80
+                          },
+                          "element_id": 678,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "dst": 711,
+                                "dst_conn": "_in1",
+                                "element_id": 714,
+                                "src": 710,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "dst": 711,
+                                "dst_conn": "_in2",
+                                "element_id": 713,
+                                "src": 709,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _16",
+                                  "_22"
+                                ]
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "dst": 708,
+                                "dst_conn": "void",
+                                "element_id": 712,
+                                "src": 711,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "element_id": 711,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_40",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "element_id": 710,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "element_id": 709,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_44",
+                                "debug_info": {
+                                  "end_column": 77,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 77,
+                                  "start_line": 80
+                                },
+                                "element_id": 708,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 77,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 77,
+                            "start_line": 80
+                          },
+                          "element_id": 706,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 80
+                                },
+                                "dst": 719,
+                                "dst_conn": "_in1",
+                                "element_id": 721,
+                                "src": 718,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 80
+                                },
+                                "dst": 717,
+                                "dst_conn": "void",
+                                "element_id": 720,
+                                "src": 719,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_16",
+                                  "_22"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 80
+                                },
+                                "element_id": 719,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "0.20000000000000001",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_44",
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 80
+                                },
+                                "element_id": 718,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 30,
+                                  "end_line": 80,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                                  "has": true,
+                                  "start_column": 30,
+                                  "start_line": 80
+                                },
+                                "element_id": 717,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 30,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 30,
+                            "start_line": 80
+                          },
+                          "element_id": 715,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 41,
+                        "end_line": 80,
+                        "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 79
+                      },
+                      "element_id": 961,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 80
+                          },
+                          "element_id": 623,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 53,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 53,
+                            "start_line": 80
+                          },
+                          "element_id": 651,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 65,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 65,
+                            "start_line": 80
+                          },
+                          "element_id": 679,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 77,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 77,
+                            "start_line": 80
+                          },
+                          "element_id": 707,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 30,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                            "has": true,
+                            "start_column": 30,
+                            "start_line": 80
+                          },
+                          "element_id": 716,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _22"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 53,
+                  "end_line": 80,
+                  "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 78
+                },
+                "element_id": 959,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 80,
+                      "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 79
+                    },
+                    "element_id": 588,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _16"
+            }
+          ],
+          "debug_info": {
+            "end_column": 4,
+            "end_line": 80,
+            "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+            "has": true,
+            "start_column": 32,
+            "start_line": 73
+          },
+          "element_id": 939,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 77,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 75
+              },
+              "element_id": 294,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 53,
+                "end_line": 80,
+                "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 78
+              },
+              "element_id": 564,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _8"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 27,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 32
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 4,
+          "end_line": 80,
+          "filename": "/home/github/docc/tests/polybench/stencils/jacobi-2d/jacobi-2d.c",
+          "has": true,
+          "start_column": 32,
+          "start_line": 73
+        },
+        "element_id": 270,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

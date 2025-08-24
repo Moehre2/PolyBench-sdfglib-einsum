@@ -18,21 +18,21 @@ BENCHMARKS= \
 	linear-algebra/kernels/bicg \
 	linear-algebra/kernels/doitgen \
 	linear-algebra/kernels/mvt \
-	stencils/heat-3d
+	linear-algebra/solvers/gramschmidt \
+	linear-algebra/solvers/trisolv \
+	medley/deriche \
+	stencils/adi \
+	stencils/fdtd-2d \
+	stencils/heat-3d \
+	stencils/jacobi-1d \
+	stencils/jacobi-2d \
+	stencils/seidel-2d
 #	linear-algebra/solvers/cholesky \
 #	linear-algebra/solvers/durbin \
-#	linear-algebra/solvers/gramschmidt \
 #	linear-algebra/solvers/lu \
 #	linear-algebra/solvers/ludcmp \
-#	linear-algebra/solvers/trisolv \
-#	medley/deriche \
 #	medley/floyd-warshall \
 #	medley/nussinov \
-#	stencils/adi \
-#	stencils/fdtd-2d \
-#	stencils/jacobi-1d \
-#	stencils/jacobi-2d \
-#	stencils/seidel-2d
 
 all: check run
 

@@ -1,0 +1,1688 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_10": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_17": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "400",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_31": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_40": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_48": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_50": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_51": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_6": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_trisolv18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "dataflow": {
+          "edges": [],
+          "nodes": [],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 519,
+        "type": "block"
+      },
+      {
+        "condition": "(_5 < 400)",
+        "debug_info": {
+          "end_column": 10,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 33
+        },
+        "element_id": 567,
+        "indvar": "_5",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 35
+                    },
+                    "dst": 40,
+                    "dst_conn": "void",
+                    "element_id": 41,
+                    "src": 39,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_5"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_1",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 35
+                    },
+                    "element_id": 40,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 35
+                    },
+                    "element_id": 39,
+                    "inputs": [
+                      {
+                        "name": "-999.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 35
+              },
+              "element_id": 37,
+              "type": "block"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 36
+                    },
+                    "dst": 53,
+                    "dst_conn": "void",
+                    "element_id": 55,
+                    "src": 52,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_5"
+                    ]
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 36
+                    },
+                    "dst": 52,
+                    "dst_conn": "_in",
+                    "element_id": 54,
+                    "src": 51,
+                    "src_conn": "void",
+                    "subset": []
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_0",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 36
+                    },
+                    "element_id": 53,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 36
+                    },
+                    "element_id": 52,
+                    "inputs": [
+                      {
+                        "name": "_in",
+                        "type": {
+                          "alignment": 4,
+                          "initializer": "",
+                          "primitive_type": 4,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_5",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 36
+                    },
+                    "element_id": 51,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 36
+              },
+              "element_id": 49,
+              "type": "block"
+            },
+            {
+              "condition": "(_40 < _6)",
+              "debug_info": {
+                "end_column": 2,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 28,
+                "start_line": 37
+              },
+              "element_id": 581,
+              "indvar": "_40",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 551,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 38
+                          },
+                          "dst": 128,
+                          "dst_conn": "void",
+                          "element_id": 130,
+                          "src": 126,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 38
+                          },
+                          "dst": 126,
+                          "dst_conn": "_in",
+                          "element_id": 129,
+                          "src": 127,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_50",
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 38
+                          },
+                          "element_id": 128,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_48",
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 38
+                          },
+                          "element_id": 127,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 38
+                          },
+                          "element_id": 126,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 38
+                    },
+                    "element_id": 124,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 38
+                          },
+                          "dst": 135,
+                          "dst_conn": "_in1",
+                          "element_id": 137,
+                          "src": 134,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 38
+                          },
+                          "dst": 133,
+                          "dst_conn": "void",
+                          "element_id": 136,
+                          "src": 135,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 38
+                          },
+                          "element_id": 135,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_50",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 38
+                          },
+                          "element_id": 134,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_51",
+                          "debug_info": {
+                            "end_column": 33,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 33,
+                            "start_line": 38
+                          },
+                          "element_id": 133,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 38
+                    },
+                    "element_id": 131,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 38
+                          },
+                          "dst": 142,
+                          "dst_conn": "_in1",
+                          "element_id": 144,
+                          "src": 141,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 38
+                          },
+                          "dst": 140,
+                          "dst_conn": "void",
+                          "element_id": 143,
+                          "src": 142,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_5",
+                            "_40"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 38
+                          },
+                          "element_id": 142,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "400.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_51",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 38
+                          },
+                          "element_id": 141,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 38
+                          },
+                          "element_id": 140,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 38
+                    },
+                    "element_id": 138,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 2,
+                  "end_line": 38,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                  "has": true,
+                  "start_column": 28,
+                  "start_line": 37
+                },
+                "element_id": 582,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "401 - _40 + _5",
+                        "symbol": "_48"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 552,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 38
+                    },
+                    "element_id": 125,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 33,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 33,
+                      "start_line": 38
+                    },
+                    "element_id": 132,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 38
+                    },
+                    "element_id": 139,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _40"
+            },
+            {
+              "dataflow": {
+                "edges": [],
+                "nodes": [],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 537,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 10,
+            "end_line": 38,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 33
+          },
+          "element_id": 568,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 35
+              },
+              "element_id": 38,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 36
+              },
+              "element_id": 50,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 37,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 37
+              },
+              "element_id": 577,
+              "type": "transition"
+            },
+            {
+              "assignments": [
+                {
+                  "expression": "1 + _6",
+                  "symbol": "_6"
+                }
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 538,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _5"
+      },
+      {
+        "condition": "(_10 < 400)",
+        "debug_info": {
+          "end_column": 19,
+          "end_line": 79,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 74
+        },
+        "element_id": 583,
+        "indvar": "_10",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 76,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 76
+                    },
+                    "dst": 307,
+                    "dst_conn": "_in",
+                    "element_id": 311,
+                    "src": 308,
+                    "src_conn": "void",
+                    "subset": [
+                      "_10"
+                    ]
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 76,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 76
+                    },
+                    "dst": 309,
+                    "dst_conn": "void",
+                    "element_id": 310,
+                    "src": 307,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_10"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_1",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 76,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 76
+                    },
+                    "element_id": 309,
+                    "type": "access_node"
+                  },
+                  {
+                    "data": "_0",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 76,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 76
+                    },
+                    "element_id": 308,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 76,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 12,
+                      "start_line": 76
+                    },
+                    "element_id": 307,
+                    "inputs": [
+                      {
+                        "name": "_in",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 76,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 76
+              },
+              "element_id": 305,
+              "type": "block"
+            },
+            {
+              "condition": "(_17 < _10)",
+              "debug_info": {
+                "end_column": 14,
+                "end_line": 78,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 77
+              },
+              "element_id": 573,
+              "indvar": "_17",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 372,
+                          "dst_conn": "_in",
+                          "element_id": 375,
+                          "src": 371,
+                          "src_conn": "void",
+                          "subset": [
+                            "_10",
+                            "_17"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 373,
+                          "dst_conn": "void",
+                          "element_id": 374,
+                          "src": 372,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_31",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 373,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 1,
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 372,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 371,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 369,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 381,
+                          "dst_conn": "_in0",
+                          "element_id": 386,
+                          "src": 380,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 381,
+                          "dst_conn": "_in1",
+                          "element_id": 385,
+                          "src": 379,
+                          "src_conn": "void",
+                          "subset": [
+                            "_17"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 381,
+                          "dst_conn": "_in2",
+                          "element_id": 384,
+                          "src": 378,
+                          "src_conn": "void",
+                          "subset": [
+                            "_10"
+                          ]
+                        },
+                        {
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "dst": 382,
+                          "dst_conn": "void",
+                          "element_id": 383,
+                          "src": 381,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_10"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 382,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 381,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_31",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 380,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 379,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 78
+                          },
+                          "element_id": 378,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 376,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 14,
+                  "end_line": 78,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 77
+                },
+                "element_id": 574,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 370,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 377,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _17"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "dst": 461,
+                    "dst_conn": "_in1",
+                    "element_id": 464,
+                    "src": 460,
+                    "src_conn": "void",
+                    "subset": [
+                      "_10"
+                    ]
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "dst": 461,
+                    "dst_conn": "_in2",
+                    "element_id": 463,
+                    "src": 459,
+                    "src_conn": "void",
+                    "subset": [
+                      "_10",
+                      "_10"
+                    ]
+                  },
+                  {
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "dst": 458,
+                    "dst_conn": "void",
+                    "element_id": 462,
+                    "src": 461,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_10"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "code": 5,
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "element_id": 461,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "_in2",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_1",
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "element_id": 460,
+                    "type": "access_node"
+                  },
+                  {
+                    "data": "_2",
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "element_id": 459,
+                    "type": "access_node"
+                  },
+                  {
+                    "data": "_1",
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 79,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 79
+                    },
+                    "element_id": 458,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 79,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 79
+              },
+              "element_id": 456,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 19,
+            "end_line": 79,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 74
+          },
+          "element_id": 584,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 76,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 12,
+                "start_line": 76
+              },
+              "element_id": 306,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 77,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 77
+              },
+              "element_id": 580,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 79,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 79
+              },
+              "element_id": 457,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _10"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [
+          {
+            "expression": "1",
+            "symbol": "_6"
+          }
+        ],
+        "debug_info": {
+          "end_column": 0,
+          "end_line": 0,
+          "filename": "",
+          "has": false,
+          "start_column": 0,
+          "start_line": 0
+        },
+        "element_id": 520,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 10,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 33
+        },
+        "element_id": 29,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 19,
+          "end_line": 79,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/solvers/trisolv/trisolv.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 74
+        },
+        "element_id": 285,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

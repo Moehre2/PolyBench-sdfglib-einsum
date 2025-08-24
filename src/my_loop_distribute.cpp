@@ -16,7 +16,6 @@
 #include <string>
 #include <unordered_map>
 #include <utility>
-#include <vector>
 
 namespace sdfg {
 namespace transformations {
@@ -28,10 +27,7 @@ bool MyLoopDistribute::subset_contains(data_flow::Subset& subset, symbolic::Symb
     return false;
 }
 
-MyLoopDistribute::MyLoopDistribute(structured_control_flow::StructuredLoop& loop)
-    : loop_(loop) {
-
-      };
+MyLoopDistribute::MyLoopDistribute(structured_control_flow::StructuredLoop& loop) : loop_(loop) {};
 
 std::string MyLoopDistribute::name() const { return "MyLoopDistribute"; };
 
@@ -64,12 +60,15 @@ bool MyLoopDistribute::can_be_applied(builder::StructuredSDFGBuilder& builder,
         }
     }
 
-    for (auto [container, subset1] : block1_writes) {
-        if (block2_reads.contains(container)) {
-            auto subset2 = block2_reads.at(container);
-            auto indvar = this->loop_.indvar();
-            if (!this->subset_contains(subset1, indvar) || !this->subset_contains(subset2, indvar))
-                return false;
+    for (auto [container1, subset1] : block1_writes) {
+        for (auto [container2, subset2] : block2_reads) {
+            if (container1 == container2) {
+                if (!this->subset_contains(subset1, this->loop_.indvar()) ||
+                    !this->subset_contains(subset2, this->loop_.indvar()))
+                    return false;
+            }
+            auto container1_sym = symbolic::symbol(container1);
+            if (this->subset_contains(subset2, container1_sym)) return false;
         }
     }
 

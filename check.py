@@ -67,7 +67,15 @@ if __name__ == "__main__":
         "linear-algebra/kernels/bicg",
         "linear-algebra/kernels/doitgen",
         "linear-algebra/kernels/mvt",
-        "stencils/heat-3d"
+        "linear-algebra/solvers/gramschmidt",
+        "linear-algebra/solvers/trisolv",
+        "medley/deriche",
+        "stencils/adi",
+        "stencils/fdtd-2d",
+        "stencils/heat-3d",
+        "stencils/jacobi-1d",
+        "stencils/jacobi-2d",
+        "stencils/seidel-2d"
     ]
     ### BENCHMARKS ###
     from sys import argv

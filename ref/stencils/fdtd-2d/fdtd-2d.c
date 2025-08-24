@@ -64,7 +64,6 @@ void print_array(int nx,
       fprintf(POLYBENCH_DUMP_TARGET, DATA_PRINTF_MODIFIER, ex[i][j]);
     }
   POLYBENCH_DUMP_END("ex");
-  POLYBENCH_DUMP_FINISH;
 
   POLYBENCH_DUMP_BEGIN("ey");
   for (i = 0; i < nx; i++)
@@ -81,6 +80,8 @@ void print_array(int nx,
       fprintf(POLYBENCH_DUMP_TARGET, DATA_PRINTF_MODIFIER, hz[i][j]);
     }
   POLYBENCH_DUMP_END("hz");
+
+  POLYBENCH_DUMP_FINISH;
 }
 
 
