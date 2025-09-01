@@ -4,11 +4,11 @@ from os.path import join, isfile
 import subprocess
 import re
 
-def get_benchmark_output(exec: str, type: str) -> tuple[bool, dict[str, list[float]]]:
+def get_benchmark_output(exec: str, type: str, nthreads: int = 1) -> tuple[bool, dict[str, list[float]]]:
     if not isfile(exec):
         print(f"{exec} does not exist...")
         return False, {}
-    out = subprocess.run(exec, capture_output=True).stderr.decode()
+    out = subprocess.run(exec, capture_output=True, env={"OMP_NUM_THREADS": str(nthreads)}).stderr.decode()
     dump_region = re.search("(?<===BEGIN DUMP_ARRAYS==\n)(?s:.)*(?===END   DUMP_ARRAYS==)", out)
     if dump_region == None:
         print(f"Cannot find DUMP_ARRAYS region in {type}...")
@@ -27,7 +27,7 @@ def get_benchmark_output(exec: str, type: str) -> tuple[bool, dict[str, list[flo
         result[key] = dump_split
     return True, result
 
-def check(benchmark: str) -> bool:
+def check(benchmark: str, nthreads: int) -> bool:
     print(f"{benchmark}: ", end="")
     ref_out_res, ref_out = get_benchmark_output(join("bin", "check", "ref", benchmark), "ref")
     if not ref_out_res:
@@ -35,9 +35,16 @@ def check(benchmark: str) -> bool:
     opt_out_res, opt_out = get_benchmark_output(join("bin", "check", "optimized_c", benchmark), "opt")
     if not opt_out_res:
         return False
+    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "check", "optimized_c", benchmark), "opt", nthreads=nthreads)
+    if not opt2_out_res:
+        return False
     key_differences = set(ref_out.keys()).symmetric_difference(set(opt_out.keys()))
     if len(key_differences) > 0:
         print(f"Variable {key_differences.pop()} does not occur in both outputs...")
+        return False
+    key_differences2 = set(ref_out.keys()).symmetric_difference(set(opt2_out.keys()))
+    if len(key_differences2) > 0:
+        print(f"Variable {key_differences2.pop()} does not occur in both outputs...")
         return False
     for key in ref_out:
         if len(ref_out[key]) != len(opt_out[key]):
@@ -46,7 +53,20 @@ def check(benchmark: str) -> bool:
             if abs(ref_out[key][i] - opt_out[key][i]) > 0.011:
                 print(f"{key}: Values do not match at {i} ({ref_out[key][i]} != {opt_out[key][i]})...")
                 return False
-    print("Matches!")
+    stable = True
+    for key in ref_out:
+        if len(ref_out[key]) != len(opt2_out[key]):
+            print(f"{key}: Different output lengths...")
+        for i in range(len(ref_out[key])):
+            if abs(ref_out[key][i] - opt2_out[key][i]) > 0.011:
+                stable = False
+                break
+        if not stable:
+            break
+    if stable:
+        print("Matches!")
+    else:
+        print("INSTABLE!")
     return True
 
 if __name__ == "__main__":
@@ -77,6 +97,7 @@ if __name__ == "__main__":
         "stencils/jacobi-2d",
         "stencils/seidel-2d"
     ]
+    NTHREADS=12
     ### BENCHMARKS ###
     from sys import argv
     if len(argv) < 2:
@@ -94,6 +115,6 @@ if __name__ == "__main__":
     benchmarks_args = [benchmark_names[bench] for bench in benchmark_names_args]
     all_match = []
     for bench in benchmarks_args:
-        all_match.append(check(bench))
+        all_match.append(check(bench, NTHREADS))
     if False in all_match:
         exit(1)
