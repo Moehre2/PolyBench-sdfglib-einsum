@@ -3,4 +3,5 @@ build/
 *.out
 .cache/
 bin/
-optimized_c/
+optimized_*/
+include/dump_sdfg.h

@@ -7,6 +7,7 @@
 #include <sdfg/einsum/einsum_node.h>
 #include <sdfg/passes/pass.h>
 #include <sdfg/passes/structured_control_flow/block_fusion.h>
+#include <sdfg/passes/structured_control_flow/dead_cfg_elimination.h>
 #include <sdfg/passes/structured_control_flow/loop_normalization.h>
 #include <sdfg/structured_control_flow/block.h>
 #include <sdfg/structured_control_flow/control_flow_node.h>
@@ -282,6 +283,12 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
             }
         }
     } while (applied);
+
+    // DeadCFGElimination
+    passes::DeadCFGElimination dead_cfg_elimination;
+    if (dead_cfg_elimination.run(builder, analysis_manager)) {
+        std::cout << "DeadCFGElimination" << std::endl;
+    }
 
     // EinsumLift
     do {
