@@ -1,0 +1,4177 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3",
+    "_4",
+    "_5"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_102": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_108": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_109": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_11": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_111": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_112": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_116": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_118": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_122": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_124": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_14": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_18": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_26": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_30": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_34": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "2600",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_40": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "2600",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_52": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_56": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_59": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_63": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_75": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_8": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_80": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_92": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_fdtd_2d18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_8 < 1000)",
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 37,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 26,
+          "start_line": 36
+        },
+        "element_id": 1349,
+        "indvar": "_8",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_8"
+                    ],
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 37,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 37
+                    },
+                    "dst": 38,
+                    "dst_conn": "void",
+                    "element_id": 40,
+                    "end_subset": [
+                      "_8"
+                    ],
+                    "src": 37,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_8"
+                    ]
+                  },
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 37,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 37
+                    },
+                    "dst": 37,
+                    "dst_conn": "_in",
+                    "element_id": 39,
+                    "end_subset": [],
+                    "src": 36,
+                    "src_conn": "void",
+                    "subset": []
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_3",
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 37,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 37
+                    },
+                    "element_id": 38,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 37,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 37
+                    },
+                    "element_id": 37,
+                    "inputs": [
+                      {
+                        "name": "_in",
+                        "type": {
+                          "alignment": 4,
+                          "initializer": "",
+                          "primitive_type": 4,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_8",
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 37,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 37
+                    },
+                    "element_id": 36,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 37,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 17,
+                "start_line": 37
+              },
+              "element_id": 34,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 17,
+            "end_line": 37,
+            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+            "has": true,
+            "start_column": 26,
+            "start_line": 36
+          },
+          "element_id": 1350,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 37,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 17,
+                "start_line": 37
+              },
+              "element_id": 35,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _8"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 1325,
+              "dst_conn": "void",
+              "element_id": 1326,
+              "end_subset": [
+                "0"
+              ],
+              "src": 1322,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 1320,
+              "dst_conn": "void",
+              "element_id": 1321,
+              "end_subset": [
+                "0"
+              ],
+              "src": 99,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 139,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 139
+              },
+              "dst": 1322,
+              "dst_conn": "refs",
+              "element_id": 1324,
+              "end_subset": [
+                "0"
+              ],
+              "src": 1323,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 137,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 137
+              },
+              "dst": 99,
+              "dst_conn": "refs",
+              "element_id": 100,
+              "end_subset": [
+                "0"
+              ],
+              "src": 98,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_5",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1325,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1323,
+              "type": "access_node"
+            },
+            {
+              "data": "_12",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1322,
+              "type": "access_node"
+            },
+            {
+              "data": "_4",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1320,
+              "type": "access_node"
+            },
+            {
+              "data": "_11",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 137,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 137
+              },
+              "element_id": 99,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 137,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 137
+              },
+              "element_id": 98,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 137,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 137
+        },
+        "element_id": 96,
+        "type": "block"
+      },
+      {
+        "condition": "(_14 < 2000)",
+        "debug_info": {
+          "end_column": 28,
+          "end_line": 43,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 38
+        },
+        "element_id": 1351,
+        "indvar": "_14",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_102 < 2600)",
+              "debug_info": {
+                "end_column": 28,
+                "end_line": 43,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 39
+              },
+              "element_id": 1353,
+              "indvar": "_102",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 41
+                          },
+                          "dst": 175,
+                          "dst_conn": "void",
+                          "element_id": 177,
+                          "end_subset": [],
+                          "src": 174,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 41
+                          },
+                          "dst": 174,
+                          "dst_conn": "_in",
+                          "element_id": 176,
+                          "end_subset": [],
+                          "src": 173,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_108",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 41
+                          },
+                          "element_id": 175,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 41
+                          },
+                          "element_id": 174,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_14",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 41
+                          },
+                          "element_id": 173,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 41
+                    },
+                    "element_id": 171,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1250,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 41
+                          },
+                          "dst": 196,
+                          "dst_conn": "void",
+                          "element_id": 198,
+                          "end_subset": [],
+                          "src": 195,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 41
+                          },
+                          "dst": 195,
+                          "dst_conn": "_in",
+                          "element_id": 197,
+                          "end_subset": [],
+                          "src": 194,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_111",
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 41
+                          },
+                          "element_id": 196,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 41
+                          },
+                          "element_id": 195,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_109",
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 41
+                          },
+                          "element_id": 194,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 28,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 28,
+                      "start_line": 41
+                    },
+                    "element_id": 192,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "dst": 204,
+                          "dst_conn": "_in1",
+                          "element_id": 207,
+                          "end_subset": [],
+                          "src": 203,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "dst": 204,
+                          "dst_conn": "_in2",
+                          "element_id": 206,
+                          "end_subset": [],
+                          "src": 202,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "dst": 201,
+                          "dst_conn": "void",
+                          "element_id": 205,
+                          "end_subset": [],
+                          "src": 204,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "element_id": 204,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_108",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "element_id": 203,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_111",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "element_id": 202,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_112",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 41
+                          },
+                          "element_id": 201,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 41
+                    },
+                    "element_id": 199,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 41
+                          },
+                          "dst": 212,
+                          "dst_conn": "_in1",
+                          "element_id": 214,
+                          "end_subset": [],
+                          "src": 211,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 41
+                          },
+                          "dst": 210,
+                          "dst_conn": "void",
+                          "element_id": 213,
+                          "end_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "src": 212,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_14",
+                            "_102"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 41
+                          },
+                          "element_id": 212,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_112",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 41
+                          },
+                          "element_id": 211,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_11",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 41,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 41
+                          },
+                          "element_id": 210,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 41
+                    },
+                    "element_id": 208,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1256,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "dst": 253,
+                          "dst_conn": "_in1",
+                          "element_id": 256,
+                          "end_subset": [],
+                          "src": 252,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "dst": 253,
+                          "dst_conn": "_in2",
+                          "element_id": 255,
+                          "end_subset": [],
+                          "src": 251,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "dst": 250,
+                          "dst_conn": "void",
+                          "element_id": 254,
+                          "end_subset": [],
+                          "src": 253,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "element_id": 253,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_108",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "element_id": 252,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_116",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "element_id": 251,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_118",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 42
+                          },
+                          "element_id": 250,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 42
+                    },
+                    "element_id": 248,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 42
+                          },
+                          "dst": 261,
+                          "dst_conn": "_in1",
+                          "element_id": 263,
+                          "end_subset": [],
+                          "src": 260,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 42
+                          },
+                          "dst": 259,
+                          "dst_conn": "void",
+                          "element_id": 262,
+                          "end_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "src": 261,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_14",
+                            "_102"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 42
+                          },
+                          "element_id": 261,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2600.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_118",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 42
+                          },
+                          "element_id": 260,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 42
+                          },
+                          "element_id": 259,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 42
+                    },
+                    "element_id": 257,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1260,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "dst": 302,
+                          "dst_conn": "_in1",
+                          "element_id": 305,
+                          "end_subset": [],
+                          "src": 301,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "dst": 302,
+                          "dst_conn": "_in2",
+                          "element_id": 304,
+                          "end_subset": [],
+                          "src": 300,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "dst": 299,
+                          "dst_conn": "void",
+                          "element_id": 303,
+                          "end_subset": [],
+                          "src": 302,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "element_id": 302,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_108",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "element_id": 301,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_122",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "element_id": 300,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_124",
+                          "debug_info": {
+                            "end_column": 27,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 43
+                          },
+                          "element_id": 299,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 43,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 43
+                    },
+                    "element_id": 297,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 43
+                          },
+                          "dst": 310,
+                          "dst_conn": "_in1",
+                          "element_id": 312,
+                          "end_subset": [],
+                          "src": 309,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 43
+                          },
+                          "dst": 308,
+                          "dst_conn": "void",
+                          "element_id": 311,
+                          "end_subset": [
+                            "_14",
+                            "_102"
+                          ],
+                          "src": 310,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_14",
+                            "_102"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 43
+                          },
+                          "element_id": 310,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_124",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 43
+                          },
+                          "element_id": 309,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_12",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 43,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 43
+                          },
+                          "element_id": 308,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 43,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 43
+                    },
+                    "element_id": 306,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 28,
+                  "end_line": 43,
+                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 39
+                },
+                "element_id": 1354,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 41
+                    },
+                    "element_id": 172,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "1 + _102",
+                        "symbol": "_109"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1251,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 28,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 28,
+                      "start_line": 41
+                    },
+                    "element_id": 193,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 41
+                    },
+                    "element_id": 200,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 41,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 41
+                    },
+                    "element_id": 209,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "2 + _102",
+                        "symbol": "_116"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1257,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 42
+                    },
+                    "element_id": 249,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 42
+                    },
+                    "element_id": 258,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "3 + _102",
+                        "symbol": "_122"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1261,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 27,
+                      "end_line": 43,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 27,
+                      "start_line": 43
+                    },
+                    "element_id": 298,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 43,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 43
+                    },
+                    "element_id": 307,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _102"
+            }
+          ],
+          "debug_info": {
+            "end_column": 28,
+            "end_line": 43,
+            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+            "has": true,
+            "start_column": 24,
+            "start_line": 38
+          },
+          "element_id": 1352,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 28,
+                "end_line": 43,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 39
+              },
+              "element_id": 161,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _14"
+      },
+      {
+        "condition": "(_18 < 1000)",
+        "debug_info": {
+          "end_column": 23,
+          "end_line": 115,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 16,
+          "start_line": 102
+        },
+        "element_id": 1331,
+        "indvar": "_18",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_22 < 2600)",
+              "debug_info": {
+                "end_column": 11,
+                "end_line": 105,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 32,
+                "start_line": 104
+              },
+              "element_id": 1355,
+              "indvar": "_22",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_18"
+                          ],
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 105,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 11,
+                            "start_line": 105
+                          },
+                          "dst": 471,
+                          "dst_conn": "_in",
+                          "element_id": 475,
+                          "end_subset": [
+                            "_18"
+                          ],
+                          "src": 472,
+                          "src_conn": "void",
+                          "subset": [
+                            "_18"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "0",
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 105,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 11,
+                            "start_line": 105
+                          },
+                          "dst": 473,
+                          "dst_conn": "void",
+                          "element_id": 474,
+                          "end_subset": [
+                            "0",
+                            "_22"
+                          ],
+                          "src": 471,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "0",
+                            "_22"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 105,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 11,
+                            "start_line": 105
+                          },
+                          "element_id": 473,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 105,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 11,
+                            "start_line": 105
+                          },
+                          "element_id": 472,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 105,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 11,
+                            "start_line": 105
+                          },
+                          "element_id": 471,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 11,
+                      "end_line": 105,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 11,
+                      "start_line": 105
+                    },
+                    "element_id": 469,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 11,
+                  "end_line": 105,
+                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                  "has": true,
+                  "start_column": 32,
+                  "start_line": 104
+                },
+                "element_id": 1356,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 11,
+                      "end_line": 105,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 11,
+                      "start_line": 105
+                    },
+                    "element_id": 470,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _22"
+            },
+            {
+              "condition": "(_26 < 2000)",
+              "debug_info": {
+                "end_column": 43,
+                "end_line": 108,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 106
+              },
+              "element_id": 1357,
+              "indvar": "_26",
+              "init": "1",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_80 < 2600)",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 108,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 107
+                    },
+                    "element_id": 1359,
+                    "indvar": "_80",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "dst": 615,
+                                "dst_conn": "_in1",
+                                "element_id": 618,
+                                "end_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "src": 614,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_26",
+                                  "_80"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "-1 + _26",
+                                  "_80"
+                                ],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "dst": 615,
+                                "dst_conn": "_in2",
+                                "element_id": 617,
+                                "end_subset": [
+                                  "-1 + _26",
+                                  "_80"
+                                ],
+                                "src": 613,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _26",
+                                  "_80"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "dst": 612,
+                                "dst_conn": "void",
+                                "element_id": 616,
+                                "end_subset": [],
+                                "src": 615,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 3,
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "element_id": 615,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "element_id": 614,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "element_id": 613,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_92",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 108
+                                },
+                                "element_id": 612,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 51,
+                            "end_line": 108,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 51,
+                            "start_line": 108
+                          },
+                          "element_id": 610,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "dst": 623,
+                                "dst_conn": "_in0",
+                                "element_id": 627,
+                                "end_subset": [],
+                                "src": 622,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "dst": 623,
+                                "dst_conn": "_in2",
+                                "element_id": 626,
+                                "end_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "src": 621,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_26",
+                                  "_80"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "dst": 624,
+                                "dst_conn": "void",
+                                "element_id": 625,
+                                "end_subset": [
+                                  "_26",
+                                  "_80"
+                                ],
+                                "src": 623,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_26",
+                                  "_80"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "element_id": 624,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "element_id": 623,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "-0.5",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_92",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "element_id": 622,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 108,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 108
+                                },
+                                "element_id": 621,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 108,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 108
+                          },
+                          "element_id": 619,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 15,
+                        "end_line": 108,
+                        "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 107
+                      },
+                      "element_id": 1360,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 51,
+                            "end_line": 108,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 51,
+                            "start_line": 108
+                          },
+                          "element_id": 611,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 108,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 108
+                          },
+                          "element_id": 620,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _80"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 43,
+                  "end_line": 108,
+                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 106
+                },
+                "element_id": 1358,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 108,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 107
+                    },
+                    "element_id": 564,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _26"
+            },
+            {
+              "condition": "(_30 < 2000)",
+              "debug_info": {
+                "end_column": 52,
+                "end_line": 111,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 109
+              },
+              "element_id": 1361,
+              "indvar": "_30",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_63 < 2600)",
+                    "debug_info": {
+                      "end_column": 24,
+                      "end_line": 111,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 110
+                    },
+                    "element_id": 1363,
+                    "indvar": "_63",
+                    "init": "1",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "dst": 817,
+                                "dst_conn": "_in1",
+                                "element_id": 820,
+                                "end_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "src": 816,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_30",
+                                  "_63"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "-1 + _63"
+                                ],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "dst": 817,
+                                "dst_conn": "_in2",
+                                "element_id": 819,
+                                "end_subset": [
+                                  "_30",
+                                  "-1 + _63"
+                                ],
+                                "src": 815,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_30",
+                                  "-1 + _63"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "dst": 814,
+                                "dst_conn": "void",
+                                "element_id": 818,
+                                "end_subset": [],
+                                "src": 817,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 3,
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "element_id": 817,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "element_id": 816,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "element_id": 815,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_75",
+                                "debug_info": {
+                                  "end_column": 51,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 51,
+                                  "start_line": 111
+                                },
+                                "element_id": 814,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 51,
+                            "end_line": 111,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 51,
+                            "start_line": 111
+                          },
+                          "element_id": 812,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "dst": 825,
+                                "dst_conn": "_in0",
+                                "element_id": 829,
+                                "end_subset": [],
+                                "src": 824,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "dst": 825,
+                                "dst_conn": "_in2",
+                                "element_id": 828,
+                                "end_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "src": 823,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_30",
+                                  "_63"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "dst": 826,
+                                "dst_conn": "void",
+                                "element_id": 827,
+                                "end_subset": [
+                                  "_30",
+                                  "_63"
+                                ],
+                                "src": 825,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_30",
+                                  "_63"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_11",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "element_id": 826,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "element_id": 825,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "-0.5",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_75",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "element_id": 824,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_11",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 111,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 111
+                                },
+                                "element_id": 823,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 111,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 111
+                          },
+                          "element_id": 821,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 24,
+                        "end_line": 111,
+                        "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 110
+                      },
+                      "element_id": 1364,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 51,
+                            "end_line": 111,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 51,
+                            "start_line": 111
+                          },
+                          "element_id": 813,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 111,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 111
+                          },
+                          "element_id": 822,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _63"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 52,
+                  "end_line": 111,
+                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                  "has": true,
+                  "start_column": 21,
+                  "start_line": 109
+                },
+                "element_id": 1362,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 24,
+                      "end_line": 111,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 110
+                    },
+                    "element_id": 766,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _30"
+            },
+            {
+              "condition": "(_34 < 1999)",
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 115,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 36,
+                "start_line": 112
+              },
+              "element_id": 1365,
+              "indvar": "_34",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_40 < 2599)",
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 115,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 113
+                    },
+                    "element_id": 1367,
+                    "indvar": "_40",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "1 + _40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "dst": 1019,
+                                "dst_conn": "_in1",
+                                "element_id": 1022,
+                                "end_subset": [
+                                  "_34",
+                                  "1 + _40"
+                                ],
+                                "src": 1018,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "1 + _40"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "dst": 1019,
+                                "dst_conn": "_in2",
+                                "element_id": 1021,
+                                "end_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "src": 1017,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "_40"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "dst": 1016,
+                                "dst_conn": "void",
+                                "element_id": 1020,
+                                "end_subset": [],
+                                "src": 1019,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 3,
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "element_id": 1019,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_11",
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "element_id": 1018,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_11",
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "element_id": 1017,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_52",
+                                "debug_info": {
+                                  "end_column": 56,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 56,
+                                  "start_line": 114
+                                },
+                                "element_id": 1016,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 56,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 56,
+                            "start_line": 114
+                          },
+                          "element_id": 1014,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "dst": 1047,
+                                "dst_conn": "_in1",
+                                "element_id": 1050,
+                                "end_subset": [],
+                                "src": 1046,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "1 + _34",
+                                  "_40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "dst": 1047,
+                                "dst_conn": "_in2",
+                                "element_id": 1049,
+                                "end_subset": [
+                                  "1 + _34",
+                                  "_40"
+                                ],
+                                "src": 1045,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _34",
+                                  "_40"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "dst": 1044,
+                                "dst_conn": "void",
+                                "element_id": 1048,
+                                "end_subset": [],
+                                "src": 1047,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "element_id": 1047,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_52",
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "element_id": 1046,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "element_id": 1045,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_56",
+                                "debug_info": {
+                                  "end_column": 67,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 67,
+                                  "start_line": 114
+                                },
+                                "element_id": 1044,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 67,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 67,
+                            "start_line": 114
+                          },
+                          "element_id": 1042,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "dst": 1068,
+                                "dst_conn": "_in1",
+                                "element_id": 1071,
+                                "end_subset": [],
+                                "src": 1067,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "dst": 1068,
+                                "dst_conn": "_in2",
+                                "element_id": 1070,
+                                "end_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "src": 1066,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "_40"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "dst": 1065,
+                                "dst_conn": "void",
+                                "element_id": 1069,
+                                "end_subset": [],
+                                "src": 1068,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 3,
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "element_id": 1068,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_56",
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "element_id": 1067,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "element_id": 1066,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_59",
+                                "debug_info": {
+                                  "end_column": 23,
+                                  "end_line": 115,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 23,
+                                  "start_line": 115
+                                },
+                                "element_id": 1065,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 23,
+                            "end_line": 115,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 23,
+                            "start_line": 115
+                          },
+                          "element_id": 1063,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "dst": 1076,
+                                "dst_conn": "_in0",
+                                "element_id": 1080,
+                                "end_subset": [],
+                                "src": 1075,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "dst": 1076,
+                                "dst_conn": "_in2",
+                                "element_id": 1079,
+                                "end_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "src": 1074,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "_40"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "dst": 1077,
+                                "dst_conn": "void",
+                                "element_id": 1078,
+                                "end_subset": [
+                                  "_34",
+                                  "_40"
+                                ],
+                                "src": 1076,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_34",
+                                  "_40"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "element_id": 1077,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "element_id": 1076,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "-0.69999999999999996",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_59",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "element_id": 1075,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 24,
+                                  "end_line": 114,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                                  "has": true,
+                                  "start_column": 24,
+                                  "start_line": 114
+                                },
+                                "element_id": 1074,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 114
+                          },
+                          "element_id": 1072,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 16,
+                        "end_line": 115,
+                        "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 113
+                      },
+                      "element_id": 1368,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 56,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 56,
+                            "start_line": 114
+                          },
+                          "element_id": 1015,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 67,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 67,
+                            "start_line": 114
+                          },
+                          "element_id": 1043,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 23,
+                            "end_line": 115,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 23,
+                            "start_line": 115
+                          },
+                          "element_id": 1064,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 24,
+                            "end_line": 114,
+                            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                            "has": true,
+                            "start_column": 24,
+                            "start_line": 114
+                          },
+                          "element_id": 1073,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _40"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 12,
+                  "end_line": 115,
+                  "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                  "has": true,
+                  "start_column": 36,
+                  "start_line": 112
+                },
+                "element_id": 1366,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 115,
+                      "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 113
+                    },
+                    "element_id": 968,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _34"
+            }
+          ],
+          "debug_info": {
+            "end_column": 23,
+            "end_line": 115,
+            "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+            "has": true,
+            "start_column": 16,
+            "start_line": 102
+          },
+          "element_id": 1332,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 11,
+                "end_line": 105,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 32,
+                "start_line": 104
+              },
+              "element_id": 449,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 43,
+                "end_line": 108,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 106
+              },
+              "element_id": 540,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 52,
+                "end_line": 111,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 109
+              },
+              "element_id": 742,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 115,
+                "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+                "has": true,
+                "start_column": 36,
+                "start_line": 112
+              },
+              "element_id": 944,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _18"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 37,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 26,
+          "start_line": 36
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 137,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 137
+        },
+        "element_id": 97,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 28,
+          "end_line": 43,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 38
+        },
+        "element_id": 137,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 23,
+          "end_line": 115,
+          "filename": "/home/github/docc/tests/polybench/stencils/fdtd-2d/fdtd-2d.c",
+          "has": true,
+          "start_column": 16,
+          "start_line": 102
+        },
+        "element_id": 425,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

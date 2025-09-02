@@ -26,26 +26,21 @@ BENCHMARKS_OPT_C= \
 
 $(eval $(call BINDIRS_RULE,optimized_c))
 
-define CHECK_RULE_OPT_C
+define OPT_C_RULE
 bin/optimized_c/check/$(1): bin/optimized_c/check/$(dir $(1)) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c
 	clang $(CHECK_ARGS) -Wno-incompatible-pointer-types -fopenmp -I ref/utilities -I optimized_c/check/$(1) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c -o $$@ -lm -lblas
-endef
 
-$(foreach bench,$(BENCHMARKS_OPT_C),$(eval $(call CHECK_RULE_OPT_C,$(bench))))
+bin/optimized_c/run/$(1): bin/optimized_c/run/$(dir $(1)) ref/utilities/polybench.c optimized_c/run/$(1)/$(notdir $(1)).c optimized_c/run/$(1)/generated.c
+	clang $(RUN_ARGS) -Wno-incompatible-pointer-types -fopenmp -I ref/utilities -I optimized_c/run/$(1) ref/utilities/polybench.c optimized_c/run/$(1)/$(notdir $(1)).c optimized_c/run/$(1)/generated.c -o $$@ -lm -lblas
 
-define RUN_RULE_OPT_C
-bin/optimized_c/run/$(1): bin/optimized_c/run/$(dir $(1)) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c
-	clang $(RUN_ARGS) -Wno-incompatible-pointer-types -fopenmp -I ref/utilities -I optimized_c/check/$(1) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c -o $$@ -lm -lblas
-endef
-
-$(foreach bench,$(BENCHMARKS_OPT_C),$(eval $(call RUN_RULE_OPT_C,$(bench))))
-
-define OPTIMIZE_RULE_OPT_C
 optimized_c/check/$(1)/$(notdir $(1)).c: build/optimize
 	./build/optimize check $(notdir $(1))
+
+optimized_c/run/$(1)/$(notdir $(1)).c: build/optimize
+	./build/optimize run $(notdir $(1))
 endef
 
-$(foreach bench,$(BENCHMARKS_OPT_C),$(eval $(call OPTIMIZE_RULE_OPT_C,$(bench))))
+$(foreach bench,$(BENCHMARKS_OPT_C),$(eval $(call OPT_C_RULE,$(bench))))
 
 check-opt_c: $(foreach bench,$(BENCHMARKS_OPT_C),bin/optimized_c/check/$(bench))
 

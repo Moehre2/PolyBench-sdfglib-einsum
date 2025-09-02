@@ -54,7 +54,7 @@ if __name__ == "__main__":
         "stencils/jacobi-2d",
         "stencils/seidel-2d"
     ]
-    REPS = 20
+    REPS = 1
     NTHREADS = 12
     ### BENCHMARKS ###
     from sys import argv

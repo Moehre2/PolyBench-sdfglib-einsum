@@ -32,19 +32,15 @@ BENCHMARKS_REF= \
 
 $(eval $(call BINDIRS_RULE,ref))
 
-define CHECK_RULE_REF
+define REF_RULE
 bin/ref/check/$(1): bin/ref/check/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
 	clang $(CHECK_ARGS) -I ref/utilities -I ref/$(1) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c -o $$@ -lm
-endef
 
-$(foreach bench,$(BENCHMARKS_REF),$(eval $(call CHECK_RULE_REF,$(bench))))
-
-define RUN_RULE_REF
 bin/ref/run/$(1): bin/ref/run/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
 	clang $(RUN_ARGS) -I ref/utilities -I ref/$(1) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c -o $$@ -lm
 endef
 
-$(foreach bench,$(BENCHMARKS_REF),$(eval $(call RUN_RULE_REF,$(bench))))
+$(foreach bench,$(BENCHMARKS_REF),$(eval $(call REF_RULE,$(bench))))
 
 check-ref: $(foreach bench,$(BENCHMARKS_REF),bin/ref/check/$(bench))
 

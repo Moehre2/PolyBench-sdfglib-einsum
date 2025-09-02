@@ -1,0 +1,1278 @@
+{
+  "arguments": [
+    "_0",
+    "_1"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2000",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_18": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_36": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_41": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_50": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_58": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_8": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_trmm18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_4 < 2000)",
+        "debug_info": {
+          "end_column": 31,
+          "end_line": 40,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+          "has": true,
+          "start_column": 23,
+          "start_line": 34
+        },
+        "element_id": 706,
+        "indvar": "_4",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_36 < _4)",
+              "debug_info": {
+                "end_column": 39,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 708,
+              "indvar": "_36",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 648,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 39,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 39,
+                            "start_line": 36
+                          },
+                          "dst": 85,
+                          "dst_conn": "_in1",
+                          "element_id": 87,
+                          "end_subset": [],
+                          "src": 84,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_4",
+                            "_36"
+                          ],
+                          "debug_info": {
+                            "end_column": 39,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 39,
+                            "start_line": 36
+                          },
+                          "dst": 83,
+                          "dst_conn": "void",
+                          "element_id": 86,
+                          "end_subset": [
+                            "_4",
+                            "_36"
+                          ],
+                          "src": 85,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_4",
+                            "_36"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_58",
+                          "debug_info": {
+                            "end_column": 39,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 39,
+                            "start_line": 36
+                          },
+                          "element_id": 84,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 39,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 39,
+                            "start_line": 36
+                          },
+                          "element_id": 85,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 39,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 39,
+                            "start_line": 36
+                          },
+                          "element_id": 83,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 39,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 39,
+                      "start_line": 36
+                    },
+                    "element_id": 81,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 39,
+                  "end_line": 36,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 35
+                },
+                "element_id": 709,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_36 + _4, 2000)",
+                        "symbol": "_58"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 649,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 39,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 39,
+                      "start_line": 36
+                    },
+                    "element_id": 82,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _36"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_4",
+                      "_4"
+                    ],
+                    "debug_info": {
+                      "end_column": 13,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 13,
+                      "start_line": 38
+                    },
+                    "dst": 151,
+                    "dst_conn": "void",
+                    "element_id": 152,
+                    "end_subset": [
+                      "_4",
+                      "_4"
+                    ],
+                    "src": 150,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_4",
+                      "_4"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_1",
+                    "debug_info": {
+                      "end_column": 13,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 13,
+                      "start_line": 38
+                    },
+                    "element_id": 151,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 13,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 13,
+                      "start_line": 38
+                    },
+                    "element_id": 150,
+                    "inputs": [
+                      {
+                        "name": "1.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 13,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 13,
+                "start_line": 38
+              },
+              "element_id": 148,
+              "type": "block"
+            },
+            {
+              "condition": "(_41 < 2600)",
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 40,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 25,
+                "start_line": 39
+              },
+              "element_id": 710,
+              "indvar": "_41",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 664,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 40
+                          },
+                          "dst": 227,
+                          "dst_conn": "_in1",
+                          "element_id": 229,
+                          "end_subset": [],
+                          "src": 226,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_4",
+                            "_41"
+                          ],
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 40
+                          },
+                          "dst": 225,
+                          "dst_conn": "void",
+                          "element_id": 228,
+                          "end_subset": [
+                            "_4",
+                            "_41"
+                          ],
+                          "src": 227,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_4",
+                            "_41"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 40
+                          },
+                          "element_id": 227,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2600.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_50",
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 40
+                          },
+                          "element_id": 226,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_0",
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 40
+                          },
+                          "element_id": 225,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 43,
+                      "end_line": 40,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 43,
+                      "start_line": 40
+                    },
+                    "element_id": 223,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 31,
+                  "end_line": 40,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                  "has": true,
+                  "start_column": 25,
+                  "start_line": 39
+                },
+                "element_id": 711,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(2600 + _4 - _41, 2600)",
+                        "symbol": "_50"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 665,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 43,
+                      "end_line": 40,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 43,
+                      "start_line": 40
+                    },
+                    "element_id": 224,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _41"
+            }
+          ],
+          "debug_info": {
+            "end_column": 31,
+            "end_line": 40,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+            "has": true,
+            "start_column": 23,
+            "start_line": 34
+          },
+          "element_id": 707,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 702,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 13,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 13,
+                "start_line": 38
+              },
+              "element_id": 149,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 31,
+                "end_line": 40,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 25,
+                "start_line": 39
+              },
+              "element_id": 176,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _4"
+      },
+      {
+        "condition": "(_8 < 2000)",
+        "debug_info": {
+          "end_column": 27,
+          "end_line": 90,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 86
+        },
+        "element_id": 690,
+        "indvar": "_8",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_12 < 2600)",
+              "debug_info": {
+                "end_column": 27,
+                "end_line": 90,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 87
+              },
+              "element_id": 712,
+              "indvar": "_12",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_18 < 1999)",
+                    "debug_info": {
+                      "end_column": 20,
+                      "end_line": 89,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 25,
+                      "start_line": 88
+                    },
+                    "element_id": 698,
+                    "indvar": "_18",
+                    "init": "_8",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "1 + _18",
+                                  "_8"
+                                ],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "dst": 459,
+                                "dst_conn": "_in0",
+                                "element_id": 464,
+                                "end_subset": [
+                                  "1 + _18",
+                                  "_8"
+                                ],
+                                "src": 458,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _18",
+                                  "_8"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "1 + _18",
+                                  "_12"
+                                ],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "dst": 459,
+                                "dst_conn": "_in1",
+                                "element_id": 463,
+                                "end_subset": [
+                                  "1 + _18",
+                                  "_12"
+                                ],
+                                "src": 457,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _18",
+                                  "_12"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_8",
+                                  "_12"
+                                ],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "dst": 459,
+                                "dst_conn": "_in2",
+                                "element_id": 462,
+                                "end_subset": [
+                                  "_8",
+                                  "_12"
+                                ],
+                                "src": 456,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_8",
+                                  "_12"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_8",
+                                  "_12"
+                                ],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "dst": 460,
+                                "dst_conn": "void",
+                                "element_id": 461,
+                                "end_subset": [
+                                  "_8",
+                                  "_12"
+                                ],
+                                "src": 459,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_8",
+                                  "_12"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "element_id": 460,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "element_id": 459,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "element_id": 458,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "element_id": 457,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 89,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 89
+                                },
+                                "element_id": 456,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 20,
+                            "end_line": 89,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 20,
+                            "start_line": 89
+                          },
+                          "element_id": 454,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 20,
+                        "end_line": 89,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                        "has": true,
+                        "start_column": 25,
+                        "start_line": 88
+                      },
+                      "element_id": 699,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 20,
+                            "end_line": 89,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 20,
+                            "start_line": 89
+                          },
+                          "element_id": 455,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _18"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_8",
+                            "_12"
+                          ],
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 90
+                          },
+                          "dst": 524,
+                          "dst_conn": "_in1",
+                          "element_id": 526,
+                          "end_subset": [
+                            "_8",
+                            "_12"
+                          ],
+                          "src": 523,
+                          "src_conn": "void",
+                          "subset": [
+                            "_8",
+                            "_12"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_8",
+                            "_12"
+                          ],
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 90
+                          },
+                          "dst": 522,
+                          "dst_conn": "void",
+                          "element_id": 525,
+                          "end_subset": [
+                            "_8",
+                            "_12"
+                          ],
+                          "src": 524,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_8",
+                            "_12"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 90
+                          },
+                          "element_id": 524,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "1.5",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_0",
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 90
+                          },
+                          "element_id": 523,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_0",
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 90
+                          },
+                          "element_id": 522,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 25,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 25,
+                      "start_line": 90
+                    },
+                    "element_id": 520,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 27,
+                  "end_line": 90,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                  "has": true,
+                  "start_column": 30,
+                  "start_line": 87
+                },
+                "element_id": 713,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 25,
+                      "end_line": 88,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 25,
+                      "start_line": 88
+                    },
+                    "element_id": 705,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 25,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                      "has": true,
+                      "start_column": 25,
+                      "start_line": 90
+                    },
+                    "element_id": 521,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _12"
+            }
+          ],
+          "debug_info": {
+            "end_column": 27,
+            "end_line": 90,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+            "has": true,
+            "start_column": 27,
+            "start_line": 86
+          },
+          "element_id": 691,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 27,
+                "end_line": 90,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 87
+              },
+              "element_id": 373,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _8"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 31,
+          "end_line": 40,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+          "has": true,
+          "start_column": 23,
+          "start_line": 34
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 27,
+          "end_line": 90,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/trmm/trmm.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 86
+        },
+        "element_id": 349,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

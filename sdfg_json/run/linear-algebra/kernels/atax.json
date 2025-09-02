@@ -1,0 +1,2104 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3",
+    "_4"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_10": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2200",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_15": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_17": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_20": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_27": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_31": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_56": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_63": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_7": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_70": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_71": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_atax18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_7 < 2200)",
+        "debug_info": {
+          "end_column": 16,
+          "end_line": 35,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 795,
+        "indvar": "_7",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 35
+                    },
+                    "dst": 38,
+                    "dst_conn": "void",
+                    "element_id": 40,
+                    "end_subset": [],
+                    "src": 37,
+                    "src_conn": "__daisy_out",
+                    "subset": []
+                  },
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 35
+                    },
+                    "dst": 37,
+                    "dst_conn": "_in",
+                    "element_id": 39,
+                    "end_subset": [],
+                    "src": 36,
+                    "src_conn": "void",
+                    "subset": []
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_70",
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 35
+                    },
+                    "element_id": 38,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 35
+                    },
+                    "element_id": 37,
+                    "inputs": [
+                      {
+                        "name": "_in",
+                        "type": {
+                          "alignment": 4,
+                          "initializer": "",
+                          "primitive_type": 4,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_7",
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 35
+                    },
+                    "element_id": 36,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 34,
+              "type": "block"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 35
+                    },
+                    "dst": 45,
+                    "dst_conn": "_in1",
+                    "element_id": 47,
+                    "end_subset": [],
+                    "src": 44,
+                    "src_conn": "void",
+                    "subset": []
+                  },
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 35
+                    },
+                    "dst": 43,
+                    "dst_conn": "void",
+                    "element_id": 46,
+                    "end_subset": [],
+                    "src": 45,
+                    "src_conn": "__daisy_out",
+                    "subset": []
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_70",
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 35
+                    },
+                    "element_id": 44,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 5,
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 35
+                    },
+                    "element_id": 45,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "2200.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_71",
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 35
+                    },
+                    "element_id": 43,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 35
+              },
+              "element_id": 41,
+              "type": "block"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [],
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 35
+                    },
+                    "dst": 52,
+                    "dst_conn": "_in1",
+                    "element_id": 54,
+                    "end_subset": [],
+                    "src": 51,
+                    "src_conn": "void",
+                    "subset": []
+                  },
+                  {
+                    "begin_subset": [
+                      "_7"
+                    ],
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 35
+                    },
+                    "dst": 50,
+                    "dst_conn": "void",
+                    "element_id": 53,
+                    "end_subset": [
+                      "_7"
+                    ],
+                    "src": 52,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_7"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_71",
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 35
+                    },
+                    "element_id": 51,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 2,
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 35
+                    },
+                    "element_id": 52,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "1.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_3",
+                    "debug_info": {
+                      "end_column": 16,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 35
+                    },
+                    "element_id": 50,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 16,
+                "start_line": 35
+              },
+              "element_id": 48,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 16,
+            "end_line": 35,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 34
+          },
+          "element_id": 796,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 35,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 35
+              },
+              "element_id": 42,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 16,
+                "start_line": 35
+              },
+              "element_id": 49,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _7"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 102,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 102
+              },
+              "dst": 113,
+              "dst_conn": "refs",
+              "element_id": 114,
+              "end_subset": [
+                "0"
+              ],
+              "src": 112,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_10",
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 102,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 102
+              },
+              "element_id": 113,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 102,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 21,
+                "start_line": 102
+              },
+              "element_id": 112,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 21,
+          "end_line": 102,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 21,
+          "start_line": 102
+        },
+        "element_id": 110,
+        "type": "block"
+      },
+      {
+        "condition": "(_12 < 1800)",
+        "debug_info": {
+          "end_column": 41,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 23,
+          "start_line": 36
+        },
+        "element_id": 797,
+        "indvar": "_12",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_56 < 2200)",
+              "debug_info": {
+                "end_column": 32,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 799,
+              "indvar": "_56",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 759,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "dst": 197,
+                          "dst_conn": "_in1",
+                          "element_id": 199,
+                          "end_subset": [],
+                          "src": 195,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_12",
+                            "_56"
+                          ],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "dst": 196,
+                          "dst_conn": "void",
+                          "element_id": 198,
+                          "end_subset": [
+                            "_12",
+                            "_56"
+                          ],
+                          "src": 197,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_12",
+                            "_56"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 197,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "9000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_10",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 196,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_63",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 195,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 38
+                    },
+                    "element_id": 193,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 32,
+                  "end_line": 38,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 37
+                },
+                "element_id": 800,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_12 + _56, 2200)",
+                        "symbol": "_63"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 760,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 38
+                    },
+                    "element_id": 194,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _56"
+            }
+          ],
+          "debug_info": {
+            "end_column": 41,
+            "end_line": 38,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+            "has": true,
+            "start_column": 23,
+            "start_line": 36
+          },
+          "element_id": 798,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 32,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 160,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _12"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 779,
+              "dst_conn": "void",
+              "element_id": 780,
+              "end_subset": [
+                "0"
+              ],
+              "src": 301,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 111,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 111
+              },
+              "dst": 301,
+              "dst_conn": "refs",
+              "element_id": 302,
+              "end_subset": [
+                "0"
+              ],
+              "src": 300,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_4",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 779,
+              "type": "access_node"
+            },
+            {
+              "data": "_15",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 111,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 111
+              },
+              "element_id": 301,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 111,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 111
+              },
+              "element_id": 300,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 111,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 111
+        },
+        "element_id": 298,
+        "type": "block"
+      },
+      {
+        "condition": "(_17 < 2200)",
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 75,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 74
+        },
+        "element_id": 801,
+        "indvar": "_17",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_17"
+                    ],
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 75
+                    },
+                    "dst": 352,
+                    "dst_conn": "void",
+                    "element_id": 353,
+                    "end_subset": [
+                      "_17"
+                    ],
+                    "src": 351,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_17"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_15",
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 75
+                    },
+                    "element_id": 352,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 75
+                    },
+                    "element_id": 351,
+                    "inputs": [
+                      {
+                        "name": "0.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 75,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 10,
+                "start_line": 75
+              },
+              "element_id": 349,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 5,
+            "end_line": 75,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+            "has": true,
+            "start_column": 27,
+            "start_line": 74
+          },
+          "element_id": 802,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 75,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 10,
+                "start_line": 75
+              },
+              "element_id": 350,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _17"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 112
+              },
+              "dst": 400,
+              "dst_conn": "refs",
+              "element_id": 401,
+              "end_subset": [
+                "0"
+              ],
+              "src": 399,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_20",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 112
+              },
+              "element_id": 400,
+              "type": "access_node"
+            },
+            {
+              "data": "_2",
+              "debug_info": {
+                "end_column": 9,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 9,
+                "start_line": 112
+              },
+              "element_id": 399,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 112,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 112
+        },
+        "element_id": 397,
+        "type": "block"
+      },
+      {
+        "condition": "(_22 < 1800)",
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 82,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 76
+        },
+        "element_id": 787,
+        "indvar": "_22",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_22"
+                    ],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "dst": 434,
+                    "dst_conn": "void",
+                    "element_id": 435,
+                    "end_subset": [
+                      "_22"
+                    ],
+                    "src": 433,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_22"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_20",
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 434,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 78
+                    },
+                    "element_id": 433,
+                    "inputs": [
+                      {
+                        "name": "0.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 14,
+                "end_line": 78,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 14,
+                "start_line": 78
+              },
+              "element_id": 431,
+              "type": "block"
+            },
+            {
+              "condition": "(_27 < 2200)",
+              "debug_info": {
+                "end_column": 18,
+                "end_line": 80,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 79
+              },
+              "element_id": 791,
+              "indvar": "_27",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_22",
+                            "_27"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "dst": 498,
+                          "dst_conn": "_in0",
+                          "element_id": 503,
+                          "end_subset": [
+                            "_22",
+                            "_27"
+                          ],
+                          "src": 497,
+                          "src_conn": "void",
+                          "subset": [
+                            "_22",
+                            "_27"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_27"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "dst": 498,
+                          "dst_conn": "_in1",
+                          "element_id": 502,
+                          "end_subset": [
+                            "_27"
+                          ],
+                          "src": 496,
+                          "src_conn": "void",
+                          "subset": [
+                            "_27"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "dst": 498,
+                          "dst_conn": "_in2",
+                          "element_id": 501,
+                          "end_subset": [
+                            "_22"
+                          ],
+                          "src": 495,
+                          "src_conn": "void",
+                          "subset": [
+                            "_22"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "dst": 499,
+                          "dst_conn": "void",
+                          "element_id": 500,
+                          "end_subset": [
+                            "_22"
+                          ],
+                          "src": 498,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_22"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_20",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "element_id": 499,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "element_id": 498,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_10",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "element_id": 497,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "element_id": 496,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_20",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 80,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 80
+                          },
+                          "element_id": 495,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 80,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 80
+                    },
+                    "element_id": 493,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 18,
+                  "end_line": 80,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                  "has": true,
+                  "start_column": 31,
+                  "start_line": 79
+                },
+                "element_id": 792,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 80,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 80
+                    },
+                    "element_id": 494,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _27"
+            },
+            {
+              "condition": "(_31 < 2200)",
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 82,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 81
+              },
+              "element_id": 803,
+              "indvar": "_31",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_22",
+                            "_31"
+                          ],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "dst": 614,
+                          "dst_conn": "_in0",
+                          "element_id": 619,
+                          "end_subset": [
+                            "_22",
+                            "_31"
+                          ],
+                          "src": 613,
+                          "src_conn": "void",
+                          "subset": [
+                            "_22",
+                            "_31"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "dst": 614,
+                          "dst_conn": "_in1",
+                          "element_id": 618,
+                          "end_subset": [
+                            "_22"
+                          ],
+                          "src": 612,
+                          "src_conn": "void",
+                          "subset": [
+                            "_22"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_31"
+                          ],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "dst": 614,
+                          "dst_conn": "_in2",
+                          "element_id": 617,
+                          "end_subset": [
+                            "_31"
+                          ],
+                          "src": 611,
+                          "src_conn": "void",
+                          "subset": [
+                            "_31"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_31"
+                          ],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "dst": 615,
+                          "dst_conn": "void",
+                          "element_id": 616,
+                          "end_subset": [
+                            "_31"
+                          ],
+                          "src": 614,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_31"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_15",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "element_id": 615,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "element_id": 614,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_10",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "element_id": 613,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_20",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "element_id": 612,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_15",
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 82,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 82
+                          },
+                          "element_id": 611,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 82,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 82
+                    },
+                    "element_id": 609,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 16,
+                  "end_line": 82,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                  "has": true,
+                  "start_column": 31,
+                  "start_line": 81
+                },
+                "element_id": 804,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 82,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                      "has": true,
+                      "start_column": 14,
+                      "start_line": 82
+                    },
+                    "element_id": 610,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _31"
+            }
+          ],
+          "debug_info": {
+            "end_column": 9,
+            "end_line": 82,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 76
+          },
+          "element_id": 788,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 14,
+                "end_line": 78,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 14,
+                "start_line": 78
+              },
+              "element_id": 432,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 18,
+                "end_line": 80,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 79
+              },
+              "element_id": 459,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 82,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 81
+              },
+              "element_id": 575,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _22"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 16,
+          "end_line": 35,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 21,
+          "end_line": 102,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 21,
+          "start_line": 102
+        },
+        "element_id": 111,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 41,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 23,
+          "start_line": 36
+        },
+        "element_id": 136,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 111,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 111
+        },
+        "element_id": 299,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 75,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 27,
+          "start_line": 74
+        },
+        "element_id": 341,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 112,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 9,
+          "start_line": 112
+        },
+        "element_id": 398,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 9,
+          "end_line": 82,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/atax/atax.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 76
+        },
+        "element_id": 423,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

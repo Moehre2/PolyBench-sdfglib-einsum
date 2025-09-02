@@ -1,0 +1,1836 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_12": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2300",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_14": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_18": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2300",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_26": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_32": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_39": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_53": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_61": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_68": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_76": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_82": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_9": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_90": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_gemm18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_5 < 2000)",
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 39,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 1050,
+        "indvar": "_5",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_82 < 2300)",
+              "debug_info": {
+                "end_column": 38,
+                "end_line": 39,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 1052,
+              "indvar": "_82",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 976,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 39
+                          },
+                          "dst": 92,
+                          "dst_conn": "_in1",
+                          "element_id": 94,
+                          "end_subset": [],
+                          "src": 91,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_5",
+                            "_82"
+                          ],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 39
+                          },
+                          "dst": 90,
+                          "dst_conn": "void",
+                          "element_id": 93,
+                          "end_subset": [
+                            "_5",
+                            "_82"
+                          ],
+                          "src": 92,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_5",
+                            "_82"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_90",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 39
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 39
+                          },
+                          "element_id": 92,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 39
+                          },
+                          "element_id": 90,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 39
+                    },
+                    "element_id": 88,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 38,
+                  "end_line": 39,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 38
+                },
+                "element_id": 1053,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(1 + _5*_82, 2000)",
+                        "symbol": "_90"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 977,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 39
+                    },
+                    "element_id": 89,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _82"
+            }
+          ],
+          "debug_info": {
+            "end_column": 17,
+            "end_line": 39,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 37
+          },
+          "element_id": 1051,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 38,
+                "end_line": 39,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _5"
+      },
+      {
+        "condition": "(_9 < 2000)",
+        "debug_info": {
+          "end_column": 34,
+          "end_line": 42,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 40
+        },
+        "element_id": 1054,
+        "indvar": "_9",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_68 < 2600)",
+              "debug_info": {
+                "end_column": 44,
+                "end_line": 42,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 41
+              },
+              "element_id": 1056,
+              "indvar": "_68",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 990,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "dst": 282,
+                          "dst_conn": "_in1",
+                          "element_id": 284,
+                          "end_subset": [],
+                          "src": 281,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_9",
+                            "_68"
+                          ],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "dst": 280,
+                          "dst_conn": "void",
+                          "element_id": 283,
+                          "end_subset": [
+                            "_9",
+                            "_68"
+                          ],
+                          "src": 282,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_9",
+                            "_68"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 282,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2600.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_76",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 281,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 280,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 42
+                    },
+                    "element_id": 278,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 44,
+                  "end_line": 42,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 41
+                },
+                "element_id": 1057,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_9*(1 + _68), 2600)",
+                        "symbol": "_76"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 991,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 42
+                    },
+                    "element_id": 279,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _68"
+            }
+          ],
+          "debug_info": {
+            "end_column": 34,
+            "end_line": 42,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+            "has": true,
+            "start_column": 24,
+            "start_line": 40
+          },
+          "element_id": 1055,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 44,
+                "end_line": 42,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 41
+              },
+              "element_id": 238,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _9"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 120,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 120
+              },
+              "dst": 379,
+              "dst_conn": "refs",
+              "element_id": 380,
+              "end_subset": [
+                "0"
+              ],
+              "src": 378,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_12",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 120,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 120
+              },
+              "element_id": 379,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 120,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 120
+              },
+              "element_id": 378,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 120,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 120
+        },
+        "element_id": 376,
+        "type": "block"
+      },
+      {
+        "condition": "(_14 < 2600)",
+        "debug_info": {
+          "end_column": 31,
+          "end_line": 45,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 43
+        },
+        "element_id": 1058,
+        "indvar": "_14",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_53 < 2300)",
+              "debug_info": {
+                "end_column": 34,
+                "end_line": 45,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 44
+              },
+              "element_id": 1060,
+              "indvar": "_53",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1002,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 45
+                          },
+                          "dst": 470,
+                          "dst_conn": "_in1",
+                          "element_id": 472,
+                          "end_subset": [],
+                          "src": 469,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_14",
+                            "_53"
+                          ],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 45
+                          },
+                          "dst": 468,
+                          "dst_conn": "void",
+                          "element_id": 471,
+                          "end_subset": [
+                            "_14",
+                            "_53"
+                          ],
+                          "src": 470,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_14",
+                            "_53"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 45
+                          },
+                          "element_id": 470,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2300.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_61",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 45
+                          },
+                          "element_id": 469,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_12",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 45
+                          },
+                          "element_id": 468,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 45,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 45
+                    },
+                    "element_id": 466,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 34,
+                  "end_line": 45,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 44
+                },
+                "element_id": 1061,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_14*(2 + _53), 2300)",
+                        "symbol": "_61"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1003,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 45,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 45
+                    },
+                    "element_id": 467,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _53"
+            }
+          ],
+          "debug_info": {
+            "end_column": 31,
+            "end_line": 45,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+            "has": true,
+            "start_column": 24,
+            "start_line": 43
+          },
+          "element_id": 1059,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 34,
+                "end_line": 45,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 44
+              },
+              "element_id": 426,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _14"
+      },
+      {
+        "condition": "(_18 < 2000)",
+        "debug_info": {
+          "end_column": 21,
+          "end_line": 94,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 89
+        },
+        "element_id": 1062,
+        "indvar": "_18",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_22 < 2300)",
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 91,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 90
+              },
+              "element_id": 1064,
+              "indvar": "_22",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_18",
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 91
+                          },
+                          "dst": 635,
+                          "dst_conn": "_in1",
+                          "element_id": 637,
+                          "end_subset": [
+                            "_18",
+                            "_22"
+                          ],
+                          "src": 634,
+                          "src_conn": "void",
+                          "subset": [
+                            "_18",
+                            "_22"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_18",
+                            "_22"
+                          ],
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 91
+                          },
+                          "dst": 633,
+                          "dst_conn": "void",
+                          "element_id": 636,
+                          "end_subset": [
+                            "_18",
+                            "_22"
+                          ],
+                          "src": 635,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_18",
+                            "_22"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 91
+                          },
+                          "element_id": 635,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "1.2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 91
+                          },
+                          "element_id": 634,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 91
+                          },
+                          "element_id": 633,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 91
+                    },
+                    "element_id": 631,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 10,
+                  "end_line": 91,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 90
+                },
+                "element_id": 1065,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 91
+                    },
+                    "element_id": 632,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _22"
+            },
+            {
+              "condition": "(_26 < 2600)",
+              "debug_info": {
+                "end_column": 23,
+                "end_line": 94,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 92
+              },
+              "element_id": 1046,
+              "indvar": "_26",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_32 < 2300)",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 94,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 22,
+                      "start_line": 93
+                    },
+                    "element_id": 1066,
+                    "indvar": "_32",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_18",
+                                  "_26"
+                                ],
+                                "debug_info": {
+                                  "end_column": 21,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 21,
+                                  "start_line": 94
+                                },
+                                "dst": 752,
+                                "dst_conn": "_in1",
+                                "element_id": 754,
+                                "end_subset": [
+                                  "_18",
+                                  "_26"
+                                ],
+                                "src": 751,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_18",
+                                  "_26"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 21,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 21,
+                                  "start_line": 94
+                                },
+                                "dst": 750,
+                                "dst_conn": "void",
+                                "element_id": 753,
+                                "end_subset": [],
+                                "src": 752,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 21,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 21,
+                                  "start_line": 94
+                                },
+                                "element_id": 752,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "1.5",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 21,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 21,
+                                  "start_line": 94
+                                },
+                                "element_id": 751,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_39",
+                                "debug_info": {
+                                  "end_column": 21,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 21,
+                                  "start_line": 94
+                                },
+                                "element_id": 750,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 94
+                          },
+                          "element_id": 748,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 784,
+                                "dst_conn": "_in0",
+                                "element_id": 789,
+                                "end_subset": [],
+                                "src": 783,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_26",
+                                  "_32"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 784,
+                                "dst_conn": "_in1",
+                                "element_id": 788,
+                                "end_subset": [
+                                  "_26",
+                                  "_32"
+                                ],
+                                "src": 782,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_26",
+                                  "_32"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_18",
+                                  "_32"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 785,
+                                "dst_conn": "void",
+                                "element_id": 787,
+                                "end_subset": [
+                                  "_18",
+                                  "_32"
+                                ],
+                                "src": 784,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_18",
+                                  "_32"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_18",
+                                  "_32"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 784,
+                                "dst_conn": "_in2",
+                                "element_id": 786,
+                                "end_subset": [
+                                  "_18",
+                                  "_32"
+                                ],
+                                "src": 781,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_18",
+                                  "_32"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 784,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_39",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 783,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_12",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 782,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 785,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 781,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 94
+                          },
+                          "element_id": 779,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 12,
+                        "end_line": 94,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                        "has": true,
+                        "start_column": 22,
+                        "start_line": 93
+                      },
+                      "element_id": 1067,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 94
+                          },
+                          "element_id": 749,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 94
+                          },
+                          "element_id": 780,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _32"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 23,
+                  "end_line": 94,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                  "has": true,
+                  "start_column": 30,
+                  "start_line": 92
+                },
+                "element_id": 1047,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 94,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                      "has": true,
+                      "start_column": 22,
+                      "start_line": 93
+                    },
+                    "element_id": 733,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _26"
+            }
+          ],
+          "debug_info": {
+            "end_column": 21,
+            "end_line": 94,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+            "has": true,
+            "start_column": 28,
+            "start_line": 89
+          },
+          "element_id": 1063,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 10,
+                "end_line": 91,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 90
+              },
+              "element_id": 616,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 23,
+                "end_line": 94,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 92
+              },
+              "element_id": 709,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _18"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 39,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 34,
+          "end_line": 42,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 40
+        },
+        "element_id": 214,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 120,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 120
+        },
+        "element_id": 377,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 31,
+          "end_line": 45,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 43
+        },
+        "element_id": 402,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 21,
+          "end_line": 94,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/gemm/gemm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 89
+        },
+        "element_id": 592,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

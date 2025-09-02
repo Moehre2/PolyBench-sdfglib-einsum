@@ -1,0 +1,2836 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_11": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_15": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_18": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_20": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_24": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "2600",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_31": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_35": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_48": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_6": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_62": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_76": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_82": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_84": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_85": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_9": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_covariance18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_6 < 3000)",
+        "debug_info": {
+          "end_column": 18,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 1005,
+        "indvar": "_6",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_76 < 2600)",
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 1007,
+              "indvar": "_76",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 36
+                          },
+                          "dst": 62,
+                          "dst_conn": "void",
+                          "element_id": 64,
+                          "end_subset": [],
+                          "src": 61,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 36
+                          },
+                          "dst": 61,
+                          "dst_conn": "_in",
+                          "element_id": 63,
+                          "end_subset": [],
+                          "src": 60,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 36
+                          },
+                          "element_id": 62,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 36
+                          },
+                          "element_id": 61,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_6",
+                          "debug_info": {
+                            "end_column": 21,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 21,
+                            "start_line": 36
+                          },
+                          "element_id": 60,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 36
+                    },
+                    "element_id": 58,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 36
+                          },
+                          "dst": 76,
+                          "dst_conn": "void",
+                          "element_id": 78,
+                          "end_subset": [],
+                          "src": 75,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 36
+                          },
+                          "dst": 75,
+                          "dst_conn": "_in",
+                          "element_id": 77,
+                          "end_subset": [],
+                          "src": 74,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_84",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 36
+                          },
+                          "element_id": 76,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 36
+                          },
+                          "element_id": 75,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_76",
+                          "debug_info": {
+                            "end_column": 35,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 35,
+                            "start_line": 36
+                          },
+                          "element_id": 74,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 36
+                    },
+                    "element_id": 72,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "dst": 84,
+                          "dst_conn": "_in1",
+                          "element_id": 87,
+                          "end_subset": [],
+                          "src": 83,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "dst": 84,
+                          "dst_conn": "_in2",
+                          "element_id": 86,
+                          "end_subset": [],
+                          "src": 82,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "dst": 81,
+                          "dst_conn": "void",
+                          "element_id": 85,
+                          "end_subset": [],
+                          "src": 84,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "element_id": 84,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_84",
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "element_id": 82,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "element_id": 83,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_85",
+                          "debug_info": {
+                            "end_column": 34,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 34,
+                            "start_line": 36
+                          },
+                          "element_id": 81,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 34,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 34,
+                      "start_line": 36
+                    },
+                    "element_id": 79,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "dst": 92,
+                          "dst_conn": "_in1",
+                          "element_id": 94,
+                          "end_subset": [],
+                          "src": 91,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_6",
+                            "_76"
+                          ],
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "dst": 90,
+                          "dst_conn": "void",
+                          "element_id": 93,
+                          "end_subset": [
+                            "_6",
+                            "_76"
+                          ],
+                          "src": 92,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_6",
+                            "_76"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 92,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2600.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_85",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 36
+                          },
+                          "element_id": 90,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 36
+                    },
+                    "element_id": 88,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 21,
+                  "end_line": 36,
+                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 35
+                },
+                "element_id": 1008,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 36
+                    },
+                    "element_id": 59,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 35,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 35,
+                      "start_line": 36
+                    },
+                    "element_id": 73,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 34,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 34,
+                      "start_line": 36
+                    },
+                    "element_id": 80,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 36
+                    },
+                    "element_id": 89,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _76"
+            }
+          ],
+          "debug_info": {
+            "end_column": 18,
+            "end_line": 36,
+            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 34
+          },
+          "element_id": 1006,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 21,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _6"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 122,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 122
+              },
+              "dst": 198,
+              "dst_conn": "refs",
+              "element_id": 199,
+              "end_subset": [
+                "0"
+              ],
+              "src": 197,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_9",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 122,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 122
+              },
+              "element_id": 198,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 122,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 122
+              },
+              "element_id": 197,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 122,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 122
+        },
+        "element_id": 195,
+        "type": "block"
+      },
+      {
+        "condition": "(_11 < 2600)",
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 78,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 73
+        },
+        "element_id": 1009,
+        "indvar": "_11",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_11"
+                    ],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 75
+                    },
+                    "dst": 244,
+                    "dst_conn": "void",
+                    "element_id": 245,
+                    "end_subset": [
+                      "_11"
+                    ],
+                    "src": 243,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_11"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "data": "_9",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 75
+                    },
+                    "element_id": 244,
+                    "type": "access_node"
+                  },
+                  {
+                    "code": 0,
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 75,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 75
+                    },
+                    "element_id": 243,
+                    "inputs": [
+                      {
+                        "name": "0.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 75,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 75
+              },
+              "element_id": 241,
+              "type": "block"
+            },
+            {
+              "condition": "(_62 < 3000)",
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 77,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 76
+              },
+              "element_id": 994,
+              "indvar": "_62",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_62",
+                            "_11"
+                          ],
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "dst": 296,
+                          "dst_conn": "_in1",
+                          "element_id": 299,
+                          "end_subset": [
+                            "_62",
+                            "_11"
+                          ],
+                          "src": 295,
+                          "src_conn": "void",
+                          "subset": [
+                            "_62",
+                            "_11"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_11"
+                          ],
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "dst": 296,
+                          "dst_conn": "_in2",
+                          "element_id": 298,
+                          "end_subset": [
+                            "_11"
+                          ],
+                          "src": 294,
+                          "src_conn": "void",
+                          "subset": [
+                            "_11"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_11"
+                          ],
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "dst": 293,
+                          "dst_conn": "void",
+                          "element_id": 297,
+                          "end_subset": [
+                            "_11"
+                          ],
+                          "src": 296,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_11"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 2,
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "element_id": 296,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "element_id": 295,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "element_id": 294,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 17,
+                            "end_line": 77,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 17,
+                            "start_line": 77
+                          },
+                          "element_id": 293,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 77,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 77
+                    },
+                    "element_id": 291,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 17,
+                  "end_line": 77,
+                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                  "has": true,
+                  "start_column": 31,
+                  "start_line": 76
+                },
+                "element_id": 995,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 17,
+                      "end_line": 77,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 17,
+                      "start_line": 77
+                    },
+                    "element_id": 292,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _62"
+            },
+            {
+              "dataflow": {
+                "edges": [
+                  {
+                    "begin_subset": [
+                      "_11"
+                    ],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 78
+                    },
+                    "dst": 361,
+                    "dst_conn": "_in1",
+                    "element_id": 363,
+                    "end_subset": [
+                      "_11"
+                    ],
+                    "src": 360,
+                    "src_conn": "void",
+                    "subset": [
+                      "_11"
+                    ]
+                  },
+                  {
+                    "begin_subset": [
+                      "_11"
+                    ],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 78
+                    },
+                    "dst": 359,
+                    "dst_conn": "void",
+                    "element_id": 362,
+                    "end_subset": [
+                      "_11"
+                    ],
+                    "src": 361,
+                    "src_conn": "__daisy_out",
+                    "subset": [
+                      "_11"
+                    ]
+                  }
+                ],
+                "nodes": [
+                  {
+                    "code": 5,
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 78
+                    },
+                    "element_id": 361,
+                    "inputs": [
+                      {
+                        "name": "_in1",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      },
+                      {
+                        "name": "3000.0",
+                        "type": {
+                          "alignment": 8,
+                          "initializer": "",
+                          "primitive_type": 15,
+                          "storage_type": "CPU_Stack",
+                          "type": "scalar"
+                        }
+                      }
+                    ],
+                    "output": {
+                      "name": "__daisy_out",
+                      "type": {
+                        "alignment": 8,
+                        "initializer": "",
+                        "primitive_type": 15,
+                        "storage_type": "CPU_Stack",
+                        "type": "scalar"
+                      }
+                    },
+                    "type": "tasklet"
+                  },
+                  {
+                    "data": "_9",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 78
+                    },
+                    "element_id": 360,
+                    "type": "access_node"
+                  },
+                  {
+                    "data": "_9",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 78
+                    },
+                    "element_id": 359,
+                    "type": "access_node"
+                  }
+                ],
+                "type": "dataflow"
+              },
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 78,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 78
+              },
+              "element_id": 357,
+              "type": "block"
+            }
+          ],
+          "debug_info": {
+            "end_column": 15,
+            "end_line": 78,
+            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 73
+          },
+          "element_id": 1010,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 75,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 75
+              },
+              "element_id": 242,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 77,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 31,
+                "start_line": 76
+              },
+              "element_id": 269,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 78,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 15,
+                "start_line": 78
+              },
+              "element_id": 358,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _11"
+      },
+      {
+        "condition": "(_15 < 3000)",
+        "debug_info": {
+          "end_column": 18,
+          "end_line": 83,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 81
+        },
+        "element_id": 1011,
+        "indvar": "_15",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_48 < 2600)",
+              "debug_info": {
+                "end_column": 18,
+                "end_line": 83,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 82
+              },
+              "element_id": 1013,
+              "indvar": "_48",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_15",
+                            "_48"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "dst": 491,
+                          "dst_conn": "_in1",
+                          "element_id": 494,
+                          "end_subset": [
+                            "_15",
+                            "_48"
+                          ],
+                          "src": 490,
+                          "src_conn": "void",
+                          "subset": [
+                            "_15",
+                            "_48"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_48"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "dst": 491,
+                          "dst_conn": "_in2",
+                          "element_id": 493,
+                          "end_subset": [
+                            "_48"
+                          ],
+                          "src": 489,
+                          "src_conn": "void",
+                          "subset": [
+                            "_48"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_15",
+                            "_48"
+                          ],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "dst": 488,
+                          "dst_conn": "void",
+                          "element_id": 492,
+                          "end_subset": [
+                            "_15",
+                            "_48"
+                          ],
+                          "src": 491,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_15",
+                            "_48"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 3,
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "element_id": 491,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "element_id": 490,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "element_id": 489,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 83,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 83
+                          },
+                          "element_id": 488,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 83,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 83
+                    },
+                    "element_id": 486,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 18,
+                  "end_line": 83,
+                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 82
+                },
+                "element_id": 1014,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 83,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 83
+                    },
+                    "element_id": 487,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _48"
+            }
+          ],
+          "debug_info": {
+            "end_column": 18,
+            "end_line": 83,
+            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 81
+          },
+          "element_id": 1012,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 18,
+                "end_line": 83,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 82
+              },
+              "element_id": 459,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _15"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 982,
+              "dst_conn": "void",
+              "element_id": 983,
+              "end_subset": [
+                "0"
+              ],
+              "src": 591,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 121,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 121
+              },
+              "dst": 591,
+              "dst_conn": "refs",
+              "element_id": 592,
+              "end_subset": [
+                "0"
+              ],
+              "src": 590,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_3",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 982,
+              "type": "access_node"
+            },
+            {
+              "data": "_18",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 121,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 121
+              },
+              "element_id": 591,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 121,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 121
+              },
+              "element_id": 590,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 121,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 121
+        },
+        "element_id": 588,
+        "type": "block"
+      },
+      {
+        "condition": "(_20 < 2600)",
+        "debug_info": {
+          "end_column": 19,
+          "end_line": 92,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 85
+        },
+        "element_id": 1015,
+        "indvar": "_20",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_24 < 2600)",
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 92,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 86
+              },
+              "element_id": 1017,
+              "indvar": "_24",
+              "init": "_20",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 88
+                          },
+                          "dst": 663,
+                          "dst_conn": "void",
+                          "element_id": 664,
+                          "end_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "src": 662,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_20",
+                            "_24"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_18",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 88
+                          },
+                          "element_id": 663,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 88
+                          },
+                          "element_id": 662,
+                          "inputs": [
+                            {
+                              "name": "0.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 88,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 88
+                    },
+                    "element_id": 660,
+                    "type": "block"
+                  },
+                  {
+                    "condition": "(_31 < 3000)",
+                    "debug_info": {
+                      "end_column": 30,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 23,
+                      "start_line": 89
+                    },
+                    "element_id": 1000,
+                    "indvar": "_31",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_31",
+                                  "_20"
+                                ],
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "dst": 727,
+                                "dst_conn": "_in0",
+                                "element_id": 732,
+                                "end_subset": [
+                                  "_31",
+                                  "_20"
+                                ],
+                                "src": 726,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_31",
+                                  "_20"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "dst": 727,
+                                "dst_conn": "_in1",
+                                "element_id": 731,
+                                "end_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "src": 725,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_31",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_20",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "dst": 727,
+                                "dst_conn": "_in2",
+                                "element_id": 730,
+                                "end_subset": [
+                                  "_20",
+                                  "_24"
+                                ],
+                                "src": 724,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_20",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_20",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "dst": 728,
+                                "dst_conn": "void",
+                                "element_id": 729,
+                                "end_subset": [
+                                  "_20",
+                                  "_24"
+                                ],
+                                "src": 727,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_20",
+                                  "_24"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_18",
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "element_id": 728,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "element_id": 727,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "element_id": 726,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "element_id": 725,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_18",
+                                "debug_info": {
+                                  "end_column": 14,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                                  "has": true,
+                                  "start_column": 14,
+                                  "start_line": 90
+                                },
+                                "element_id": 724,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 90
+                          },
+                          "element_id": 722,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 30,
+                        "end_line": 90,
+                        "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                        "has": true,
+                        "start_column": 23,
+                        "start_line": 89
+                      },
+                      "element_id": 1001,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 14,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 14,
+                            "start_line": 90
+                          },
+                          "element_id": 723,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _31"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "dst": 794,
+                          "dst_conn": "_in1",
+                          "element_id": 796,
+                          "end_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "src": 793,
+                          "src_conn": "void",
+                          "subset": [
+                            "_20",
+                            "_24"
+                          ]
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "dst": 792,
+                          "dst_conn": "void",
+                          "element_id": 795,
+                          "end_subset": [],
+                          "src": 794,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 794,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2999.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_18",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 793,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_35",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 792,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 91
+                    },
+                    "element_id": 790,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "dst": 800,
+                          "dst_conn": "_in",
+                          "element_id": 803,
+                          "end_subset": [],
+                          "src": 799,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "dst": 801,
+                          "dst_conn": "void",
+                          "element_id": 802,
+                          "end_subset": [
+                            "_20",
+                            "_24"
+                          ],
+                          "src": 800,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_20",
+                            "_24"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_18",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 801,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 800,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_35",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 91,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 91
+                          },
+                          "element_id": 799,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 91
+                    },
+                    "element_id": 797,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 92,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 92
+                          },
+                          "dst": 811,
+                          "dst_conn": "_in",
+                          "element_id": 815,
+                          "end_subset": [],
+                          "src": 812,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_24",
+                            "_20"
+                          ],
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 92,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 92
+                          },
+                          "dst": 813,
+                          "dst_conn": "void",
+                          "element_id": 814,
+                          "end_subset": [
+                            "_24",
+                            "_20"
+                          ],
+                          "src": 811,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_24",
+                            "_20"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_18",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 92,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 92
+                          },
+                          "element_id": 813,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_35",
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 92,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 92
+                          },
+                          "element_id": 812,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 19,
+                            "end_line": 92,
+                            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                            "has": true,
+                            "start_column": 19,
+                            "start_line": 92
+                          },
+                          "element_id": 811,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 92,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 92
+                    },
+                    "element_id": 809,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 19,
+                  "end_line": 92,
+                  "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 86
+                },
+                "element_id": 1018,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 88,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 88
+                    },
+                    "element_id": 661,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 30,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 23,
+                      "start_line": 89
+                    },
+                    "element_id": 688,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 91
+                    },
+                    "element_id": 791,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 91,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 91
+                    },
+                    "element_id": 798,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 19,
+                      "end_line": 92,
+                      "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                      "has": true,
+                      "start_column": 19,
+                      "start_line": 92
+                    },
+                    "element_id": 810,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _24"
+            }
+          ],
+          "debug_info": {
+            "end_column": 19,
+            "end_line": 92,
+            "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 85
+          },
+          "element_id": 1016,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 86,
+                "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 86
+              },
+              "element_id": 1004,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _20"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 18,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 122,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 122
+        },
+        "element_id": 196,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 78,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 73
+        },
+        "element_id": 233,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 18,
+          "end_line": 83,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 81
+        },
+        "element_id": 435,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 121,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 121
+        },
+        "element_id": 589,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 19,
+          "end_line": 92,
+          "filename": "/home/github/docc/tests/polybench/datamining/covariance/covariance.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 85
+        },
+        "element_id": 619,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

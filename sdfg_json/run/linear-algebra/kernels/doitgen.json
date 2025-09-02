@@ -1,0 +1,1687 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_10": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_13": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "primitive_type": 15,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_15": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_19": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "270",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "initializer": "",
+        "num_elements": "220",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_25": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_29": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_41": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_55": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_62": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_69": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_75": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_8": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "270",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_83": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_doitgen18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_5 < 250)",
+        "debug_info": {
+          "end_column": 30,
+          "end_line": 35,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 32
+        },
+        "element_id": 1003,
+        "indvar": "_5",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_69 < 220)",
+              "debug_info": {
+                "end_column": 42,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 33
+              },
+              "element_id": 1005,
+              "indvar": "_69",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_75 < 270)",
+                    "debug_info": {
+                      "end_column": 42,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 34
+                    },
+                    "element_id": 1007,
+                    "indvar": "_75",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [],
+                            "nodes": [],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 0,
+                            "end_line": 0,
+                            "filename": "",
+                            "has": false,
+                            "start_column": 0,
+                            "start_line": 0
+                          },
+                          "element_id": 955,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 42,
+                                  "end_line": 35,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 42,
+                                  "start_line": 35
+                                },
+                                "dst": 118,
+                                "dst_conn": "_in1",
+                                "element_id": 120,
+                                "end_subset": [],
+                                "src": 117,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_5",
+                                  "_69",
+                                  "_75"
+                                ],
+                                "debug_info": {
+                                  "end_column": 42,
+                                  "end_line": 35,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 42,
+                                  "start_line": 35
+                                },
+                                "dst": 116,
+                                "dst_conn": "void",
+                                "element_id": 119,
+                                "end_subset": [
+                                  "_5",
+                                  "_69",
+                                  "_75"
+                                ],
+                                "src": 118,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_5",
+                                  "_69",
+                                  "_75"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 5,
+                                "debug_info": {
+                                  "end_column": 42,
+                                  "end_line": 35,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 42,
+                                  "start_line": 35
+                                },
+                                "element_id": 118,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "270.0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_83",
+                                "debug_info": {
+                                  "end_column": 42,
+                                  "end_line": 35,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 42,
+                                  "start_line": 35
+                                },
+                                "element_id": 117,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 42,
+                                  "end_line": 35,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 42,
+                                  "start_line": 35
+                                },
+                                "element_id": 116,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 35
+                          },
+                          "element_id": 114,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 42,
+                        "end_line": 35,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                        "has": true,
+                        "start_column": 21,
+                        "start_line": 34
+                      },
+                      "element_id": 1008,
+                      "transitions": [
+                        {
+                          "assignments": [
+                            {
+                              "expression": "imod(_75 + _5*_69, 270)",
+                              "symbol": "_83"
+                            }
+                          ],
+                          "debug_info": {
+                            "end_column": 0,
+                            "end_line": 0,
+                            "filename": "",
+                            "has": false,
+                            "start_column": 0,
+                            "start_line": 0
+                          },
+                          "element_id": 956,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 42,
+                            "end_line": 35,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 42,
+                            "start_line": 35
+                          },
+                          "element_id": 115,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _75"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 42,
+                  "end_line": 35,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 33
+                },
+                "element_id": 1006,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 42,
+                      "end_line": 35,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 34
+                    },
+                    "element_id": 72,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _69"
+            }
+          ],
+          "debug_info": {
+            "end_column": 30,
+            "end_line": 35,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 32
+          },
+          "element_id": 1004,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 42,
+                "end_line": 35,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 33
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _5"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 103,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 103
+              },
+              "dst": 265,
+              "dst_conn": "refs",
+              "element_id": 266,
+              "end_subset": [
+                "0"
+              ],
+              "src": 264,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_8",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 103,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 103
+              },
+              "element_id": 265,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 103,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 103
+              },
+              "element_id": 264,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 103,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 103
+        },
+        "element_id": 262,
+        "type": "block"
+      },
+      {
+        "condition": "(_10 < 270)",
+        "debug_info": {
+          "end_column": 32,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 36
+        },
+        "element_id": 1009,
+        "indvar": "_10",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_55 < 270)",
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 1011,
+              "indvar": "_55",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 931,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "dst": 349,
+                          "dst_conn": "_in1",
+                          "element_id": 351,
+                          "end_subset": [],
+                          "src": 348,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_10",
+                            "_55"
+                          ],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "dst": 347,
+                          "dst_conn": "void",
+                          "element_id": 350,
+                          "end_subset": [
+                            "_10",
+                            "_55"
+                          ],
+                          "src": 349,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_10",
+                            "_55"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 349,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "270.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_62",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 348,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_8",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 38,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 38
+                          },
+                          "element_id": 347,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 38
+                    },
+                    "element_id": 345,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 16,
+                  "end_line": 38,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 37
+                },
+                "element_id": 1012,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_10*_55, 270)",
+                        "symbol": "_62"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 932,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 38,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 38
+                    },
+                    "element_id": 346,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _55"
+            }
+          ],
+          "debug_info": {
+            "end_column": 32,
+            "end_line": 38,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 36
+          },
+          "element_id": 1010,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 16,
+                "end_line": 38,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 37
+              },
+              "element_id": 312,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _10"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 5,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 5,
+                "start_line": 112
+              },
+              "dst": 453,
+              "dst_conn": "refs",
+              "element_id": 454,
+              "end_subset": [
+                "0"
+              ],
+              "src": 452,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_13",
+              "debug_info": {
+                "end_column": 5,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 5,
+                "start_line": 112
+              },
+              "element_id": 453,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 5,
+                "end_line": 112,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 5,
+                "start_line": 112
+              },
+              "element_id": 452,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 112,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 5,
+          "start_line": 112
+        },
+        "element_id": 450,
+        "type": "block"
+      },
+      {
+        "condition": "(_15 < 250)",
+        "debug_info": {
+          "end_column": 13,
+          "end_line": 81,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 73
+        },
+        "element_id": 987,
+        "indvar": "_15",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_19 < 220)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 81,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 74
+              },
+              "element_id": 993,
+              "indvar": "_19",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_25 < 270)",
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 75
+                    },
+                    "element_id": 1013,
+                    "indvar": "_25",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_25"
+                                ],
+                                "debug_info": {
+                                  "end_column": 9,
+                                  "end_line": 76,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 9,
+                                  "start_line": 76
+                                },
+                                "dst": 547,
+                                "dst_conn": "void",
+                                "element_id": 548,
+                                "end_subset": [
+                                  "_25"
+                                ],
+                                "src": 546,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_25"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_13",
+                                "debug_info": {
+                                  "end_column": 9,
+                                  "end_line": 76,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 9,
+                                  "start_line": 76
+                                },
+                                "element_id": 547,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 0,
+                                "debug_info": {
+                                  "end_column": 9,
+                                  "end_line": 76,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 9,
+                                  "start_line": 76
+                                },
+                                "element_id": 546,
+                                "inputs": [
+                                  {
+                                    "name": "0.0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 9,
+                            "end_line": 76,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 9,
+                            "start_line": 76
+                          },
+                          "element_id": 544,
+                          "type": "block"
+                        },
+                        {
+                          "condition": "(_41 < 270)",
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 77
+                          },
+                          "element_id": 1001,
+                          "indvar": "_41",
+                          "init": "0",
+                          "root": {
+                            "children": [
+                              {
+                                "dataflow": {
+                                  "edges": [
+                                    {
+                                      "begin_subset": [
+                                        "_15",
+                                        "_19",
+                                        "_41"
+                                      ],
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "dst": 611,
+                                      "dst_conn": "_in0",
+                                      "element_id": 616,
+                                      "end_subset": [
+                                        "_15",
+                                        "_19",
+                                        "_41"
+                                      ],
+                                      "src": 610,
+                                      "src_conn": "void",
+                                      "subset": [
+                                        "_15",
+                                        "_19",
+                                        "_41"
+                                      ]
+                                    },
+                                    {
+                                      "begin_subset": [
+                                        "_41",
+                                        "_25"
+                                      ],
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "dst": 611,
+                                      "dst_conn": "_in1",
+                                      "element_id": 615,
+                                      "end_subset": [
+                                        "_41",
+                                        "_25"
+                                      ],
+                                      "src": 609,
+                                      "src_conn": "void",
+                                      "subset": [
+                                        "_41",
+                                        "_25"
+                                      ]
+                                    },
+                                    {
+                                      "begin_subset": [
+                                        "_25"
+                                      ],
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "dst": 611,
+                                      "dst_conn": "_in2",
+                                      "element_id": 614,
+                                      "end_subset": [
+                                        "_25"
+                                      ],
+                                      "src": 608,
+                                      "src_conn": "void",
+                                      "subset": [
+                                        "_25"
+                                      ]
+                                    },
+                                    {
+                                      "begin_subset": [
+                                        "_25"
+                                      ],
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "dst": 612,
+                                      "dst_conn": "void",
+                                      "element_id": 613,
+                                      "end_subset": [
+                                        "_25"
+                                      ],
+                                      "src": 611,
+                                      "src_conn": "__daisy_out",
+                                      "subset": [
+                                        "_25"
+                                      ]
+                                    }
+                                  ],
+                                  "nodes": [
+                                    {
+                                      "data": "_13",
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "element_id": 612,
+                                      "type": "access_node"
+                                    },
+                                    {
+                                      "code": 6,
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "element_id": 611,
+                                      "inputs": [
+                                        {
+                                          "name": "_in0",
+                                          "type": {
+                                            "alignment": 8,
+                                            "initializer": "",
+                                            "primitive_type": 15,
+                                            "storage_type": "CPU_Stack",
+                                            "type": "scalar"
+                                          }
+                                        },
+                                        {
+                                          "name": "_in1",
+                                          "type": {
+                                            "alignment": 8,
+                                            "initializer": "",
+                                            "primitive_type": 15,
+                                            "storage_type": "CPU_Stack",
+                                            "type": "scalar"
+                                          }
+                                        },
+                                        {
+                                          "name": "_in2",
+                                          "type": {
+                                            "alignment": 8,
+                                            "initializer": "",
+                                            "primitive_type": 15,
+                                            "storage_type": "CPU_Stack",
+                                            "type": "scalar"
+                                          }
+                                        }
+                                      ],
+                                      "output": {
+                                        "name": "__daisy_out",
+                                        "type": {
+                                          "alignment": 8,
+                                          "initializer": "",
+                                          "primitive_type": 15,
+                                          "storage_type": "CPU_Stack",
+                                          "type": "scalar"
+                                        }
+                                      },
+                                      "type": "tasklet"
+                                    },
+                                    {
+                                      "data": "_2",
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "element_id": 610,
+                                      "type": "access_node"
+                                    },
+                                    {
+                                      "data": "_8",
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "element_id": 609,
+                                      "type": "access_node"
+                                    },
+                                    {
+                                      "data": "_13",
+                                      "debug_info": {
+                                        "end_column": 11,
+                                        "end_line": 78,
+                                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                        "has": true,
+                                        "start_column": 11,
+                                        "start_line": 78
+                                      },
+                                      "element_id": 608,
+                                      "type": "access_node"
+                                    }
+                                  ],
+                                  "type": "dataflow"
+                                },
+                                "debug_info": {
+                                  "end_column": 11,
+                                  "end_line": 78,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 11,
+                                  "start_line": 78
+                                },
+                                "element_id": 606,
+                                "type": "block"
+                              }
+                            ],
+                            "debug_info": {
+                              "end_column": 11,
+                              "end_line": 78,
+                              "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                              "has": true,
+                              "start_column": 27,
+                              "start_line": 77
+                            },
+                            "element_id": 1002,
+                            "transitions": [
+                              {
+                                "assignments": [],
+                                "debug_info": {
+                                  "end_column": 11,
+                                  "end_line": 78,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 11,
+                                  "start_line": 78
+                                },
+                                "element_id": 607,
+                                "type": "transition"
+                              }
+                            ],
+                            "type": "sequence"
+                          },
+                          "type": "for",
+                          "update": "1 + _41"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 14,
+                        "end_line": 78,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                        "has": true,
+                        "start_column": 21,
+                        "start_line": 75
+                      },
+                      "element_id": 1014,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 9,
+                            "end_line": 76,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 9,
+                            "start_line": 76
+                          },
+                          "element_id": 545,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 11,
+                            "end_line": 78,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 27,
+                            "start_line": 77
+                          },
+                          "element_id": 572,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _25"
+                  },
+                  {
+                    "condition": "(_29 < 270)",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 81,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 80
+                    },
+                    "element_id": 1015,
+                    "indvar": "_29",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_29"
+                                ],
+                                "debug_info": {
+                                  "end_column": 13,
+                                  "end_line": 81,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 13,
+                                  "start_line": 81
+                                },
+                                "dst": 753,
+                                "dst_conn": "_in",
+                                "element_id": 757,
+                                "end_subset": [
+                                  "_29"
+                                ],
+                                "src": 754,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_29"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_15",
+                                  "_19",
+                                  "_29"
+                                ],
+                                "debug_info": {
+                                  "end_column": 13,
+                                  "end_line": 81,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 13,
+                                  "start_line": 81
+                                },
+                                "dst": 755,
+                                "dst_conn": "void",
+                                "element_id": 756,
+                                "end_subset": [
+                                  "_15",
+                                  "_19",
+                                  "_29"
+                                ],
+                                "src": 753,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_15",
+                                  "_19",
+                                  "_29"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 13,
+                                  "end_line": 81,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 13,
+                                  "start_line": 81
+                                },
+                                "element_id": 755,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_13",
+                                "debug_info": {
+                                  "end_column": 13,
+                                  "end_line": 81,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 13,
+                                  "start_line": 81
+                                },
+                                "element_id": 754,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 0,
+                                "debug_info": {
+                                  "end_column": 13,
+                                  "end_line": 81,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                                  "has": true,
+                                  "start_column": 13,
+                                  "start_line": 81
+                                },
+                                "element_id": 753,
+                                "inputs": [
+                                  {
+                                    "name": "_in",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 81,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 81
+                          },
+                          "element_id": 751,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 15,
+                        "end_line": 81,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                        "has": true,
+                        "start_column": 21,
+                        "start_line": 80
+                      },
+                      "element_id": 1016,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 13,
+                            "end_line": 81,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                            "has": true,
+                            "start_column": 13,
+                            "start_line": 81
+                          },
+                          "element_id": 752,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _29"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 81,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                  "has": true,
+                  "start_column": 30,
+                  "start_line": 74
+                },
+                "element_id": 994,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 14,
+                      "end_line": 78,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 75
+                    },
+                    "element_id": 536,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 81,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 80
+                    },
+                    "element_id": 731,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _19"
+            }
+          ],
+          "debug_info": {
+            "end_column": 13,
+            "end_line": 81,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 73
+          },
+          "element_id": 988,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 81,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+                "has": true,
+                "start_column": 30,
+                "start_line": 74
+              },
+              "element_id": 512,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _15"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 30,
+          "end_line": 35,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 32
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 103,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 103
+        },
+        "element_id": 263,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 32,
+          "end_line": 38,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 36
+        },
+        "element_id": 288,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 5,
+          "end_line": 112,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 5,
+          "start_line": 112
+        },
+        "element_id": 451,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 13,
+          "end_line": 81,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/doitgen/doitgen.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 73
+        },
+        "element_id": 488,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

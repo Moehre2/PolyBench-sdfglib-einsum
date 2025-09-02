@@ -1,0 +1,3403 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3",
+    "_4",
+    "_5",
+    "_6",
+    "_7"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_10": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_106": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_115": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_122": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_13": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "1800",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_130": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_137": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_146": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_15": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_152": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_160": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_19": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_22": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2200",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_24": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_27": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "1800",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_28": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2200",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_30": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_34": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_37": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2200",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_39": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_4": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_43": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_5": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2400",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_50": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_6": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2000",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_64": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_7": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "2200",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_71": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_85": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_92": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_3mm18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_10 < 1600)",
+        "debug_info": {
+          "end_column": 7,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 1819,
+        "indvar": "_10",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_152 < 2000)",
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 1821,
+              "indvar": "_152",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1686,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 36
+                          },
+                          "dst": 92,
+                          "dst_conn": "_in1",
+                          "element_id": 94,
+                          "end_subset": [],
+                          "src": 91,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_10",
+                            "_152"
+                          ],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 36
+                          },
+                          "dst": 90,
+                          "dst_conn": "void",
+                          "element_id": 93,
+                          "end_subset": [
+                            "_10",
+                            "_152"
+                          ],
+                          "src": 92,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_10",
+                            "_152"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 36
+                          },
+                          "element_id": 92,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "8000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_160",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 36
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_6",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 36,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 36
+                          },
+                          "element_id": 90,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 36
+                    },
+                    "element_id": 88,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 17,
+                  "end_line": 36,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 35
+                },
+                "element_id": 1822,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(1 + _10*_152, 1600)",
+                        "symbol": "_160"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1687,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 36,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 36
+                    },
+                    "element_id": 89,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _152"
+            }
+          ],
+          "debug_info": {
+            "end_column": 7,
+            "end_line": 36,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 34
+          },
+          "element_id": 1820,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 17,
+                "end_line": 36,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 35
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _10"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 134,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 134
+              },
+              "dst": 196,
+              "dst_conn": "refs",
+              "element_id": 197,
+              "end_subset": [
+                "0"
+              ],
+              "src": 195,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_13",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 134,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 134
+              },
+              "element_id": 196,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 134,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 134
+              },
+              "element_id": 195,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 134,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 134
+        },
+        "element_id": 193,
+        "type": "block"
+      },
+      {
+        "condition": "(_15 < 2000)",
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 39,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 1823,
+        "indvar": "_15",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_137 < 1800)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 39,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 1825,
+              "indvar": "_137",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1702,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 39
+                          },
+                          "dst": 294,
+                          "dst_conn": "_in1",
+                          "element_id": 296,
+                          "end_subset": [],
+                          "src": 293,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_15",
+                            "_137"
+                          ],
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 39
+                          },
+                          "dst": 292,
+                          "dst_conn": "void",
+                          "element_id": 295,
+                          "end_subset": [
+                            "_15",
+                            "_137"
+                          ],
+                          "src": 294,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_15",
+                            "_137"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 39
+                          },
+                          "element_id": 294,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "9000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_146",
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 39
+                          },
+                          "element_id": 293,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_13",
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 39
+                          },
+                          "element_id": 292,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 48,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 48,
+                      "start_line": 39
+                    },
+                    "element_id": 290,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 39,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 38
+                },
+                "element_id": 1826,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(2 + _15*(1 + _137), 1800)",
+                        "symbol": "_146"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1703,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 48,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 48,
+                      "start_line": 39
+                    },
+                    "element_id": 291,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _137"
+            }
+          ],
+          "debug_info": {
+            "end_column": 42,
+            "end_line": 39,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 37
+          },
+          "element_id": 1824,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 39,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 243,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _15"
+      },
+      {
+        "condition": "(_19 < 1800)",
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 42,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 40
+        },
+        "element_id": 1827,
+        "indvar": "_19",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_122 < 2400)",
+              "debug_info": {
+                "end_column": 34,
+                "end_line": 42,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 41
+              },
+              "element_id": 1829,
+              "indvar": "_122",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1714,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "dst": 477,
+                          "dst_conn": "_in1",
+                          "element_id": 479,
+                          "end_subset": [],
+                          "src": 475,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_19",
+                            "_122"
+                          ],
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "dst": 476,
+                          "dst_conn": "void",
+                          "element_id": 478,
+                          "end_subset": [
+                            "_19",
+                            "_122"
+                          ],
+                          "src": 477,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_19",
+                            "_122"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 477,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "11000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_5",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 476,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_130",
+                          "debug_info": {
+                            "end_column": 44,
+                            "end_line": 42,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 44,
+                            "start_line": 42
+                          },
+                          "element_id": 475,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 42
+                    },
+                    "element_id": 473,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 34,
+                  "end_line": 42,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 41
+                },
+                "element_id": 1830,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(_19*(3 + _122), 2200)",
+                        "symbol": "_130"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1715,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 44,
+                      "end_line": 42,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 44,
+                      "start_line": 42
+                    },
+                    "element_id": 474,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _122"
+            }
+          ],
+          "debug_info": {
+            "end_column": 17,
+            "end_line": 42,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 24,
+            "start_line": 40
+          },
+          "element_id": 1828,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 34,
+                "end_line": 42,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 41
+              },
+              "element_id": 433,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _19"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 136,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 136
+              },
+              "dst": 581,
+              "dst_conn": "refs",
+              "element_id": 582,
+              "end_subset": [
+                "0"
+              ],
+              "src": 580,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_22",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 136,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 136
+              },
+              "element_id": 581,
+              "type": "access_node"
+            },
+            {
+              "data": "_1",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 136,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 136
+              },
+              "element_id": 580,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 136,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 136
+        },
+        "element_id": 578,
+        "type": "block"
+      },
+      {
+        "condition": "(_24 < 2400)",
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 45,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 43
+        },
+        "element_id": 1831,
+        "indvar": "_24",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_106 < 2200)",
+              "debug_info": {
+                "end_column": 42,
+                "end_line": 45,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 44
+              },
+              "element_id": 1833,
+              "indvar": "_106",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1730,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 45
+                          },
+                          "dst": 679,
+                          "dst_conn": "_in1",
+                          "element_id": 681,
+                          "end_subset": [],
+                          "src": 678,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_24",
+                            "_106"
+                          ],
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 45
+                          },
+                          "dst": 677,
+                          "dst_conn": "void",
+                          "element_id": 680,
+                          "end_subset": [
+                            "_24",
+                            "_106"
+                          ],
+                          "src": 679,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_24",
+                            "_106"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 45
+                          },
+                          "element_id": 679,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "1.0E+4",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_115",
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 45
+                          },
+                          "element_id": 678,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_22",
+                          "debug_info": {
+                            "end_column": 48,
+                            "end_line": 45,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 48,
+                            "start_line": 45
+                          },
+                          "element_id": 677,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 48,
+                      "end_line": 45,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 48,
+                      "start_line": 45
+                    },
+                    "element_id": 675,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 42,
+                  "end_line": 45,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 44
+                },
+                "element_id": 1834,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(2 + _24*(2 + _106), 2000)",
+                        "symbol": "_115"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 1731,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 48,
+                      "end_line": 45,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 48,
+                      "start_line": 45
+                    },
+                    "element_id": 676,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _106"
+            }
+          ],
+          "debug_info": {
+            "end_column": 42,
+            "end_line": 45,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 43
+          },
+          "element_id": 1832,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 42,
+                "end_line": 45,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 44
+              },
+              "element_id": 628,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _24"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 146,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 146
+              },
+              "dst": 1780,
+              "dst_conn": "refs",
+              "element_id": 1782,
+              "end_subset": [
+                "0"
+              ],
+              "src": 1781,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 143,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 143
+              },
+              "dst": 783,
+              "dst_conn": "refs",
+              "element_id": 784,
+              "end_subset": [
+                "0"
+              ],
+              "src": 782,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_3",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1781,
+              "type": "access_node"
+            },
+            {
+              "data": "_28",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1780,
+              "type": "access_node"
+            },
+            {
+              "data": "_27",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 143,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 143
+              },
+              "element_id": 783,
+              "type": "access_node"
+            },
+            {
+              "data": "_2",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 143,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 143
+              },
+              "element_id": 782,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 143,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 143
+        },
+        "element_id": 780,
+        "type": "block"
+      },
+      {
+        "condition": "(_30 < 1600)",
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 90,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 85
+        },
+        "element_id": 1835,
+        "indvar": "_30",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_85 < 1800)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 90,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 86
+              },
+              "element_id": 1837,
+              "indvar": "_85",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_30",
+                            "_85"
+                          ],
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 88
+                          },
+                          "dst": 868,
+                          "dst_conn": "void",
+                          "element_id": 869,
+                          "end_subset": [
+                            "_30",
+                            "_85"
+                          ],
+                          "src": 867,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_30",
+                            "_85"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_27",
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 88
+                          },
+                          "element_id": 868,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 88,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 88
+                          },
+                          "element_id": 867,
+                          "inputs": [
+                            {
+                              "name": "0.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 88,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 88
+                    },
+                    "element_id": 865,
+                    "type": "block"
+                  },
+                  {
+                    "condition": "(_92 < 2000)",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 89
+                    },
+                    "element_id": 1813,
+                    "indvar": "_92",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_92"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "dst": 932,
+                                "dst_conn": "_in0",
+                                "element_id": 937,
+                                "end_subset": [
+                                  "_30",
+                                  "_92"
+                                ],
+                                "src": 931,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_30",
+                                  "_92"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_92",
+                                  "_85"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "dst": 932,
+                                "dst_conn": "_in1",
+                                "element_id": 936,
+                                "end_subset": [
+                                  "_92",
+                                  "_85"
+                                ],
+                                "src": 930,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_92",
+                                  "_85"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_85"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "dst": 932,
+                                "dst_conn": "_in2",
+                                "element_id": 935,
+                                "end_subset": [
+                                  "_30",
+                                  "_85"
+                                ],
+                                "src": 929,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_30",
+                                  "_85"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_30",
+                                  "_85"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "dst": 933,
+                                "dst_conn": "void",
+                                "element_id": 934,
+                                "end_subset": [
+                                  "_30",
+                                  "_85"
+                                ],
+                                "src": 932,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_30",
+                                  "_85"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_27",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "element_id": 933,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "element_id": 932,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_6",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "element_id": 931,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_13",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "element_id": 930,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_27",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 90,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 90
+                                },
+                                "element_id": 929,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 90
+                          },
+                          "element_id": 927,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 15,
+                        "end_line": 90,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 89
+                      },
+                      "element_id": 1814,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 90
+                          },
+                          "element_id": 928,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _92"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 90,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 86
+                },
+                "element_id": 1838,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 88,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 88
+                    },
+                    "element_id": 866,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 89
+                    },
+                    "element_id": 893,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _85"
+            }
+          ],
+          "debug_info": {
+            "end_column": 15,
+            "end_line": 90,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 28,
+            "start_line": 85
+          },
+          "element_id": 1836,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 90,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 86
+              },
+              "element_id": 857,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _30"
+      },
+      {
+        "condition": "(_34 < 1800)",
+        "debug_info": {
+          "end_column": 12,
+          "end_line": 98,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 93
+        },
+        "element_id": 1839,
+        "indvar": "_34",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_64 < 2200)",
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 98,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 94
+              },
+              "element_id": 1841,
+              "indvar": "_64",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_34",
+                            "_64"
+                          ],
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 96,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 96
+                          },
+                          "dst": 1130,
+                          "dst_conn": "void",
+                          "element_id": 1131,
+                          "end_subset": [
+                            "_34",
+                            "_64"
+                          ],
+                          "src": 1129,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_34",
+                            "_64"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_28",
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 96,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 96
+                          },
+                          "element_id": 1130,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 96,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 96
+                          },
+                          "element_id": 1129,
+                          "inputs": [
+                            {
+                              "name": "0.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 96,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 96
+                    },
+                    "element_id": 1127,
+                    "type": "block"
+                  },
+                  {
+                    "condition": "(_71 < 2400)",
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 98,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 97
+                    },
+                    "element_id": 1815,
+                    "indvar": "_71",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_71"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "dst": 1194,
+                                "dst_conn": "_in0",
+                                "element_id": 1199,
+                                "end_subset": [
+                                  "_34",
+                                  "_71"
+                                ],
+                                "src": 1193,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "_71"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_71",
+                                  "_64"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "dst": 1194,
+                                "dst_conn": "_in1",
+                                "element_id": 1198,
+                                "end_subset": [
+                                  "_71",
+                                  "_64"
+                                ],
+                                "src": 1192,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_71",
+                                  "_64"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_64"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "dst": 1194,
+                                "dst_conn": "_in2",
+                                "element_id": 1197,
+                                "end_subset": [
+                                  "_34",
+                                  "_64"
+                                ],
+                                "src": 1191,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_34",
+                                  "_64"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_34",
+                                  "_64"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "dst": 1195,
+                                "dst_conn": "void",
+                                "element_id": 1196,
+                                "end_subset": [
+                                  "_34",
+                                  "_64"
+                                ],
+                                "src": 1194,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_34",
+                                  "_64"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_28",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "element_id": 1195,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "element_id": 1194,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_5",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "element_id": 1193,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_22",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "element_id": 1192,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_28",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 98,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 98
+                                },
+                                "element_id": 1191,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 98,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 98
+                          },
+                          "element_id": 1189,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 15,
+                        "end_line": 98,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                        "has": true,
+                        "start_column": 16,
+                        "start_line": 97
+                      },
+                      "element_id": 1816,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 98,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 98
+                          },
+                          "element_id": 1190,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _71"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 12,
+                  "end_line": 98,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 94
+                },
+                "element_id": 1842,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 96,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 96
+                    },
+                    "element_id": 1128,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 98,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 16,
+                      "start_line": 97
+                    },
+                    "element_id": 1155,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _64"
+            }
+          ],
+          "debug_info": {
+            "end_column": 12,
+            "end_line": 98,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 93
+          },
+          "element_id": 1840,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 12,
+                "end_line": 98,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 94
+              },
+              "element_id": 1119,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _34"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 1783,
+              "dst_conn": "void",
+              "element_id": 1784,
+              "end_subset": [
+                "0"
+              ],
+              "src": 1339,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 149,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 149
+              },
+              "dst": 1339,
+              "dst_conn": "refs",
+              "element_id": 1340,
+              "end_subset": [
+                "0"
+              ],
+              "src": 1338,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_7",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 1783,
+              "type": "access_node"
+            },
+            {
+              "data": "_37",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 149,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 149
+              },
+              "element_id": 1339,
+              "type": "access_node"
+            },
+            {
+              "data": "_4",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 149,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 149
+              },
+              "element_id": 1338,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 149,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 149
+        },
+        "element_id": 1336,
+        "type": "block"
+      },
+      {
+        "condition": "(_39 < 1600)",
+        "debug_info": {
+          "end_column": 12,
+          "end_line": 106,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 101
+        },
+        "element_id": 1843,
+        "indvar": "_39",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_43 < 2200)",
+              "debug_info": {
+                "end_column": 25,
+                "end_line": 106,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 102
+              },
+              "element_id": 1845,
+              "indvar": "_43",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_39",
+                            "_43"
+                          ],
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 104,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 104
+                          },
+                          "dst": 1402,
+                          "dst_conn": "void",
+                          "element_id": 1403,
+                          "end_subset": [
+                            "_39",
+                            "_43"
+                          ],
+                          "src": 1401,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_39",
+                            "_43"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_37",
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 104,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 104
+                          },
+                          "element_id": 1402,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 10,
+                            "end_line": 104,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 10,
+                            "start_line": 104
+                          },
+                          "element_id": 1401,
+                          "inputs": [
+                            {
+                              "name": "0.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 104,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 104
+                    },
+                    "element_id": 1399,
+                    "type": "block"
+                  },
+                  {
+                    "condition": "(_50 < 1800)",
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 106,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 26,
+                      "start_line": 105
+                    },
+                    "element_id": 1817,
+                    "indvar": "_50",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_39",
+                                  "_50"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "dst": 1466,
+                                "dst_conn": "_in0",
+                                "element_id": 1471,
+                                "end_subset": [
+                                  "_39",
+                                  "_50"
+                                ],
+                                "src": 1465,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_39",
+                                  "_50"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_50",
+                                  "_43"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "dst": 1466,
+                                "dst_conn": "_in1",
+                                "element_id": 1470,
+                                "end_subset": [
+                                  "_50",
+                                  "_43"
+                                ],
+                                "src": 1464,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_50",
+                                  "_43"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_39",
+                                  "_43"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "dst": 1466,
+                                "dst_conn": "_in2",
+                                "element_id": 1469,
+                                "end_subset": [
+                                  "_39",
+                                  "_43"
+                                ],
+                                "src": 1463,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_39",
+                                  "_43"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "_39",
+                                  "_43"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "dst": 1467,
+                                "dst_conn": "void",
+                                "element_id": 1468,
+                                "end_subset": [
+                                  "_39",
+                                  "_43"
+                                ],
+                                "src": 1466,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_39",
+                                  "_43"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_37",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "element_id": 1467,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "element_id": 1466,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_27",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "element_id": 1465,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_28",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "element_id": 1464,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_37",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 106,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 106
+                                },
+                                "element_id": 1463,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 106,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 106
+                          },
+                          "element_id": 1461,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 12,
+                        "end_line": 106,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                        "has": true,
+                        "start_column": 26,
+                        "start_line": 105
+                      },
+                      "element_id": 1818,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 106,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 106
+                          },
+                          "element_id": 1462,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _50"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 25,
+                  "end_line": 106,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 102
+                },
+                "element_id": 1846,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 10,
+                      "end_line": 104,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 10,
+                      "start_line": 104
+                    },
+                    "element_id": 1400,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 12,
+                      "end_line": 106,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                      "has": true,
+                      "start_column": 26,
+                      "start_line": 105
+                    },
+                    "element_id": 1427,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _43"
+            }
+          ],
+          "debug_info": {
+            "end_column": 12,
+            "end_line": 106,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+            "has": true,
+            "start_column": 28,
+            "start_line": 101
+          },
+          "element_id": 1844,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 25,
+                "end_line": 106,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 102
+              },
+              "element_id": 1391,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _39"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 7,
+          "end_line": 36,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 34
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 134,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 134
+        },
+        "element_id": 194,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 39,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 219,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 17,
+          "end_line": 42,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 24,
+          "start_line": 40
+        },
+        "element_id": 409,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 136,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 136
+        },
+        "element_id": 579,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 42,
+          "end_line": 45,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 43
+        },
+        "element_id": 604,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 143,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 143
+        },
+        "element_id": 781,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 90,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 85
+        },
+        "element_id": 833,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 12,
+          "end_line": 98,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 93
+        },
+        "element_id": 1095,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 149,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 149
+        },
+        "element_id": 1337,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 12,
+          "end_line": 106,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/kernels/3mm/3mm.c",
+          "has": true,
+          "start_column": 28,
+          "start_line": 101
+        },
+        "element_id": 1367,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

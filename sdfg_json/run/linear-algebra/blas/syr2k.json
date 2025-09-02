@@ -1,0 +1,2312 @@
+{
+  "arguments": [
+    "_0",
+    "_1",
+    "_2",
+    "_3"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 1,
+        "initializer": "",
+        "primitive_type": 2,
+        "storage_type": "CPU_Stack",
+        "type": "scalar"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_1": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2000",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_11": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_15": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_2": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2000",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_20": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_24": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "initializer": "",
+        "pointee_type": {
+          "alignment": 8,
+          "element_type": {
+            "alignment": 8,
+            "initializer": "",
+            "primitive_type": 15,
+            "storage_type": "CPU_Stack",
+            "type": "scalar"
+          },
+          "initializer": "",
+          "num_elements": "2600",
+          "storage_type": "CPU_Stack",
+          "type": "array"
+        },
+        "storage_type": "CPU_Stack",
+        "type": "pointer"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_31": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_38": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_43": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_46": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_47": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_59": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_6": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_67": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_74": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_82": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_88": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_9": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "2600",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_syr2k18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_6 < 2600)",
+        "debug_info": {
+          "end_column": 37,
+          "end_line": 40,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 992,
+        "indvar": "_6",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_74 < 2000)",
+              "debug_info": {
+                "end_column": 37,
+                "end_line": 40,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 994,
+              "indvar": "_74",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 918,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 39
+                          },
+                          "dst": 92,
+                          "dst_conn": "_in1",
+                          "element_id": 94,
+                          "end_subset": [],
+                          "src": 91,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_6",
+                            "_74"
+                          ],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 39
+                          },
+                          "dst": 90,
+                          "dst_conn": "void",
+                          "element_id": 93,
+                          "end_subset": [
+                            "_6",
+                            "_74"
+                          ],
+                          "src": 92,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_6",
+                            "_74"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_82",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 39
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 39
+                          },
+                          "element_id": 92,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2600.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_1",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 39,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 39
+                          },
+                          "element_id": 90,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 39
+                    },
+                    "element_id": 88,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 924,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 40
+                          },
+                          "dst": 139,
+                          "dst_conn": "_in1",
+                          "element_id": 141,
+                          "end_subset": [],
+                          "src": 138,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_6",
+                            "_74"
+                          ],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 40
+                          },
+                          "dst": 137,
+                          "dst_conn": "void",
+                          "element_id": 140,
+                          "end_subset": [
+                            "_6",
+                            "_74"
+                          ],
+                          "src": 139,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_6",
+                            "_74"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 40
+                          },
+                          "element_id": 139,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_88",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 40
+                          },
+                          "element_id": 138,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_2",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 40,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 40
+                          },
+                          "element_id": 137,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 40,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 40
+                    },
+                    "element_id": 135,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 37,
+                  "end_line": 40,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 38
+                },
+                "element_id": 995,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(1 + _6*_74, 2600)",
+                        "symbol": "_82"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 919,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 39,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 39
+                    },
+                    "element_id": 89,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(2 + _6*_74, 2000)",
+                        "symbol": "_88"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 925,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 40,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 40
+                    },
+                    "element_id": 136,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _74"
+            }
+          ],
+          "debug_info": {
+            "end_column": 37,
+            "end_line": 40,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 37
+          },
+          "element_id": 993,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 37,
+                "end_line": 40,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 38
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _6"
+      },
+      {
+        "dataflow": {
+          "edges": [
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "dst": 966,
+              "dst_conn": "void",
+              "element_id": 967,
+              "end_subset": [
+                "0"
+              ],
+              "src": 243,
+              "src_conn": "refs",
+              "subset": [
+                "0"
+              ]
+            },
+            {
+              "begin_subset": [
+                "0"
+              ],
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 117,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 117
+              },
+              "dst": 243,
+              "dst_conn": "refs",
+              "element_id": 244,
+              "end_subset": [
+                "0"
+              ],
+              "src": 242,
+              "src_conn": "void",
+              "subset": [
+                "0"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "data": "_3",
+              "debug_info": {
+                "end_column": 0,
+                "end_line": 0,
+                "filename": "",
+                "has": false,
+                "start_column": 0,
+                "start_line": 0
+              },
+              "element_id": 966,
+              "type": "access_node"
+            },
+            {
+              "data": "_9",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 117,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 117
+              },
+              "element_id": 243,
+              "type": "access_node"
+            },
+            {
+              "data": "_0",
+              "debug_info": {
+                "end_column": 8,
+                "end_line": 117,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 8,
+                "start_line": 117
+              },
+              "element_id": 242,
+              "type": "access_node"
+            }
+          ],
+          "type": "dataflow"
+        },
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 117,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 117
+        },
+        "element_id": 240,
+        "type": "block"
+      },
+      {
+        "condition": "(_11 < 2600)",
+        "debug_info": {
+          "end_column": 32,
+          "end_line": 44,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 42
+        },
+        "element_id": 996,
+        "indvar": "_11",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_59 < 2600)",
+              "debug_info": {
+                "end_column": 37,
+                "end_line": 44,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 43
+              },
+              "element_id": 998,
+              "indvar": "_59",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 938,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 44,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 44
+                          },
+                          "dst": 339,
+                          "dst_conn": "_in1",
+                          "element_id": 341,
+                          "end_subset": [],
+                          "src": 338,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_11",
+                            "_59"
+                          ],
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 44,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 44
+                          },
+                          "dst": 337,
+                          "dst_conn": "void",
+                          "element_id": 340,
+                          "end_subset": [
+                            "_11",
+                            "_59"
+                          ],
+                          "src": 339,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_11",
+                            "_59"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 44,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 44
+                          },
+                          "element_id": 339,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_67",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 44,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 44
+                          },
+                          "element_id": 338,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 41,
+                            "end_line": 44,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 41,
+                            "start_line": 44
+                          },
+                          "element_id": 337,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 44,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 44
+                    },
+                    "element_id": 335,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 37,
+                  "end_line": 44,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 43
+                },
+                "element_id": 999,
+                "transitions": [
+                  {
+                    "assignments": [
+                      {
+                        "expression": "imod(3 + _11*_59, 2600)",
+                        "symbol": "_67"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 939,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 41,
+                      "end_line": 44,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 41,
+                      "start_line": 44
+                    },
+                    "element_id": 336,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _59"
+            }
+          ],
+          "debug_info": {
+            "end_column": 32,
+            "end_line": 44,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 42
+          },
+          "element_id": 997,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 37,
+                "end_line": 44,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 43
+              },
+              "element_id": 295,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _11"
+      },
+      {
+        "condition": "(_15 < 2600)",
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 94,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 3,
+          "start_line": 88
+        },
+        "element_id": 1000,
+        "indvar": "_15",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_20 < 1 + _15)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 90,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 89
+              },
+              "element_id": 1002,
+              "indvar": "_20",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [
+                            "_15",
+                            "_20"
+                          ],
+                          "debug_info": {
+                            "end_column": 15,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 15,
+                            "start_line": 90
+                          },
+                          "dst": 509,
+                          "dst_conn": "_in1",
+                          "element_id": 511,
+                          "end_subset": [
+                            "_15",
+                            "_20"
+                          ],
+                          "src": 508,
+                          "src_conn": "void",
+                          "subset": [
+                            "_15",
+                            "_20"
+                          ]
+                        },
+                        {
+                          "begin_subset": [
+                            "_15",
+                            "_20"
+                          ],
+                          "debug_info": {
+                            "end_column": 15,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 15,
+                            "start_line": 90
+                          },
+                          "dst": 507,
+                          "dst_conn": "void",
+                          "element_id": 510,
+                          "end_subset": [
+                            "_15",
+                            "_20"
+                          ],
+                          "src": 509,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_15",
+                            "_20"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 4,
+                          "debug_info": {
+                            "end_column": 15,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 15,
+                            "start_line": 90
+                          },
+                          "element_id": 509,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "1.2",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 15,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 15,
+                            "start_line": 90
+                          },
+                          "element_id": 508,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_9",
+                          "debug_info": {
+                            "end_column": 15,
+                            "end_line": 90,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 15,
+                            "start_line": 90
+                          },
+                          "element_id": 507,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 90
+                    },
+                    "element_id": 505,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 90,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 89
+                },
+                "element_id": 1003,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 15,
+                      "end_line": 90,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 15,
+                      "start_line": 90
+                    },
+                    "element_id": 506,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _20"
+            },
+            {
+              "condition": "(_24 < 2000)",
+              "debug_info": {
+                "end_column": 53,
+                "end_line": 94,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 91
+              },
+              "element_id": 978,
+              "indvar": "_24",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_31 < 1 + _15)",
+                    "debug_info": {
+                      "end_column": 37,
+                      "end_line": 94,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 92
+                    },
+                    "element_id": 1004,
+                    "indvar": "_31",
+                    "init": "0",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 22,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 22,
+                                  "start_line": 94
+                                },
+                                "dst": 626,
+                                "dst_conn": "_in1",
+                                "element_id": 628,
+                                "end_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "src": 625,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_31",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 22,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 22,
+                                  "start_line": 94
+                                },
+                                "dst": 624,
+                                "dst_conn": "void",
+                                "element_id": 627,
+                                "end_subset": [],
+                                "src": 626,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 22,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 22,
+                                  "start_line": 94
+                                },
+                                "element_id": 626,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "1.5",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 22,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 22,
+                                  "start_line": 94
+                                },
+                                "element_id": 625,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_38",
+                                "debug_info": {
+                                  "end_column": 22,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 22,
+                                  "start_line": 94
+                                },
+                                "element_id": 624,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 22,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 22,
+                            "start_line": 94
+                          },
+                          "element_id": 622,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 94
+                                },
+                                "dst": 657,
+                                "dst_conn": "_in1",
+                                "element_id": 659,
+                                "end_subset": [
+                                  "_31",
+                                  "_24"
+                                ],
+                                "src": 656,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_31",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 94
+                                },
+                                "dst": 655,
+                                "dst_conn": "void",
+                                "element_id": 658,
+                                "end_subset": [],
+                                "src": 657,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 94
+                                },
+                                "element_id": 657,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "1.5",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 94
+                                },
+                                "element_id": 656,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_43",
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 94
+                                },
+                                "element_id": 655,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 46,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 46,
+                            "start_line": 94
+                          },
+                          "element_id": 653,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "dst": 677,
+                                "dst_conn": "_in1",
+                                "element_id": 680,
+                                "end_subset": [],
+                                "src": 675,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_15",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "dst": 677,
+                                "dst_conn": "_in2",
+                                "element_id": 679,
+                                "end_subset": [
+                                  "_15",
+                                  "_24"
+                                ],
+                                "src": 674,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_15",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "dst": 676,
+                                "dst_conn": "void",
+                                "element_id": 678,
+                                "end_subset": [],
+                                "src": 677,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 4,
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "element_id": 677,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_46",
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "element_id": 676,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_43",
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "element_id": 675,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_1",
+                                "debug_info": {
+                                  "end_column": 52,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 52,
+                                  "start_line": 94
+                                },
+                                "element_id": 674,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 52,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 52,
+                            "start_line": 94
+                          },
+                          "element_id": 672,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "dst": 686,
+                                "dst_conn": "_in0",
+                                "element_id": 691,
+                                "end_subset": [],
+                                "src": 685,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_15",
+                                  "_24"
+                                ],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "dst": 686,
+                                "dst_conn": "_in1",
+                                "element_id": 690,
+                                "end_subset": [
+                                  "_15",
+                                  "_24"
+                                ],
+                                "src": 684,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_15",
+                                  "_24"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "dst": 686,
+                                "dst_conn": "_in2",
+                                "element_id": 689,
+                                "end_subset": [],
+                                "src": 683,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "dst": 687,
+                                "dst_conn": "void",
+                                "element_id": 688,
+                                "end_subset": [],
+                                "src": 686,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "data": "_47",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "element_id": 687,
+                                "type": "access_node"
+                              },
+                              {
+                                "code": 6,
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "element_id": 686,
+                                "inputs": [
+                                  {
+                                    "name": "_in0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_38",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "element_id": 685,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_2",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "element_id": 684,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_46",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 94
+                                },
+                                "element_id": 683,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 37,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 37,
+                            "start_line": 94
+                          },
+                          "element_id": 681,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "_15",
+                                  "_31"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 709,
+                                "dst_conn": "_in1",
+                                "element_id": 712,
+                                "end_subset": [
+                                  "_15",
+                                  "_31"
+                                ],
+                                "src": 708,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_15",
+                                  "_31"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 709,
+                                "dst_conn": "_in2",
+                                "element_id": 711,
+                                "end_subset": [],
+                                "src": 707,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_15",
+                                  "_31"
+                                ],
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "dst": 706,
+                                "dst_conn": "void",
+                                "element_id": 710,
+                                "end_subset": [
+                                  "_15",
+                                  "_31"
+                                ],
+                                "src": 709,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_15",
+                                  "_31"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 709,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_9",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 708,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_47",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 707,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_9",
+                                "debug_info": {
+                                  "end_column": 12,
+                                  "end_line": 94,
+                                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                                  "has": true,
+                                  "start_column": 12,
+                                  "start_line": 94
+                                },
+                                "element_id": 706,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 94
+                          },
+                          "element_id": 704,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 37,
+                        "end_line": 94,
+                        "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                        "has": true,
+                        "start_column": 21,
+                        "start_line": 92
+                      },
+                      "element_id": 1005,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 22,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 22,
+                            "start_line": 94
+                          },
+                          "element_id": 623,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 46,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 46,
+                            "start_line": 94
+                          },
+                          "element_id": 654,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 52,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 52,
+                            "start_line": 94
+                          },
+                          "element_id": 673,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 37,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 37,
+                            "start_line": 94
+                          },
+                          "element_id": 682,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 12,
+                            "end_line": 94,
+                            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                            "has": true,
+                            "start_column": 12,
+                            "start_line": 94
+                          },
+                          "element_id": 705,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "schedule_type": "SEQUENTIAL",
+                    "type": "map",
+                    "update": "1 + _31"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 53,
+                  "end_line": 94,
+                  "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                  "has": true,
+                  "start_column": 19,
+                  "start_line": 91
+                },
+                "element_id": 979,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 21,
+                      "end_line": 92,
+                      "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 92
+                    },
+                    "element_id": 991,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _24"
+            }
+          ],
+          "debug_info": {
+            "end_column": 15,
+            "end_line": 94,
+            "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+            "has": true,
+            "start_column": 3,
+            "start_line": 88
+          },
+          "element_id": 1001,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 19,
+                "end_line": 89,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 89
+              },
+              "element_id": 988,
+              "type": "transition"
+            },
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 53,
+                "end_line": 94,
+                "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+                "has": true,
+                "start_column": 19,
+                "start_line": 91
+              },
+              "element_id": 583,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _15"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 37,
+          "end_line": 40,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 37
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 8,
+          "end_line": 117,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 8,
+          "start_line": 117
+        },
+        "element_id": 241,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 32,
+          "end_line": 44,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 42
+        },
+        "element_id": 271,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 15,
+          "end_line": 94,
+          "filename": "/home/github/docc/tests/polybench/linear-algebra/blas/syr2k/syr2k.c",
+          "has": true,
+          "start_column": 3,
+          "start_line": 88
+        },
+        "element_id": 466,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}

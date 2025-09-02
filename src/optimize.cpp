@@ -19,7 +19,7 @@
 #include "timer.h"
 
 void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
-                   const std::string sdfg_name) {
+                   const std::string sdfg_name, bool check) {
     stream << "#include <stdio.h>" << std::endl
            << "#include <string.h>" << std::endl
            << std::endl
@@ -31,8 +31,12 @@ void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
            << std::endl
            << "/* " << benchmark->name() << " */" << std::endl;
     for (auto& dataset_size : benchmark->dataset_sizes()) {
-        stream << "#define " << dataset_size.macroName << " " << std::to_string(dataset_size.size)
-               << std::endl;
+        stream << "#define " << dataset_size.macroName << " ";
+        if (check)
+            stream << dataset_size.medium_size;
+        else
+            stream << dataset_size.extralarge_size;
+        stream << std::endl;
     }
     stream << "#define DATA_TYPE double" << std::endl
            << "#define DATA_PRINTF_MODIFIER \"%0.2lf \"" << std::endl
@@ -246,7 +250,7 @@ int main(int argc, char* argv[]) {
     out_header.close();
 
     sdfg::codegen::PrettyPrinter main_stream;
-    generate_main(main_stream, benchmark, builder.subject().name());
+    generate_main(main_stream, benchmark, builder.subject().name(), check);
     std::ofstream out_main;
     out_main.open(benchmark->out_main_path(check));
     if (!out_main.good()) {

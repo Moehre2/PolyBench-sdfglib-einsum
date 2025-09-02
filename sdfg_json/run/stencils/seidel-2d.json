@@ -1,0 +1,2470 @@
+{
+  "arguments": [
+    "_0"
+  ],
+  "containers": {
+    "_0": {
+      "alignment": 8,
+      "initializer": "",
+      "pointee_type": {
+        "alignment": 8,
+        "element_type": {
+          "alignment": 8,
+          "initializer": "",
+          "primitive_type": 15,
+          "storage_type": "CPU_Stack",
+          "type": "scalar"
+        },
+        "initializer": "",
+        "num_elements": "4000",
+        "storage_type": "CPU_Stack",
+        "type": "array"
+      },
+      "storage_type": "CPU_Stack",
+      "type": "pointer"
+    },
+    "_11": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_17": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_28": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_3": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_32": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_35": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_38": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_41": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_45": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_48": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_51": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_55": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 5,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_61": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_63": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_65": {
+      "alignment": 8,
+      "initializer": "",
+      "primitive_type": 15,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    },
+    "_7": {
+      "alignment": 4,
+      "initializer": "",
+      "primitive_type": 4,
+      "storage_type": "CPU_Stack",
+      "type": "scalar"
+    }
+  },
+  "externals": [],
+  "metadata": {
+    "function": "main"
+  },
+  "name": "__daisy_seidel_2d18122842100848744318_0",
+  "root": {
+    "children": [
+      {
+        "condition": "(_3 < 4000)",
+        "debug_info": {
+          "end_column": 7,
+          "end_line": 33,
+          "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 31
+        },
+        "element_id": 680,
+        "indvar": "_3",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_55 < 4000)",
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 33,
+                "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                "has": true,
+                "start_column": 25,
+                "start_line": 32
+              },
+              "element_id": 682,
+              "indvar": "_55",
+              "init": "0",
+              "root": {
+                "children": [
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 33
+                          },
+                          "dst": 62,
+                          "dst_conn": "void",
+                          "element_id": 64,
+                          "end_subset": [],
+                          "src": 61,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 33
+                          },
+                          "dst": 61,
+                          "dst_conn": "_in",
+                          "element_id": 63,
+                          "end_subset": [],
+                          "src": 60,
+                          "src_conn": "void",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_61",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 33
+                          },
+                          "element_id": 62,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 0,
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 33
+                          },
+                          "element_id": 61,
+                          "inputs": [
+                            {
+                              "name": "_in",
+                              "type": {
+                                "alignment": 4,
+                                "initializer": "",
+                                "primitive_type": 4,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_3",
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 33
+                          },
+                          "element_id": 60,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 33
+                    },
+                    "element_id": 58,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [],
+                      "nodes": [],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 642,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "dst": 90,
+                          "dst_conn": "_in0",
+                          "element_id": 94,
+                          "end_subset": [],
+                          "src": 89,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "dst": 90,
+                          "dst_conn": "_in1",
+                          "element_id": 93,
+                          "end_subset": [],
+                          "src": 88,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "dst": 91,
+                          "dst_conn": "void",
+                          "element_id": 92,
+                          "end_subset": [],
+                          "src": 90,
+                          "src_conn": "__daisy_out",
+                          "subset": []
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "data": "_65",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "element_id": 91,
+                          "type": "access_node"
+                        },
+                        {
+                          "code": 6,
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "element_id": 90,
+                          "inputs": [
+                            {
+                              "name": "_in0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "2.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_61",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "element_id": 89,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_63",
+                          "debug_info": {
+                            "end_column": 38,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 38,
+                            "start_line": 33
+                          },
+                          "element_id": 88,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 33
+                    },
+                    "element_id": 86,
+                    "type": "block"
+                  },
+                  {
+                    "dataflow": {
+                      "edges": [
+                        {
+                          "begin_subset": [],
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 33
+                          },
+                          "dst": 99,
+                          "dst_conn": "_in1",
+                          "element_id": 101,
+                          "end_subset": [],
+                          "src": 98,
+                          "src_conn": "void",
+                          "subset": []
+                        },
+                        {
+                          "begin_subset": [
+                            "_3",
+                            "_55"
+                          ],
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 33
+                          },
+                          "dst": 97,
+                          "dst_conn": "void",
+                          "element_id": 100,
+                          "end_subset": [
+                            "_3",
+                            "_55"
+                          ],
+                          "src": 99,
+                          "src_conn": "__daisy_out",
+                          "subset": [
+                            "_3",
+                            "_55"
+                          ]
+                        }
+                      ],
+                      "nodes": [
+                        {
+                          "code": 5,
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 33
+                          },
+                          "element_id": 99,
+                          "inputs": [
+                            {
+                              "name": "_in1",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            },
+                            {
+                              "name": "4000.0",
+                              "type": {
+                                "alignment": 8,
+                                "initializer": "",
+                                "primitive_type": 15,
+                                "storage_type": "CPU_Stack",
+                                "type": "scalar"
+                              }
+                            }
+                          ],
+                          "output": {
+                            "name": "__daisy_out",
+                            "type": {
+                              "alignment": 8,
+                              "initializer": "",
+                              "primitive_type": 15,
+                              "storage_type": "CPU_Stack",
+                              "type": "scalar"
+                            }
+                          },
+                          "type": "tasklet"
+                        },
+                        {
+                          "data": "_65",
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 33
+                          },
+                          "element_id": 98,
+                          "type": "access_node"
+                        },
+                        {
+                          "data": "_0",
+                          "debug_info": {
+                            "end_column": 43,
+                            "end_line": 33,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 43,
+                            "start_line": 33
+                          },
+                          "element_id": 97,
+                          "type": "access_node"
+                        }
+                      ],
+                      "type": "dataflow"
+                    },
+                    "debug_info": {
+                      "end_column": 43,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 43,
+                      "start_line": 33
+                    },
+                    "element_id": 95,
+                    "type": "block"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 15,
+                  "end_line": 33,
+                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                  "has": true,
+                  "start_column": 25,
+                  "start_line": 32
+                },
+                "element_id": 683,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 18,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 18,
+                      "start_line": 33
+                    },
+                    "element_id": 59,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [
+                      {
+                        "expression": "2 + _55",
+                        "symbol": "_63"
+                      }
+                    ],
+                    "debug_info": {
+                      "end_column": 0,
+                      "end_line": 0,
+                      "filename": "",
+                      "has": false,
+                      "start_column": 0,
+                      "start_line": 0
+                    },
+                    "element_id": 643,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 38,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 38,
+                      "start_line": 33
+                    },
+                    "element_id": 87,
+                    "type": "transition"
+                  },
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 43,
+                      "end_line": 33,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 43,
+                      "start_line": 33
+                    },
+                    "element_id": 96,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "schedule_type": "SEQUENTIAL",
+              "type": "map",
+              "update": "1 + _55"
+            }
+          ],
+          "debug_info": {
+            "end_column": 7,
+            "end_line": 33,
+            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 31
+          },
+          "element_id": 681,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 15,
+                "end_line": 33,
+                "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                "has": true,
+                "start_column": 25,
+                "start_line": 32
+              },
+              "element_id": 48,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "schedule_type": "SEQUENTIAL",
+        "type": "map",
+        "update": "1 + _3"
+      },
+      {
+        "condition": "(_7 < 1000)",
+        "debug_info": {
+          "end_column": 6,
+          "end_line": 73,
+          "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 68
+        },
+        "element_id": 672,
+        "indvar": "_7",
+        "init": "0",
+        "root": {
+          "children": [
+            {
+              "condition": "(_11 < 3999)",
+              "debug_info": {
+                "end_column": 6,
+                "end_line": 73,
+                "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                "has": true,
+                "start_column": 33,
+                "start_line": 69
+              },
+              "element_id": 676,
+              "indvar": "_11",
+              "init": "1",
+              "root": {
+                "children": [
+                  {
+                    "condition": "(_17 < 3999)",
+                    "debug_info": {
+                      "end_column": 8,
+                      "end_line": 73,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 70
+                    },
+                    "element_id": 678,
+                    "indvar": "_17",
+                    "init": "1",
+                    "root": {
+                      "children": [
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [
+                                  "-1 + _11",
+                                  "-1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "dst": 315,
+                                "dst_conn": "_in1",
+                                "element_id": 318,
+                                "end_subset": [
+                                  "-1 + _11",
+                                  "-1 + _17"
+                                ],
+                                "src": 314,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _11",
+                                  "-1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [
+                                  "-1 + _11",
+                                  "_17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "dst": 315,
+                                "dst_conn": "_in2",
+                                "element_id": 317,
+                                "end_subset": [
+                                  "-1 + _11",
+                                  "_17"
+                                ],
+                                "src": 313,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _11",
+                                  "_17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "dst": 312,
+                                "dst_conn": "void",
+                                "element_id": 316,
+                                "end_subset": [],
+                                "src": 315,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "element_id": 315,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "element_id": 314,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "element_id": 313,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_28",
+                                "debug_info": {
+                                  "end_column": 25,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 25,
+                                  "start_line": 71
+                                },
+                                "element_id": 312,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 71,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 71
+                          },
+                          "element_id": 310,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "dst": 343,
+                                "dst_conn": "_in1",
+                                "element_id": 346,
+                                "end_subset": [],
+                                "src": 342,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "-1 + _11",
+                                  "1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "dst": 343,
+                                "dst_conn": "_in2",
+                                "element_id": 345,
+                                "end_subset": [
+                                  "-1 + _11",
+                                  "1 + _17"
+                                ],
+                                "src": 341,
+                                "src_conn": "void",
+                                "subset": [
+                                  "-1 + _11",
+                                  "1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "dst": 340,
+                                "dst_conn": "void",
+                                "element_id": 344,
+                                "end_subset": [],
+                                "src": 343,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "element_id": 343,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_28",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "element_id": 342,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "element_id": 341,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_32",
+                                "debug_info": {
+                                  "end_column": 37,
+                                  "end_line": 71,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 37,
+                                  "start_line": 71
+                                },
+                                "element_id": 340,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 37,
+                            "end_line": 71,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 37,
+                            "start_line": 71
+                          },
+                          "element_id": 338,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "dst": 364,
+                                "dst_conn": "_in1",
+                                "element_id": 367,
+                                "end_subset": [],
+                                "src": 363,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_11",
+                                  "-1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "dst": 364,
+                                "dst_conn": "_in2",
+                                "element_id": 366,
+                                "end_subset": [
+                                  "_11",
+                                  "-1 + _17"
+                                ],
+                                "src": 362,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_11",
+                                  "-1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "dst": 361,
+                                "dst_conn": "void",
+                                "element_id": 365,
+                                "end_subset": [],
+                                "src": 364,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "element_id": 364,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_32",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "element_id": 363,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "element_id": 362,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_35",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 72
+                                },
+                                "element_id": 361,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 6,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 6,
+                            "start_line": 72
+                          },
+                          "element_id": 359,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "dst": 385,
+                                "dst_conn": "_in1",
+                                "element_id": 388,
+                                "end_subset": [],
+                                "src": 384,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_11",
+                                  "_17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "dst": 385,
+                                "dst_conn": "_in2",
+                                "element_id": 387,
+                                "end_subset": [
+                                  "_11",
+                                  "_17"
+                                ],
+                                "src": 383,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_11",
+                                  "_17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "dst": 382,
+                                "dst_conn": "void",
+                                "element_id": 386,
+                                "end_subset": [],
+                                "src": 385,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "element_id": 385,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_35",
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "element_id": 384,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "element_id": 383,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_38",
+                                "debug_info": {
+                                  "end_column": 18,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 18,
+                                  "start_line": 72
+                                },
+                                "element_id": 382,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 72
+                          },
+                          "element_id": 380,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "dst": 406,
+                                "dst_conn": "_in1",
+                                "element_id": 409,
+                                "end_subset": [],
+                                "src": 405,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_11",
+                                  "1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "dst": 406,
+                                "dst_conn": "_in2",
+                                "element_id": 408,
+                                "end_subset": [
+                                  "_11",
+                                  "1 + _17"
+                                ],
+                                "src": 404,
+                                "src_conn": "void",
+                                "subset": [
+                                  "_11",
+                                  "1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "dst": 403,
+                                "dst_conn": "void",
+                                "element_id": 407,
+                                "end_subset": [],
+                                "src": 406,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "element_id": 406,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_38",
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "element_id": 405,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "element_id": 404,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_41",
+                                "debug_info": {
+                                  "end_column": 28,
+                                  "end_line": 72,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 28,
+                                  "start_line": 72
+                                },
+                                "element_id": 403,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 72
+                          },
+                          "element_id": 401,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "dst": 434,
+                                "dst_conn": "_in1",
+                                "element_id": 437,
+                                "end_subset": [],
+                                "src": 433,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "1 + _11",
+                                  "-1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "dst": 434,
+                                "dst_conn": "_in2",
+                                "element_id": 436,
+                                "end_subset": [
+                                  "1 + _11",
+                                  "-1 + _17"
+                                ],
+                                "src": 432,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _11",
+                                  "-1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "dst": 431,
+                                "dst_conn": "void",
+                                "element_id": 435,
+                                "end_subset": [],
+                                "src": 434,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "element_id": 434,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_41",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "element_id": 433,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "element_id": 432,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_45",
+                                "debug_info": {
+                                  "end_column": 6,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 6,
+                                  "start_line": 73
+                                },
+                                "element_id": 431,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 6,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 6,
+                            "start_line": 73
+                          },
+                          "element_id": 429,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "dst": 455,
+                                "dst_conn": "_in1",
+                                "element_id": 458,
+                                "end_subset": [],
+                                "src": 454,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "1 + _11",
+                                  "_17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "dst": 455,
+                                "dst_conn": "_in2",
+                                "element_id": 457,
+                                "end_subset": [
+                                  "1 + _11",
+                                  "_17"
+                                ],
+                                "src": 453,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _11",
+                                  "_17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "dst": 452,
+                                "dst_conn": "void",
+                                "element_id": 456,
+                                "end_subset": [],
+                                "src": 455,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "element_id": 455,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_45",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "element_id": 454,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "element_id": 453,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_48",
+                                "debug_info": {
+                                  "end_column": 20,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 20,
+                                  "start_line": 73
+                                },
+                                "element_id": 452,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 20,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 20,
+                            "start_line": 73
+                          },
+                          "element_id": 450,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "dst": 476,
+                                "dst_conn": "_in1",
+                                "element_id": 479,
+                                "end_subset": [],
+                                "src": 475,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "1 + _11",
+                                  "1 + _17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "dst": 476,
+                                "dst_conn": "_in2",
+                                "element_id": 478,
+                                "end_subset": [
+                                  "1 + _11",
+                                  "1 + _17"
+                                ],
+                                "src": 474,
+                                "src_conn": "void",
+                                "subset": [
+                                  "1 + _11",
+                                  "1 + _17"
+                                ]
+                              },
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "dst": 473,
+                                "dst_conn": "void",
+                                "element_id": 477,
+                                "end_subset": [],
+                                "src": 476,
+                                "src_conn": "__daisy_out",
+                                "subset": []
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 2,
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "element_id": 476,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "_in2",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_48",
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "element_id": 475,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "element_id": 474,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_51",
+                                "debug_info": {
+                                  "end_column": 32,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 32,
+                                  "start_line": 73
+                                },
+                                "element_id": 473,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 32,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 32,
+                            "start_line": 73
+                          },
+                          "element_id": 471,
+                          "type": "block"
+                        },
+                        {
+                          "dataflow": {
+                            "edges": [
+                              {
+                                "begin_subset": [],
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 73
+                                },
+                                "dst": 484,
+                                "dst_conn": "_in1",
+                                "element_id": 486,
+                                "end_subset": [],
+                                "src": 483,
+                                "src_conn": "void",
+                                "subset": []
+                              },
+                              {
+                                "begin_subset": [
+                                  "_11",
+                                  "_17"
+                                ],
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 73
+                                },
+                                "dst": 482,
+                                "dst_conn": "void",
+                                "element_id": 485,
+                                "end_subset": [
+                                  "_11",
+                                  "_17"
+                                ],
+                                "src": 484,
+                                "src_conn": "__daisy_out",
+                                "subset": [
+                                  "_11",
+                                  "_17"
+                                ]
+                              }
+                            ],
+                            "nodes": [
+                              {
+                                "code": 5,
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 73
+                                },
+                                "element_id": 484,
+                                "inputs": [
+                                  {
+                                    "name": "_in1",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  },
+                                  {
+                                    "name": "9.0",
+                                    "type": {
+                                      "alignment": 8,
+                                      "initializer": "",
+                                      "primitive_type": 15,
+                                      "storage_type": "CPU_Stack",
+                                      "type": "scalar"
+                                    }
+                                  }
+                                ],
+                                "output": {
+                                  "name": "__daisy_out",
+                                  "type": {
+                                    "alignment": 8,
+                                    "initializer": "",
+                                    "primitive_type": 15,
+                                    "storage_type": "CPU_Stack",
+                                    "type": "scalar"
+                                  }
+                                },
+                                "type": "tasklet"
+                              },
+                              {
+                                "data": "_51",
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 73
+                                },
+                                "element_id": 483,
+                                "type": "access_node"
+                              },
+                              {
+                                "data": "_0",
+                                "debug_info": {
+                                  "end_column": 46,
+                                  "end_line": 73,
+                                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                                  "has": true,
+                                  "start_column": 46,
+                                  "start_line": 73
+                                },
+                                "element_id": 482,
+                                "type": "access_node"
+                              }
+                            ],
+                            "type": "dataflow"
+                          },
+                          "debug_info": {
+                            "end_column": 46,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 46,
+                            "start_line": 73
+                          },
+                          "element_id": 480,
+                          "type": "block"
+                        }
+                      ],
+                      "debug_info": {
+                        "end_column": 8,
+                        "end_line": 73,
+                        "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                        "has": true,
+                        "start_column": 21,
+                        "start_line": 70
+                      },
+                      "element_id": 679,
+                      "transitions": [
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 25,
+                            "end_line": 71,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 25,
+                            "start_line": 71
+                          },
+                          "element_id": 311,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 37,
+                            "end_line": 71,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 37,
+                            "start_line": 71
+                          },
+                          "element_id": 339,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 6,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 6,
+                            "start_line": 72
+                          },
+                          "element_id": 360,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 18,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 18,
+                            "start_line": 72
+                          },
+                          "element_id": 381,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 28,
+                            "end_line": 72,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 28,
+                            "start_line": 72
+                          },
+                          "element_id": 402,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 6,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 6,
+                            "start_line": 73
+                          },
+                          "element_id": 430,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 20,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 20,
+                            "start_line": 73
+                          },
+                          "element_id": 451,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 32,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 32,
+                            "start_line": 73
+                          },
+                          "element_id": 472,
+                          "type": "transition"
+                        },
+                        {
+                          "assignments": [],
+                          "debug_info": {
+                            "end_column": 46,
+                            "end_line": 73,
+                            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                            "has": true,
+                            "start_column": 46,
+                            "start_line": 73
+                          },
+                          "element_id": 481,
+                          "type": "transition"
+                        }
+                      ],
+                      "type": "sequence"
+                    },
+                    "type": "for",
+                    "update": "1 + _17"
+                  }
+                ],
+                "debug_info": {
+                  "end_column": 6,
+                  "end_line": 73,
+                  "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                  "has": true,
+                  "start_column": 33,
+                  "start_line": 69
+                },
+                "element_id": 677,
+                "transitions": [
+                  {
+                    "assignments": [],
+                    "debug_info": {
+                      "end_column": 8,
+                      "end_line": 73,
+                      "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                      "has": true,
+                      "start_column": 21,
+                      "start_line": 70
+                    },
+                    "element_id": 269,
+                    "type": "transition"
+                  }
+                ],
+                "type": "sequence"
+              },
+              "type": "for",
+              "update": "1 + _11"
+            }
+          ],
+          "debug_info": {
+            "end_column": 6,
+            "end_line": 73,
+            "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+            "has": true,
+            "start_column": 17,
+            "start_line": 68
+          },
+          "element_id": 673,
+          "transitions": [
+            {
+              "assignments": [],
+              "debug_info": {
+                "end_column": 6,
+                "end_line": 73,
+                "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+                "has": true,
+                "start_column": 33,
+                "start_line": 69
+              },
+              "element_id": 245,
+              "type": "transition"
+            }
+          ],
+          "type": "sequence"
+        },
+        "type": "for",
+        "update": "1 + _7"
+      }
+    ],
+    "debug_info": {
+      "end_column": 0,
+      "end_line": 0,
+      "filename": "",
+      "has": false,
+      "start_column": 0,
+      "start_line": 0
+    },
+    "element_id": 0,
+    "transitions": [
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 7,
+          "end_line": 33,
+          "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 31
+        },
+        "element_id": 24,
+        "type": "transition"
+      },
+      {
+        "assignments": [],
+        "debug_info": {
+          "end_column": 6,
+          "end_line": 73,
+          "filename": "/home/github/docc/tests/polybench/stencils/seidel-2d/seidel-2d.c",
+          "has": true,
+          "start_column": 17,
+          "start_line": 68
+        },
+        "element_id": 221,
+        "type": "transition"
+      }
+    ],
+    "type": "sequence"
+  },
+  "structures": [],
+  "type": "CPU"
+}
