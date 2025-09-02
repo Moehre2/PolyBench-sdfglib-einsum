@@ -79,14 +79,13 @@ bool CodeRegion::in_regions(size_t line) const {
     return false;
 }
 
-Benchmark::Benchmark(const std::string name, const std::string json_path,
-                     const std::string out_path, const std::vector<DatasetSize> dataset_sizes,
+Benchmark::Benchmark(const std::string name, const std::string path,
+                     const std::vector<DatasetSize> dataset_sizes,
                      const std::vector<Variable> variables,
                      const std::vector<size_t> call_variables,
                      const std::vector<size_t> print_variables, const CodeRegion code_region)
     : name_(name),
-      json_path_(json_path),
-      out_path_(out_path),
+      path_(path),
       dataset_sizes_(dataset_sizes),
       variables_(variables),
       call_variables_(call_variables),
@@ -119,20 +118,30 @@ Benchmark::Benchmark(const std::string name, const std::string json_path,
 
 const std::string& Benchmark::name() const { return this->name_; }
 
-const std::string& Benchmark::json_path() const { return this->json_path_; }
-
-const std::string& Benchmark::out_path() const { return this->out_path_; }
-
-std::filesystem::path Benchmark::out_header_path() const {
-    return std::filesystem::path(this->out_path_) / "generated.h";
+std::string Benchmark::json_path(bool check) const {
+    if (check)
+        return (std::filesystem::path("sdfg_json/check") / (this->path_ + ".json")).string();
+    else
+        return (std::filesystem::path("sdfg_json/run") / (this->path_ + ".json")).string();
 }
 
-std::filesystem::path Benchmark::out_source_path() const {
-    return std::filesystem::path(this->out_path_) / "generated.c";
+std::string Benchmark::out_path(bool check) const {
+    if (check)
+        return (std::filesystem::path("optimized_c/check") / this->path_).string();
+    else
+        return (std::filesystem::path("optimized_c/run") / this->path_).string();
 }
 
-std::filesystem::path Benchmark::out_main_path() const {
-    return std::filesystem::path(this->out_path_) / (this->name_ + ".c");
+std::filesystem::path Benchmark::out_header_path(bool check) const {
+    return std::filesystem::path(this->out_path(check)) / "generated.h";
+}
+
+std::filesystem::path Benchmark::out_source_path(bool check) const {
+    return std::filesystem::path(this->out_path(check)) / "generated.c";
+}
+
+std::filesystem::path Benchmark::out_main_path(bool check) const {
+    return std::filesystem::path(this->out_path(check)) / (this->name_ + ".c");
 }
 
 const std::vector<DatasetSize>& Benchmark::dataset_sizes() const { return this->dataset_sizes_; }
@@ -163,8 +172,7 @@ BenchmarkRegistry::~BenchmarkRegistry() {
     }
 }
 
-void BenchmarkRegistry::register_benchmark(const std::string name, const std::string json_path,
-                                           const std::string out_path,
+void BenchmarkRegistry::register_benchmark(const std::string name, const std::string path,
                                            const std::vector<DatasetSize> dataset_sizes,
                                            const std::vector<Variable> variables,
                                            const std::vector<size_t> call_variables,
@@ -174,8 +182,8 @@ void BenchmarkRegistry::register_benchmark(const std::string name, const std::st
     if (this->benchmarks_.contains(name)) {
         throw std::runtime_error("Benchmark already registered with name: " + name);
     }
-    this->benchmarks_[name] = new Benchmark(name, json_path, out_path, dataset_sizes, variables,
-                                            call_variables, print_variables, code_region);
+    this->benchmarks_[name] = new Benchmark(name, path, dataset_sizes, variables, call_variables,
+                                            print_variables, code_region);
 }
 
 Benchmark* BenchmarkRegistry::get_benchmark(const std::string name) {

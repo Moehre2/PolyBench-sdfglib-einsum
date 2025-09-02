@@ -29,13 +29,13 @@ def get_benchmark_output(exec: str, type: str, nthreads: int = 1) -> tuple[bool,
 
 def check(benchmark: str, nthreads: int) -> bool:
     print(f"{benchmark}: ", end="")
-    ref_out_res, ref_out = get_benchmark_output(join("bin", "check", "ref", benchmark), "ref")
+    ref_out_res, ref_out = get_benchmark_output(join("bin", "ref", "check", benchmark), "ref")
     if not ref_out_res:
         return False
-    opt_out_res, opt_out = get_benchmark_output(join("bin", "check", "optimized_c", benchmark), "opt")
+    opt_out_res, opt_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt")
     if not opt_out_res:
         return False
-    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "check", "optimized_c", benchmark), "opt", nthreads=nthreads)
+    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt", nthreads=nthreads)
     if not opt2_out_res:
         return False
     key_differences = set(ref_out.keys()).symmetric_difference(set(opt_out.keys()))

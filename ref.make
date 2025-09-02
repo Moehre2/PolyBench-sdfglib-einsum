@@ -30,25 +30,25 @@ BENCHMARKS_REF= \
 	stencils/jacobi-2d \
 	stencils/seidel-2d
 
-$(foreach bindirs,check/ref run/ref,$(eval $(call BINDIRS_RULE,$(bindirs))))
+$(eval $(call BINDIRS_RULE,ref))
 
 define CHECK_RULE_REF
-bin/check/ref/$(1): bin/check/ref/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
+bin/ref/check/$(1): bin/ref/check/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
 	clang $(CHECK_ARGS) -I ref/utilities -I ref/$(1) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c -o $$@ -lm
 endef
 
 $(foreach bench,$(BENCHMARKS_REF),$(eval $(call CHECK_RULE_REF,$(bench))))
 
 define RUN_RULE_REF
-bin/run/ref/$(1): bin/run/ref/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
+bin/ref/run/$(1): bin/ref/run/$(dir $(1)) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c
 	clang $(RUN_ARGS) -I ref/utilities -I ref/$(1) ref/utilities/polybench.c ref/$(1)/$(notdir $(1)).c -o $$@ -lm
 endef
 
 $(foreach bench,$(BENCHMARKS_REF),$(eval $(call RUN_RULE_REF,$(bench))))
 
-check-ref: $(foreach bench,$(BENCHMARKS_REF),bin/check/ref/$(bench))
+check-ref: $(foreach bench,$(BENCHMARKS_REF),bin/ref/check/$(bench))
 
-run-ref: $(foreach bench,$(BENCHMARKS_REF),bin/run/ref/$(bench))
+run-ref: $(foreach bench,$(BENCHMARKS_REF),bin/ref/run/$(bench))
 
 PHONYLIST+=check-ref run-ref
 CHECKLIST+=check-ref

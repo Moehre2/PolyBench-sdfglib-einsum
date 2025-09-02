@@ -12,8 +12,8 @@ def get_benchmark_output(exec: str, nthreads: int) -> float:
 
 def run(benchmark: str, reps: int, nthreads: int) -> tuple[float, float]:
     print(f"{benchmark}: ", end="")
-    ref_exec = join("bin", "run", "ref", benchmark)
-    opt_exec = join("bin", "run", "optimized_c", benchmark)
+    ref_exec = join("bin", "ref", "run", benchmark)
+    opt_exec = join("bin", "optimized_c", "run", benchmark)
     ref_time = 0.0
     opt_time = 0.0
     for _ in range(reps):

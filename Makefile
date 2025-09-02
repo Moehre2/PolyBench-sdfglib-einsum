@@ -9,36 +9,34 @@ clean:
 bin/:
 	mkdir -p $@
 
-bin/check/: bin/
-	mkdir -p $@
+DIRS= \
+	datamining \
+	linear-algebra \
+	linear-algebra/blas \
+	linear-algebra/kernels \
+	linear-algebra/solvers \
+	medley \
+	stencils
 
-bin/run/: bin/
-	mkdir -p $@
+define BINDIRS_RULE_INTERNAL
+bin/$(1)/check/$(2)/: $(dir bin/$(1)/check/$(2))
+	mkdir -p $$@
+
+bin/$(1)/run/$(2)/: $(dir bin/$(1)/run/$(2))
+	mkdir -p $$@
+endef
 
 define BINDIRS_RULE
-bin/$(1)/: bin/$(dir $(1))
+bin/$(1)/: bin/
 	mkdir -p $$@
 
-bin/$(1)/datamining/: bin/$(1)/
+bin/$(1)/check/: bin/$(1)/
 	mkdir -p $$@
 
-bin/$(1)/linear-algebra/: bin/$(1)/
+bin/$(1)/run/: bin/$(1)/
 	mkdir -p $$@
 
-bin/$(1)/linear-algebra/blas/: bin/$(1)/linear-algebra/
-	mkdir -p $$@
-
-bin/$(1)/linear-algebra/kernels/: bin/$(1)/linear-algebra/
-	mkdir -p $$@
-
-bin/$(1)/linear-algebra/solvers/: bin/$(1)/linear-algebra/
-	mkdir -p $$@
-
-bin/$(1)/medley/: bin/$(1)/
-	mkdir -p $$@
-
-bin/$(1)/stencils/: bin/$(1)/
-	mkdir -p $$@
+$(foreach dir,$(DIRS),$(eval $(call BINDIRS_RULE_INTERNAL,$(1),$(dir))))
 endef
 
 PHONYLIST=clean check run all

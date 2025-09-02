@@ -163,16 +163,29 @@ void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
 int main(int argc, char* argv[]) {
     register_benchmarks();
 
-    if (argc != 2) {
-        std::cerr << "Usage: optimize [benchmark name]" << std::endl
+    if (argc != 3) {
+        std::cerr << "Usage: optimize [check|run] [benchmark name]" << std::endl
                   << "Available benchmarks: " << BenchmarkRegistry::instance().dump_benchmarks()
                   << std::endl;
         return 1;
     }
 
-    Benchmark* benchmark = BenchmarkRegistry::instance().get_benchmark(argv[1]);
+    std::string argv_1(argv[1]);
+    bool check;
+    if (argv_1 == "check") {
+        check = true;
+    } else if (argv_1 == "run") {
+        check = false;
+    } else {
+        std::cerr << "Usage: optimize [check|run] [benchmark name]" << std::endl
+                  << "Available benchmarks: " << BenchmarkRegistry::instance().dump_benchmarks()
+                  << std::endl;
+        return 1;
+    }
+
+    Benchmark* benchmark = BenchmarkRegistry::instance().get_benchmark(argv[2]);
     if (!benchmark) {
-        std::cerr << "Unknown benchmark: " << argv[1] << std::endl
+        std::cerr << "Unknown benchmark: " << argv[2] << std::endl
                   << "Available benchmarks: " << BenchmarkRegistry::instance().dump_benchmarks()
                   << std::endl;
         return 1;
@@ -186,7 +199,7 @@ int main(int argc, char* argv[]) {
 
     sdfg::polybench::register_polybench_dispatcher();
 
-    const std::string jsonFile(benchmark->json_path());
+    const std::string jsonFile(benchmark->json_path(check));
     std::ifstream stream(jsonFile);
     if (!stream.good()) {
         std::cerr << "Could not open file: " << jsonFile << std::endl;
@@ -215,16 +228,17 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    std::filesystem::create_directories(benchmark->out_path());
+    std::filesystem::create_directories(benchmark->out_path(check));
 
-    if (!generator.as_source(benchmark->out_header_path(), benchmark->out_source_path())) {
+    if (!generator.as_source(benchmark->out_header_path(check),
+                             benchmark->out_source_path(check))) {
         std::cerr << "Error: Could not output C sources" << std::endl;
-        std::cerr << benchmark->out_header_path() << std::endl;
+        std::cerr << benchmark->out_header_path(check) << std::endl;
         return 1;
     }
 
     std::ofstream out_header;
-    out_header.open(benchmark->out_header_path(), std::ios_base::app);
+    out_header.open(benchmark->out_header_path(check), std::ios_base::app);
     out_header << std::endl
                << "#include <polybench.h>" << std::endl
                << "#include <cblas.h>" << std::endl
@@ -234,7 +248,7 @@ int main(int argc, char* argv[]) {
     sdfg::codegen::PrettyPrinter main_stream;
     generate_main(main_stream, benchmark, builder.subject().name());
     std::ofstream out_main;
-    out_main.open(benchmark->out_main_path());
+    out_main.open(benchmark->out_main_path(check));
     if (!out_main.good()) {
         std::cerr << "Error" << std::endl;
     }
