@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
+from os import environ
 from os.path import join, isfile
 import subprocess
 import re
 
-def get_benchmark_output(exec: str, type: str, nthreads: int = 1) -> tuple[bool, dict[str, list[float]]]:
+def get_benchmark_output(exec: str, type: str, omp_nthreads: int = 1, mkl_nthreads: int = 1) -> tuple[bool, dict[str, list[float]]]:
     if not isfile(exec):
         print(f"{exec} does not exist...")
         return False, {}
-    out = subprocess.run(exec, capture_output=True, env={"OMP_NUM_THREADS": str(nthreads)}).stderr.decode()
+    out = subprocess.run(exec, capture_output=True, env=environ.update({"OMP_NUM_THREADS": str(omp_nthreads), "MKL_NUM_THREAD": str(mkl_nthreads)})).stderr.decode()
     dump_region = re.search("(?<===BEGIN DUMP_ARRAYS==\n)(?s:.)*(?===END   DUMP_ARRAYS==)", out)
     if dump_region == None:
         print(f"Cannot find DUMP_ARRAYS region in {type}...")
@@ -27,7 +28,7 @@ def get_benchmark_output(exec: str, type: str, nthreads: int = 1) -> tuple[bool,
         result[key] = dump_split
     return True, result
 
-def check(benchmark: str, nthreads: int) -> bool:
+def check(benchmark: str, omp_nthreads: int, mkl_nthreads: int) -> bool:
     print(f"{benchmark}: ", end="")
     ref_out_res, ref_out = get_benchmark_output(join("bin", "ref", "check", benchmark), "ref")
     if not ref_out_res:
@@ -35,7 +36,7 @@ def check(benchmark: str, nthreads: int) -> bool:
     opt_out_res, opt_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt")
     if not opt_out_res:
         return False
-    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt", nthreads=nthreads)
+    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt", omp_nthreads=omp_nthreads, mkl_nthreads=mkl_nthreads)
     if not opt2_out_res:
         return False
     key_differences = set(ref_out.keys()).symmetric_difference(set(opt_out.keys()))
@@ -97,7 +98,8 @@ if __name__ == "__main__":
         "stencils/jacobi-2d",
         "stencils/seidel-2d"
     ]
-    NTHREADS=12
+    OMP_NTHREADS=4
+    MKL_NTHREADS=24
     ### BENCHMARKS ###
     from sys import argv
     if len(argv) < 2:
@@ -115,6 +117,6 @@ if __name__ == "__main__":
     benchmarks_args = [benchmark_names[bench] for bench in benchmark_names_args]
     all_match = []
     for bench in benchmarks_args:
-        all_match.append(check(bench, NTHREADS))
+        all_match.append(check(bench, OMP_NTHREADS, MKL_NTHREADS))
     if False in all_match:
         exit(1)

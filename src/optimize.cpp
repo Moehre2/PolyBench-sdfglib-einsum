@@ -245,7 +245,7 @@ int main(int argc, char* argv[]) {
     out_header.open(benchmark->out_header_path(check), std::ios_base::app);
     out_header << std::endl
                << "#include <polybench.h>" << std::endl
-               << "#include <cblas.h>" << std::endl
+               << "#include <mkl.h>" << std::endl
                << generator.function_definition() << ";" << std::endl;
     out_header.close();
 

@@ -28,10 +28,10 @@ $(eval $(call BINDIRS_RULE,optimized_c))
 
 define OPT_C_RULE
 bin/optimized_c/check/$(1): bin/optimized_c/check/$(dir $(1)) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c
-	clang $(CHECK_ARGS) -Wno-incompatible-pointer-types -fopenmp -I ref/utilities -I optimized_c/check/$(1) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c -o $$@ -lm -lblas
+	clang $(CHECK_ARGS) -Wno-incompatible-pointer-types -DMKL_ILP64 -m64 -I$(MKLROOT)/include -fopenmp -I ref/utilities -I optimized_c/check/$(1) ref/utilities/polybench.c optimized_c/check/$(1)/$(notdir $(1)).c optimized_c/check/$(1)/generated.c -o $$@ -L$(MKLROOT)/lib -lmkl_rt -Wl,--no-as-needed -lpthread -lm -ldl
 
 bin/optimized_c/run/$(1): bin/optimized_c/run/$(dir $(1)) ref/utilities/polybench.c optimized_c/run/$(1)/$(notdir $(1)).c optimized_c/run/$(1)/generated.c
-	clang $(RUN_ARGS) -Wno-incompatible-pointer-types -fopenmp -I ref/utilities -I optimized_c/run/$(1) ref/utilities/polybench.c optimized_c/run/$(1)/$(notdir $(1)).c optimized_c/run/$(1)/generated.c -o $$@ -lm -lblas
+	clang $(RUN_ARGS) -Wno-incompatible-pointer-types -DMKL_ILP64 -m64 -I$(MKLROOT)/include -fopenmp -I ref/utilities -I optimized_c/run/$(1) ref/utilities/polybench.c optimized_c/run/$(1)/$(notdir $(1)).c optimized_c/run/$(1)/generated.c -o $$@ -L$(MKLROOT)/lib -lmkl_rt -Wl,--no-as-needed -lpthread -lm -ldl
 
 optimized_c/check/$(1)/$(notdir $(1)).c: build/optimize
 	./build/optimize check $(notdir $(1))
