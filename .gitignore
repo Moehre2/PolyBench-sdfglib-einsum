@@ -5,3 +5,6 @@ build/
 bin/
 optimized_*/
 include/dump_sdfg.h
+output/
+results/
+benchmark_*.sh
