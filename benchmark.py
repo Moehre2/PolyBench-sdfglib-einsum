@@ -77,7 +77,11 @@ def get_run_output(exec: str, omp_nthreads: int, mkl_nthreads: int) -> float:
 def check_status(version_short: str, version_long: str, bench: str) -> str:
     check_exec = path.join(".", "bin", version_long, "check", bench)
     print(f"Check if {check_exec} exists")
-    if not path.isfile(check_exec) or not path.isfile(path.join(".", "bin", version_long, "run", bench)):
+    if not path.isfile(check_exec):
+        return "unavailable"
+    run_exec = path.join(".", "bin", version_long, "run", bench)
+    print(f"Check if {run_exec} exists")
+    if not path.isfile(run_exec):
         return "unavailable"
     ref_out_res, ref_out = get_check_output(path.join(".", "bin", "ref", "check", bench), "ref")
     if not ref_out_res:
@@ -124,7 +128,8 @@ def benchmark(version_short: str, version_long: str) -> int:
         out[bench]["status"] = status
         print(f"Got status {status}")
         if not status in ["unstable", "good"]:
-            result += 1
+            if status != "unavailable":
+                result += 1
             continue
         out[bench]["data"] = []
         run_exec = path.join(".", "bin", version_long, "run", bench)
