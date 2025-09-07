@@ -8,3 +8,5 @@ include/dump_sdfg.h
 output/
 results/
 benchmark_*.sh
+.venv/
+plots/
