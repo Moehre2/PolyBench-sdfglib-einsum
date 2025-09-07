@@ -148,7 +148,8 @@ def benchmark(version_short: str, version_long: str) -> int:
 if __name__ == "__main__":
     VERSIONS = {
         "ref": "ref",
-        "opt_c": "optimized_c"
+        "opt_c": "optimized_c",
+        "intel": "intel"
     }
     from sys import argv
     from os import makedirs

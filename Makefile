@@ -45,6 +45,7 @@ RUNLIST=
 
 include ref.make
 include opt_c.make
+include intel.make
 
 .PHONY: $(PHONYLIST)
 
