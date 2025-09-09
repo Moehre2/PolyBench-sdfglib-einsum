@@ -75,6 +75,7 @@ def plot_benchmark(versions: dict[str, dict[str, str]], ref: str, group: str, be
         else:
             y.append(0.0)
             colors.append("#ffffff")
+            edgecolors.append("#ffffff")
             hatches.append("")
     ax.grid(axis="y", zorder=0)
     nodata_y = max(y) * 0.1
@@ -103,10 +104,13 @@ def plot_group(versions: dict[str, dict[str, str]], ref: str, group: str) -> Non
         if version != ref:
             patches.append(mpatches.Patch(color=version_data["color1"], label=version_data["name"]))
     fig.legend(handles=patches, loc="lower center", ncols=len(patches))
-    outfile = "plots/" + group.replace("/", "_") + ".png"
-    fig.savefig(outfile)
+    outfile_png = "plots/" + group.replace("/", "_") + ".png"
+    outfile_pdf = "plots/" + group.replace("/", "_") + ".pdf"
+    fig.savefig(outfile_png)
+    fig.savefig(outfile_pdf, bbox_inches="tight")
+    plt.close(fig)
 
-def plot_all(versions: dict[str, dict[str, str]], ref: str) -> None:
+def compute_results(versions: dict[str, dict[str, str]], ref: str) -> None:
     if not ref in versions:
         print(f"{ref} not in versions")
         exit(1)
@@ -122,8 +126,23 @@ def plot_all(versions: dict[str, dict[str, str]], ref: str) -> None:
             print(f"Could not load JSON from file: {file_path}")
             exit(1)
         results[version] = data
+
+def plot_all(versions: dict[str, dict[str, str]], ref: str) -> None:
+    compute_results(versions, ref)
     for group in BENCHMARKS.keys():
         plot_group(versions, ref, group)
+
+def plot_all_single(versions: dict[str, dict[str, str]], ref: str) -> None:
+    compute_results(versions, ref)
+    for group, group_data in BENCHMARKS.items():
+        for bench in group_data["benchmarks"]:
+            fig, ax = plt.subplots(figsize=(WIDTH, HEIGHT))
+            plot_benchmark(versions, ref, group, bench, ax)
+            outfile_png = "plots/single/" + group.replace("/", "_") + "_" + bench + ".png"
+            outfile_pdf = "plots/single/" + group.replace("/", "_") + "_" + bench + ".pdf"
+            fig.savefig(outfile_png)
+            fig.savefig(outfile_pdf, bbox_inches="tight")
+            plt.close(fig)
 
 if __name__ == "__main__":
     VERSIONS = {
@@ -141,10 +160,37 @@ if __name__ == "__main__":
             "name": "intel",
             "color1": "#0072b4",
             "color2": "#79abe2"
+        },
+        "polly": {
+            "name": "polly",
+            "color1": "#f17b51",
+            "color2": "#f6a173"
+        },
+        "pluto": {
+            "name": "pluto",
+            "color1": "#6d60bb",
+            "color2": "#a79fe1"
         }
     }
     REF = "ref"
+    from sys import argv
     from os import path, makedirs
+    mode = None
+    if len(argv) == 1:
+        mode = "thesis"
+    elif len(argv) != 2:
+        print("Usage: plot.py [thesis|presentation]")
+        exit(1)
+    else:
+        mode = argv[1]
     if not path.exists("plots/"):
         makedirs("plots")
-    plot_all(VERSIONS, REF)
+    if mode == "thesis":
+        plot_all(VERSIONS, REF)
+    elif mode == "presentation":
+        if not path.exists("plots/single/"):
+            makedirs("plots/single/")
+        plot_all_single(VERSIONS, REF)
+    else:
+        print(f"Unknown mode: {mode}")
+        exit(1)
