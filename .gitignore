@@ -10,3 +10,4 @@ results/
 benchmark_*.sh
 .venv/
 plots/
+pluto/

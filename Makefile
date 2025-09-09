@@ -4,7 +4,7 @@ RUN_ARGS=-O3 -DPOLYBENCH_TIME -DEXTRALARGE_DATASET -DDATA_TYPE_IS_DOUBLE
 all: check run
 
 clean:
-	rm -rf bin/ optimized_*/
+	rm -rf bin/ optimized_*/ pluto/
 
 bin/:
 	mkdir -p $@
@@ -46,6 +46,8 @@ RUNLIST=
 include ref.make
 include opt_c.make
 include intel.make
+include polly.make
+include pluto.make
 
 .PHONY: $(PHONYLIST)
 

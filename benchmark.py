@@ -149,7 +149,9 @@ if __name__ == "__main__":
     VERSIONS = {
         "ref": "ref",
         "opt_c": "optimized_c",
-        "intel": "intel"
+        "intel": "intel",
+        "polly": "polly",
+        "pluto": "pluto"
     }
     from sys import argv
     from os import makedirs
