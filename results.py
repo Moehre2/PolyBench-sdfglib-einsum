@@ -6,6 +6,14 @@ import json
 from statistics import mean
 from math import isnan
 
+CATEGORIES = [
+    ["cholesky", "durbin", "lu", "ludcmp", "floyd-warshall", "nussinov"],
+    ["symm", "syr2k", "trmm", "deriche", "adi", "fdtd-2d", "heat-3d", "jacobi-1d", "jacobi-2d", "seidel-2d"],
+    ["correlation", "covariance", "doitgen", "gramschmidt", "trisolv"],
+    ["gemver", "gesummv", "atax", "bicg", "mvt"],
+    ["gemm", "syrk", "2mm", "3mm"]
+]
+
 def get_data(version: str) -> dict[str, dict[str, Any]]:
     filepath = f"results/{version}.json"
     if not isfile(filepath):
@@ -55,6 +63,20 @@ def print_results(version: str) -> None:
         max_str = "-" if isnan(bench_data["max"]) else f"x{bench_data['max']:.2f}"
         print(f"* {bench}{' ' * (max_name_len - len(bench))} * {bench_data['status']}{' ' * (max_status_len - len(bench_data['status']))} * {' ' * (max_avg_len - len(avg_str))}{avg_str} * {' ' * (max_min_len - len(min_str))}{min_str} * {' ' * (max_max_len - len(max_str))}{max_str} *")
     print(f"{'*' * (max_name_len + max_status_len + max_avg_len + max_min_len + max_max_len + 16)}")
+    print()
+    print("Average speed-ups:")
+    for i in range(len(CATEGORIES)):
+        sum_speedup = 0.0
+        num_speedup = 0
+        for bench in CATEGORIES[i]:
+            if not isnan(data[bench]["avg"]):
+                sum_speedup += data[bench]["avg"]
+                num_speedup += 1
+        if num_speedup == 0:
+            avg_speedup = "-"
+        else:
+            avg_speedup = f"x{(sum_speedup / num_speedup):.2f}"
+        print(f"{i + 1}) {avg_speedup}")
 
 if __name__ == "__main__":
     from sys import argv
