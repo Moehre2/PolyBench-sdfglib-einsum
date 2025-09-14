@@ -44,7 +44,7 @@ CHECKLIST=
 RUNLIST=
 
 include ref.make
-include opt_c.make
+include opt_mkl.make
 include intel.make
 include polly.make
 include pluto.make

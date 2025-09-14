@@ -127,9 +127,9 @@ std::string Benchmark::json_path(bool check) const {
 
 std::string Benchmark::out_path(bool check) const {
     if (check)
-        return (std::filesystem::path("optimized_c/check") / this->path_).string();
+        return (std::filesystem::path("optimized_mkl/check") / this->path_).string();
     else
-        return (std::filesystem::path("optimized_c/run") / this->path_).string();
+        return (std::filesystem::path("optimized_mkl/run") / this->path_).string();
 }
 
 std::filesystem::path Benchmark::out_header_path(bool check) const {

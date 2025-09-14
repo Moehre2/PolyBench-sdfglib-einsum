@@ -33,10 +33,10 @@ def check(benchmark: str, omp_nthreads: int, mkl_nthreads: int) -> bool:
     ref_out_res, ref_out = get_benchmark_output(join("bin", "ref", "check", benchmark), "ref")
     if not ref_out_res:
         return False
-    opt_out_res, opt_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt")
+    opt_out_res, opt_out = get_benchmark_output(join("bin", "optimized_mkl", "check", benchmark), "opt")
     if not opt_out_res:
         return False
-    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "optimized_c", "check", benchmark), "opt", omp_nthreads=omp_nthreads, mkl_nthreads=mkl_nthreads)
+    opt2_out_res, opt2_out = get_benchmark_output(join("bin", "optimized_mkl", "check", benchmark), "opt", omp_nthreads=omp_nthreads, mkl_nthreads=mkl_nthreads)
     if not opt2_out_res:
         return False
     key_differences = set(ref_out.keys()).symmetric_difference(set(opt_out.keys()))

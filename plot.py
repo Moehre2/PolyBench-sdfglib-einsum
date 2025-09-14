@@ -151,8 +151,8 @@ if __name__ == "__main__":
             "color1": "#7a7a7a",
             "color2": "#a8a8a8"
         },
-        "opt_c": {
-            "name": "optimized (C)",
+        "opt_mkl": {
+            "name": "einsum (MKL)",
             "color1": "#cc1c2f",
             "color2": "#ff7078"
         },

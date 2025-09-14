@@ -148,7 +148,7 @@ def benchmark(version_short: str, version_long: str) -> int:
 if __name__ == "__main__":
     VERSIONS = {
         "ref": "ref",
-        "opt_c": "optimized_c",
+        "opt_mkl": "optimized_mkl",
         "intel": "intel",
         "polly": "polly",
         "pluto": "pluto"
