@@ -79,12 +79,13 @@ bool CodeRegion::in_regions(size_t line) const {
     return false;
 }
 
-Benchmark::Benchmark(const std::string name, const std::string path,
+Benchmark::Benchmark(const BLASImplementation impl, const std::string name, const std::string path,
                      const std::vector<DatasetSize> dataset_sizes,
                      const std::vector<Variable> variables,
                      const std::vector<size_t> call_variables,
                      const std::vector<size_t> print_variables, const CodeRegion code_region)
-    : name_(name),
+    : impl_(impl),
+      name_(name),
       path_(path),
       dataset_sizes_(dataset_sizes),
       variables_(variables),
@@ -125,11 +126,20 @@ std::string Benchmark::json_path(bool check) const {
         return (std::filesystem::path("sdfg_json/run") / (this->path_ + ".json")).string();
 }
 
+std::string Benchmark::out_root_folder() const {
+    switch (this->impl_) {
+        case MKL:
+            return "optimized_mkl";
+        case MKL3:
+            return "optimized_mkl3";
+    }
+}
+
 std::string Benchmark::out_path(bool check) const {
     if (check)
-        return (std::filesystem::path("optimized_mkl/check") / this->path_).string();
+        return (std::filesystem::path(this->out_root_folder()) / "check" / this->path_).string();
     else
-        return (std::filesystem::path("optimized_mkl/run") / this->path_).string();
+        return (std::filesystem::path(this->out_root_folder()) / "run" / this->path_).string();
 }
 
 std::filesystem::path Benchmark::out_header_path(bool check) const {
@@ -172,6 +182,8 @@ BenchmarkRegistry::~BenchmarkRegistry() {
     }
 }
 
+void BenchmarkRegistry::setBLASImplementation(BLASImplementation impl) { this->impl_ = impl; }
+
 void BenchmarkRegistry::register_benchmark(const std::string name, const std::string path,
                                            const std::vector<DatasetSize> dataset_sizes,
                                            const std::vector<Variable> variables,
@@ -182,8 +194,8 @@ void BenchmarkRegistry::register_benchmark(const std::string name, const std::st
     if (this->benchmarks_.contains(name)) {
         throw std::runtime_error("Benchmark already registered with name: " + name);
     }
-    this->benchmarks_[name] = new Benchmark(name, path, dataset_sizes, variables, call_variables,
-                                            print_variables, code_region);
+    this->benchmarks_[name] = new Benchmark(impl_, name, path, dataset_sizes, variables,
+                                            call_variables, print_variables, code_region);
 }
 
 Benchmark* BenchmarkRegistry::get_benchmark(const std::string name) {

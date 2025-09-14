@@ -23,8 +23,16 @@ set(SOURCE_FILES
     src/timer.cpp
 )
 
-add_executable(optimize ${SOURCE_FILES})
+add_library(optimize ${SOURCE_FILES})
 target_include_directories(optimize PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_compile_options(optimize PRIVATE -Wall -Wextra -Wpedantic -Werror -Wno-unused-parameter -Wno-unused-private-field -Wno-switch -Wno-deprecated-declarations)
 target_link_libraries(optimize PUBLIC sdfglib::sdfglib)
 target_link_libraries(optimize PUBLIC sdfglib::sdfglib-einsum)
+
+add_executable(optimize_mkl src/optimize_mkl.cpp)
+target_include_directories(optimize_mkl PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(optimize_mkl optimize)
+
+add_executable(optimize_mkl3 src/optimize_mkl3.cpp)
+target_include_directories(optimize_mkl3 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(optimize_mkl3 optimize)

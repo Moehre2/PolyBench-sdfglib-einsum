@@ -226,7 +226,7 @@ void EinsumPipeline::block_fusion(builder::StructuredSDFGBuilder& builder,
     }
 }
 
-EinsumPipeline::EinsumPipeline() : Pass() {}
+EinsumPipeline::EinsumPipeline(BLASImplementation impl) : Pass(), impl_(impl) {}
 
 std::string EinsumPipeline::name() { return "EinsumPipeline"; }
 
@@ -326,12 +326,36 @@ bool EinsumPipeline::run_pass(builder::StructuredSDFGBuilder& builder,
         applied = false;
         auto einsum_nodes = this->get_einsum_nodes(builder);
         for (auto einsum_node : einsum_nodes) {
-            transformations::Einsum2BLAS transformation(einsum_node.get());
-            if (transformation.can_be_applied(builder, analysis_manager)) {
-                transformation.apply(builder, analysis_manager);
-                std::cout << "Applied Einsum2BLAS" << std::endl;
-                applied = true;
-                break;
+            if (this->impl_ == MKL3) {
+                transformations::Einsum2BLASGemm transformation_gemm(einsum_node.get());
+                if (transformation_gemm.can_be_applied(builder, analysis_manager)) {
+                    transformation_gemm.apply(builder, analysis_manager);
+                    std::cout << "Applied Einsum2BLAS" << std::endl;
+                    applied = true;
+                    break;
+                }
+                transformations::Einsum2BLASSymm transformation_symm(einsum_node.get());
+                if (transformation_symm.can_be_applied(builder, analysis_manager)) {
+                    transformation_symm.apply(builder, analysis_manager);
+                    std::cout << "Applied Einsum2BLAS" << std::endl;
+                    applied = true;
+                    break;
+                }
+                transformations::Einsum2BLASSyrk transformation_syrk(einsum_node.get());
+                if (transformation_syrk.can_be_applied(builder, analysis_manager)) {
+                    transformation_syrk.apply(builder, analysis_manager);
+                    std::cout << "Applied Einsum2BLAS" << std::endl;
+                    applied = true;
+                    break;
+                }
+            } else {
+                transformations::Einsum2BLAS transformation(einsum_node.get());
+                if (transformation.can_be_applied(builder, analysis_manager)) {
+                    transformation.apply(builder, analysis_manager);
+                    std::cout << "Applied Einsum2BLAS" << std::endl;
+                    applied = true;
+                    break;
+                }
             }
         }
     } while (applied);

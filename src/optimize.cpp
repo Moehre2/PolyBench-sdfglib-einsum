@@ -1,3 +1,5 @@
+#include "optimize.h"
+
 #include <sdfg/analysis/analysis.h>
 #include <sdfg/blas/blas_dispatcher.h>
 #include <sdfg/builder/structured_sdfg_builder.h>
@@ -164,8 +166,8 @@ void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
     stream << "}" << std::endl;
 }
 
-int main(int argc, char* argv[]) {
-    register_benchmarks();
+int optimize(BLASImplementation impl, int argc, char* argv[]) {
+    register_benchmarks(impl);
 
     if (argc != 3) {
         std::cerr << "Usage: optimize [check|run] [benchmark name]" << std::endl
@@ -223,7 +225,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    sdfg::passes::EinsumPipeline einsum_pipeline;
+    sdfg::passes::EinsumPipeline einsum_pipeline(impl);
     einsum_pipeline.run(builder, analysis_manager);
 
     sdfg::codegen::CCodeGenerator generator(builder.subject());

@@ -13,10 +13,14 @@
 #include <utility>
 #include <vector>
 
+#include "optimize.h"
+
 namespace sdfg {
 namespace passes {
 
 class EinsumPipeline : public Pass {
+    BLASImplementation impl_;
+
     std::vector<
         std::pair<std::vector<std::reference_wrapper<structured_control_flow::StructuredLoop>>,
                   structured_control_flow::Block&>>
@@ -34,7 +38,7 @@ class EinsumPipeline : public Pass {
                       structured_control_flow::Sequence& node);
 
    public:
-    EinsumPipeline();
+    EinsumPipeline(BLASImplementation impl);
 
     virtual std::string name() override;
 

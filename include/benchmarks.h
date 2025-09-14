@@ -9,6 +9,8 @@
 #include <utility>
 #include <vector>
 
+#include "optimize.h"
+
 struct DatasetSize {
     std::string name;
     std::string macroName;
@@ -56,6 +58,7 @@ class CodeRegion {
 };
 
 class Benchmark {
+    const BLASImplementation impl_;
     const std::string name_;
     const std::string path_;
     const std::vector<DatasetSize> dataset_sizes_;
@@ -65,7 +68,7 @@ class Benchmark {
     const CodeRegion code_region_;
 
    public:
-    Benchmark(const std::string name, const std::string path,
+    Benchmark(const BLASImplementation impl, const std::string name, const std::string path,
               const std::vector<DatasetSize> dataset_sizes, const std::vector<Variable> variables_,
               const std::vector<size_t> call_variables, const std::vector<size_t> print_variables,
               const CodeRegion code_region);
@@ -73,6 +76,8 @@ class Benchmark {
     const std::string& name() const;
 
     std::string json_path(bool check = true) const;
+
+    std::string out_root_folder() const;
 
     std::string out_path(bool check = true) const;
     std::filesystem::path out_header_path(bool check = true) const;
@@ -92,11 +97,14 @@ class Benchmark {
 };
 
 class BenchmarkRegistry {
+    BLASImplementation impl_;
     mutable std::mutex mutex_;
     std::unordered_map<std::string, Benchmark*> benchmarks_;
 
    public:
     ~BenchmarkRegistry();
+
+    void setBLASImplementation(BLASImplementation impl);
 
     static BenchmarkRegistry& instance() {
         static BenchmarkRegistry registry;
@@ -115,7 +123,8 @@ class BenchmarkRegistry {
     std::string dump_benchmarks();
 };
 
-inline void register_benchmarks() {
+inline void register_benchmarks(BLASImplementation impl) {
+    BenchmarkRegistry::instance().setBLASImplementation(impl);
     BenchmarkRegistry::instance().register_benchmark(
         "correlation", "datamining/correlation", {{"n", "N", 260, 3000}, {"m", "M", 240, 2600}},
         {{"float_n"}, {"data", 0, 1}, {"corr", 1, 1}, {"mean", 1}, {"stddev", 1}}, {3, 4, 2, 1, 2},

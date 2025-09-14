@@ -45,6 +45,7 @@ RUNLIST=
 
 include ref.make
 include opt_mkl.make
+include opt_mkl3.make
 include intel.make
 include polly.make
 include pluto.make

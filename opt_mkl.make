@@ -33,11 +33,11 @@ bin/optimized_mkl/check/$(1): bin/optimized_mkl/check/$(dir $(1)) ref/utilities/
 bin/optimized_mkl/run/$(1): bin/optimized_mkl/run/$(dir $(1)) ref/utilities/polybench.c optimized_mkl/run/$(1)/$(notdir $(1)).c optimized_mkl/run/$(1)/generated.c
 	clang $(RUN_ARGS) -Wno-incompatible-pointer-types -DMKL_ILP64 -m64 -I$(MKLROOT)/include -fopenmp -I ref/utilities -I optimized_mkl/run/$(1) ref/utilities/polybench.c optimized_mkl/run/$(1)/$(notdir $(1)).c optimized_mkl/run/$(1)/generated.c -o $$@ -L$(MKLROOT)/lib -lmkl_rt -Wl,--no-as-needed -lpthread -lm -ldl
 
-optimized_mkl/check/$(1)/$(notdir $(1)).c: build/optimize
-	./build/optimize check $(notdir $(1))
+optimized_mkl/check/$(1)/$(notdir $(1)).c: build/optimize_mkl
+	./build/optimize_mkl check $(notdir $(1))
 
-optimized_mkl/run/$(1)/$(notdir $(1)).c: build/optimize
-	./build/optimize run $(notdir $(1))
+optimized_mkl/run/$(1)/$(notdir $(1)).c: build/optimize_mkl
+	./build/optimize_mkl run $(notdir $(1))
 endef
 
 $(foreach bench,$(BENCHMARKS_OPT_MKL),$(eval $(call OPT_MKL_RULE,$(bench))))
