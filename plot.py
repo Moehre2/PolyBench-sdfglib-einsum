@@ -97,7 +97,7 @@ def plot_group(versions: dict[str, dict[str, str]], ref: str, group: str) -> Non
                 plot_benchmark(versions, ref, group, BENCHMARKS[group]["benchmarks"][bench], axs[row][col]) # type: ignore
                 bench += 1
     #fig.suptitle(group, fontsize="x-large", fontweight="demi")
-    fig.subplots_adjust(bottom=(0.15 / nrows))
+    fig.subplots_adjust(bottom=(0.2 / nrows))
     patches = []
     patches.append(mpatches.Patch(color=versions[ref]["color1"], label=versions[ref]["name"]))
     for version, version_data in versions.items():
@@ -152,9 +152,14 @@ if __name__ == "__main__":
             "color2": "#a8a8a8"
         },
         "opt_mkl": {
-            "name": "einsum (MKL)",
+            "name": "einsum\n(MKL)",
             "color1": "#cc1c2f",
             "color2": "#ff7078"
+        },
+        "opt_mkl3": {
+            "name": "einsum\n(MKL3)",
+            "color1": "#00a4a8",
+            "color2": "#2ec6af"
         },
         "intel": {
             "name": "intel",
