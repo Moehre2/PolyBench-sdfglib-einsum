@@ -49,6 +49,7 @@ include opt_mkl3.make
 include intel.make
 include polly.make
 include pluto.make
+include opt_cublas.make
 
 .PHONY: $(PHONYLIST)
 

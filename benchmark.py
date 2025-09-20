@@ -152,7 +152,8 @@ if __name__ == "__main__":
         "opt_mkl3": "optimized_mkl3",
         "intel": "intel",
         "polly": "polly",
-        "pluto": "pluto"
+        "pluto": "pluto",
+        "opt_cublas": "optimized_cublas"
     }
     from sys import argv
     from os import makedirs

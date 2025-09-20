@@ -22,17 +22,29 @@
 #include "timer.h"
 
 void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
-                   const std::string sdfg_name, bool check) {
-    stream << "#include <stdio.h>" << std::endl
-           << "#include <string.h>" << std::endl
-           << std::endl
-           << "/* Include polybench common header. */" << std::endl
-           << "#include <polybench.h>" << std::endl
-           << std::endl
-           << "/* Include generated header */" << std::endl
-           << "#include \"generated.h\"" << std::endl
-           << std::endl
-           << "/* " << benchmark->name() << " */" << std::endl;
+                   const sdfg::StructuredSDFG& sdfg, bool check, BLASImplementation impl) {
+    if (impl == CUBLAS) {
+        stream << "#include <cstdio>" << std::endl
+               << "#include <cstring>" << std::endl
+               << std::endl
+               << "/* Include polybench common header. */" << std::endl
+               << "#include <polybench.cuh>" << std::endl
+               << std::endl
+               << "/* Include generated header */" << std::endl
+               << "#include \"generated.cuh\"" << std::endl
+               << std::endl;
+    } else {
+        stream << "#include <stdio.h>" << std::endl
+               << "#include <string.h>" << std::endl
+               << std::endl
+               << "/* Include polybench common header. */" << std::endl
+               << "#include <polybench.h>" << std::endl
+               << std::endl
+               << "/* Include generated header */" << std::endl
+               << "#include \"generated.h\"" << std::endl
+               << std::endl;
+    }
+    stream << "/* " << benchmark->name() << " */" << std::endl;
     for (auto& dataset_size : benchmark->dataset_sizes()) {
         stream << "#define " << dataset_size.macroName << " ";
         if (check)
@@ -132,12 +144,23 @@ void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
     }
     stream << std::endl
            << "/* Call generated function. */" << std::endl
-           << sdfg_name << "(" << std::endl;
+           << sdfg.name() << "(" << std::endl;
     stream.setIndent(10);
-    for (size_t i = 0; i < benchmark->call_variables().size(); ++i) {
-        if (i > 0) stream << ", " << std::endl;
-        stream << "POLYBENCH_ARRAY("
-               << benchmark->variables().at(benchmark->call_variables().at(i)).name() << ")";
+    if (impl == CUBLAS) {
+        sdfg::codegen::CPPLanguageExtension le;
+        for (size_t i = 0; i < benchmark->call_variables().size(); ++i) {
+            if (i > 0) stream << ", " << std::endl;
+            stream << le.type_cast(
+                "POLYBENCH_ARRAY(" +
+                    benchmark->variables().at(benchmark->call_variables().at(i)).name() + ")",
+                sdfg.type(sdfg.arguments().at(i)));
+        }
+    } else {
+        for (size_t i = 0; i < benchmark->call_variables().size(); ++i) {
+            if (i > 0) stream << ", " << std::endl;
+            stream << "POLYBENCH_ARRAY("
+                   << benchmark->variables().at(benchmark->call_variables().at(i)).name() << ")";
+        }
     }
     stream << ");" << std::endl;
     stream.setIndent(2);
@@ -165,6 +188,19 @@ void generate_main(sdfg::codegen::PrettyPrinter& stream, Benchmark* benchmark,
     stream << std::endl << "return 0;" << std::endl;
     stream.setIndent(0);
     stream << "}" << std::endl;
+}
+
+sdfg::blas::BLASImplementation convert_blas_impl(BLASImplementation impl) {
+    switch (impl) {
+        case MKL:
+            return sdfg::blas::BLASImplementation_CBLAS;
+        case MKL3:
+            return sdfg::blas::BLASImplementation_CBLAS;
+        case CUBLAS:
+            return sdfg::blas::BLASImplementation_CUBLAS;
+        default:
+            return sdfg::blas::BLASImplementation_CBLAS;
+    }
 }
 
 int optimize(BLASImplementation impl, int argc, char* argv[]) {
@@ -202,7 +238,7 @@ int optimize(BLASImplementation impl, int argc, char* argv[]) {
     sdfg::serializer::register_default_serializers();
 
     sdfg::einsum::register_einsum_dispatcher();
-    sdfg::blas::register_blas_dispatchers();
+    sdfg::blas::register_blas_dispatchers(convert_blas_impl(impl));
 
     sdfg::polybench::register_polybench_dispatcher();
 
@@ -280,7 +316,7 @@ int optimize(BLASImplementation impl, int argc, char* argv[]) {
     }
 
     sdfg::codegen::PrettyPrinter main_stream;
-    generate_main(main_stream, benchmark, builder.subject().name(), check);
+    generate_main(main_stream, benchmark, builder.subject(), check, impl);
     std::ofstream out_main;
     out_main.open(benchmark->out_main_path(check));
     if (!out_main.good()) {
