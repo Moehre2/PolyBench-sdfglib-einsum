@@ -4,6 +4,7 @@
 #include <sdfg/blas/blas_dispatcher.h>
 #include <sdfg/builder/structured_sdfg_builder.h>
 #include <sdfg/codegen/code_generators/c_code_generator.h>
+#include <sdfg/codegen/code_generators/cpp_code_generator.h>
 #include <sdfg/codegen/dispatchers/node_dispatcher_registry.h>
 #include <sdfg/codegen/utils.h>
 #include <sdfg/einsum/einsum_dispatcher.h>
@@ -228,28 +229,55 @@ int optimize(BLASImplementation impl, int argc, char* argv[]) {
     sdfg::passes::EinsumPipeline einsum_pipeline(impl);
     einsum_pipeline.run(builder, analysis_manager);
 
-    sdfg::codegen::CCodeGenerator generator(builder.subject());
-    if (!generator.generate()) {
-        std::cerr << "Error: Could not generate C sources" << std::endl;
-        return 1;
+    if (impl == CUBLAS) {
+        sdfg::codegen::CPPCodeGenerator generator(builder.subject());
+        if (!generator.generate()) {
+            std::cerr << "Error: Could not generate CUDA sources" << std::endl;
+            return 1;
+        }
+
+        std::filesystem::create_directories(benchmark->out_path(check));
+
+        if (!generator.as_source(benchmark->out_header_path(check),
+                                 benchmark->out_source_path(check))) {
+            std::cerr << "Error: Could not output CUDA sources" << std::endl;
+            std::cerr << benchmark->out_header_path(check) << std::endl;
+            return 1;
+        }
+
+        std::ofstream out_header;
+        out_header.open(benchmark->out_header_path(check), std::ios_base::app);
+        out_header << std::endl
+                   << "#include <cstdio>" << std::endl
+                   << "#include <polybench.cuh>" << std::endl
+                   << "#include <cuda.h>" << std::endl
+                   << "#include <cublas_v2.h>" << std::endl
+                   << generator.function_definition() << ";" << std::endl;
+        out_header.close();
+    } else {
+        sdfg::codegen::CCodeGenerator generator(builder.subject());
+        if (!generator.generate()) {
+            std::cerr << "Error: Could not generate C sources" << std::endl;
+            return 1;
+        }
+
+        std::filesystem::create_directories(benchmark->out_path(check));
+
+        if (!generator.as_source(benchmark->out_header_path(check),
+                                 benchmark->out_source_path(check))) {
+            std::cerr << "Error: Could not output C sources" << std::endl;
+            std::cerr << benchmark->out_header_path(check) << std::endl;
+            return 1;
+        }
+
+        std::ofstream out_header;
+        out_header.open(benchmark->out_header_path(check), std::ios_base::app);
+        out_header << std::endl
+                   << "#include <polybench.h>" << std::endl
+                   << "#include <mkl.h>" << std::endl
+                   << generator.function_definition() << ";" << std::endl;
+        out_header.close();
     }
-
-    std::filesystem::create_directories(benchmark->out_path(check));
-
-    if (!generator.as_source(benchmark->out_header_path(check),
-                             benchmark->out_source_path(check))) {
-        std::cerr << "Error: Could not output C sources" << std::endl;
-        std::cerr << benchmark->out_header_path(check) << std::endl;
-        return 1;
-    }
-
-    std::ofstream out_header;
-    out_header.open(benchmark->out_header_path(check), std::ios_base::app);
-    out_header << std::endl
-               << "#include <polybench.h>" << std::endl
-               << "#include <mkl.h>" << std::endl
-               << generator.function_definition() << ";" << std::endl;
-    out_header.close();
 
     sdfg::codegen::PrettyPrinter main_stream;
     generate_main(main_stream, benchmark, builder.subject().name(), check);

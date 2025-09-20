@@ -79,6 +79,9 @@ class Benchmark {
 
     std::string out_root_folder() const;
 
+    std::string source_file_ending() const;
+    std::string header_file_ending() const;
+
     std::string out_path(bool check = true) const;
     std::filesystem::path out_header_path(bool check = true) const;
     std::filesystem::path out_source_path(bool check = true) const;

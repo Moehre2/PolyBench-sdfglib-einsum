@@ -132,7 +132,23 @@ std::string Benchmark::out_root_folder() const {
             return "optimized_mkl";
         case MKL3:
             return "optimized_mkl3";
+        case CUBLAS:
+            return "optimized_cublas";
     }
+}
+
+std::string Benchmark::source_file_ending() const {
+    if (this->impl_ == CUBLAS)
+        return "cu";
+    else
+        return "c";
+}
+
+std::string Benchmark::header_file_ending() const {
+    if (this->impl_ == CUBLAS)
+        return "cuh";
+    else
+        return "h";
 }
 
 std::string Benchmark::out_path(bool check) const {
@@ -143,15 +159,18 @@ std::string Benchmark::out_path(bool check) const {
 }
 
 std::filesystem::path Benchmark::out_header_path(bool check) const {
-    return std::filesystem::path(this->out_path(check)) / "generated.h";
+    return std::filesystem::path(this->out_path(check)) /
+           ("generated." + this->header_file_ending());
 }
 
 std::filesystem::path Benchmark::out_source_path(bool check) const {
-    return std::filesystem::path(this->out_path(check)) / "generated.c";
+    return std::filesystem::path(this->out_path(check)) /
+           ("generated." + this->source_file_ending());
 }
 
 std::filesystem::path Benchmark::out_main_path(bool check) const {
-    return std::filesystem::path(this->out_path(check)) / (this->name_ + ".c");
+    return std::filesystem::path(this->out_path(check)) /
+           (this->name_ + "." + this->source_file_ending());
 }
 
 const std::vector<DatasetSize>& Benchmark::dataset_sizes() const { return this->dataset_sizes_; }

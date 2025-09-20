@@ -36,3 +36,7 @@ target_link_libraries(optimize_mkl optimize)
 add_executable(optimize_mkl3 src/optimize_mkl3.cpp)
 target_include_directories(optimize_mkl3 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(optimize_mkl3 optimize)
+
+add_executable(optimize_cublas src/optimize_cublas.cpp)
+target_include_directories(optimize_cublas PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(optimize_cublas optimize)
