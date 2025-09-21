@@ -14,8 +14,8 @@ BENCHMARKS = {
     },
     "linear-algebra/blas": {
         "benchmarks": ["gemm", "gemver", "gesummv", "symm", "syr2k", "syrk", "trmm"],
-        "nrows": 2,
-        "ncols": 4
+        "nrows": 3,
+        "ncols": 3
     },
     "linear-algebra/kernels": {
         "benchmarks": ["2mm", "3mm", "atax", "bicg", "doitgen", "mvt"],
@@ -38,6 +38,33 @@ BENCHMARKS = {
         "ncols": 3
     }
 }
+CATEGORIES = [
+    {
+        "benchmarks": ["linear-algebra/solvers/cholesky", "linear-algebra/solvers/durbin", "linear-algebra/solvers/lu", "linear-algebra/solvers/ludcmp", "medley/floyd-warshall", "medley/nussinov"],
+        "nrows": 2,
+        "ncols": 3
+    },
+    {
+        "benchmarks": ["linear-algebra/blas/symm", "linear-algebra/blas/syr2k", "linear-algebra/blas/trmm", "medley/deriche", "stencils/adi", "stencils/fdtd-2d", "stencils/heat-3d", "stencils/jacobi-1d", "stencils/jacobi-2d", "stencils/seidel-2d"],
+        "nrows": 2,
+        "ncols": 5
+    },
+    {
+        "benchmarks": ["datamining/correlation", "datamining/covariance", "linear-algebra/kernels/doitgen", "linear-algebra/solvers/gramschmidt", "linear-algebra/solvers/trisolv"],
+        "nrows": 2,
+        "ncols": 3
+    },
+    {
+        "benchmarks": ["linear-algebra/blas/gemver", "linear-algebra/blas/gesummv", "linear-algebra/kernels/atax", "linear-algebra/kernels/bicg", "linear-algebra/kernels/mvt"],
+        "nrows": 2,
+        "ncols": 3
+    },
+    {
+        "benchmarks": ["linear-algebra/blas/gemm", "linear-algebra/blas/syrk", "linear-algebra/kernels/2mm", "linear-algebra/kernels/3mm"],
+        "nrows": 2,
+        "ncols": 2
+    }
+]
 WIDTH=6.4
 HEIGHT=4.8
 
@@ -84,7 +111,7 @@ def plot_benchmark(versions: dict[str, dict[str, str]], ref: str, group: str, be
             ax.text(bar.get_x() + 0.4, nodata_y, "x", fontsize="xx-large", fontweight="bold", horizontalalignment="center", zorder=4)
     ax.set(ylabel="Normalized runtime", title=benchmark)
 
-def plot_group(versions: dict[str, dict[str, str]], ref: str, group: str) -> None:
+def plot_group(versions: dict[str, dict[str, str]], ref: str, dir:str, group: str) -> None:
     nrows = BENCHMARKS[group]["nrows"]
     ncols = BENCHMARKS[group]["ncols"]
     fig, axs = plt.subplots(nrows=nrows, ncols=ncols, squeeze=False, figsize=(WIDTH * ncols, HEIGHT * nrows), height_ratios=[HEIGHT] * nrows)
@@ -104,8 +131,35 @@ def plot_group(versions: dict[str, dict[str, str]], ref: str, group: str) -> Non
         if version != ref:
             patches.append(mpatches.Patch(color=version_data["color1"], label=version_data["name"]))
     fig.legend(handles=patches, loc="lower center", ncols=len(patches))
-    outfile_png = "plots/" + group.replace("/", "_") + ".png"
-    outfile_pdf = "plots/" + group.replace("/", "_") + ".pdf"
+    outfile_png = "plots/" + dir + "/" + group.replace("/", "_") + ".png"
+    outfile_pdf = "plots/" + dir + "/" + group.replace("/", "_") + ".pdf"
+    fig.savefig(outfile_png)
+    fig.savefig(outfile_pdf, bbox_inches="tight")
+    plt.close(fig)
+
+def plot_category(versions: dict[str, dict[str, str]], ref: str, dir: str, category: int) -> None:
+    nrows = CATEGORIES[category]["nrows"]
+    ncols = CATEGORIES[category]["ncols"]
+    fig, axs = plt.subplots(nrows=nrows, ncols=ncols, squeeze=False, figsize=(WIDTH * ncols, HEIGHT * nrows), height_ratios=[HEIGHT] * nrows)
+    bench = 0
+    for row in range(nrows):
+        for col in range(ncols):
+            if bench >= len(CATEGORIES[category]["benchmarks"]):
+                fig.delaxes(axs[row][col])
+            else:
+                benchmark = CATEGORIES[category]["benchmarks"][bench].split("/")[-1]
+                group = CATEGORIES[category]["benchmarks"][bench][:-len(benchmark) - 1]
+                plot_benchmark(versions, ref, group, benchmark, axs[row][col])
+                bench += 1
+    fig.subplots_adjust(bottom=(0.2 / nrows))
+    patches = []
+    patches.append(mpatches.Patch(color=versions[ref]["color1"], label=versions[ref]["name"]))
+    for version, version_data in versions.items():
+        if version != ref:
+            patches.append(mpatches.Patch(color=version_data["color1"], label=version_data["name"]))
+    fig.legend(handles=patches, loc="lower center", ncols=len(patches))
+    outfile_png = f"plots/{dir}/category_{category}.png"
+    outfile_pdf = f"plots/{dir}/category_{category}.pdf"
     fig.savefig(outfile_png)
     fig.savefig(outfile_pdf, bbox_inches="tight")
     plt.close(fig)
@@ -127,10 +181,15 @@ def compute_results(versions: dict[str, dict[str, str]], ref: str) -> None:
             exit(1)
         results[version] = data
 
-def plot_all(versions: dict[str, dict[str, str]], ref: str) -> None:
+def plot_all(versions: dict[str, dict[str, str]], ref: str, dir: str) -> None:
     compute_results(versions, ref)
     for group in BENCHMARKS.keys():
-        plot_group(versions, ref, group)
+        plot_group(versions, ref, dir, group)
+
+def plot_all_categories(versions: dict[str, dict[str, str]], ref: str, dir: str) -> None:
+    compute_results(versions, ref)
+    for category in range(len(CATEGORIES)):
+        plot_category(versions, ref, dir, category)
 
 def plot_all_single(versions: dict[str, dict[str, str]], ref: str) -> None:
     compute_results(versions, ref)
@@ -175,8 +234,14 @@ if __name__ == "__main__":
             "name": "pluto",
             "color1": "#6d60bb",
             "color2": "#a79fe1"
+        },
+        "opt_cublas": {
+            "name": "einsum\n(CUBLAS)",
+            "color1": "#188b41",
+            "color2": "#74c286"
         }
     }
+    VERSIONS1 = {k: v for k, v in VERSIONS.items() if k != "opt_cublas"}
     REF = "ref"
     from sys import argv
     from os import path, makedirs
@@ -184,18 +249,32 @@ if __name__ == "__main__":
     if len(argv) == 1:
         mode = "thesis"
     elif len(argv) != 2:
-        print("Usage: plot.py [thesis|presentation]")
+        print("Usage: plot.py [thesis|thesis2|categories|categories2|presentation]")
         exit(1)
     else:
         mode = argv[1]
     if not path.exists("plots/"):
         makedirs("plots")
     if mode == "thesis":
-        plot_all(VERSIONS, REF)
+        if not path.exists("plots/thesis/"):
+            makedirs("plots/thesis/")
+        plot_all(VERSIONS1, REF, "thesis")
+    elif mode == "thesis2":
+        if not path.exists("plots/thesis2/"):
+            makedirs("plots/thesis2/")
+        plot_all(VERSIONS, REF, "thesis2")
+    elif mode == "categories":
+        if not path.exists("plots/categories/"):
+            makedirs("plots/categories/")
+        plot_all_categories(VERSIONS1, REF, "categories")
+    elif mode == "categories2":
+        if not path.exists("plots/categories2/"):
+            makedirs("plots/categories2/")
+        plot_all_categories(VERSIONS, REF, "categories2")
     elif mode == "presentation":
         if not path.exists("plots/single/"):
             makedirs("plots/single/")
-        plot_all_single(VERSIONS, REF)
+        plot_all_single(VERSIONS1, REF)
     else:
         print(f"Unknown mode: {mode}")
         exit(1)
